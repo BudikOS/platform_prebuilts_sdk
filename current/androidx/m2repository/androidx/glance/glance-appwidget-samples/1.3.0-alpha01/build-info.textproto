@@ -1,0 +1,484 @@
+version: "1.3.0-alpha01"
+dependency_list {
+  dependency {
+    group_id: "androidx.core"
+    artifact_id: "core"
+    version: "1.5.0"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.glance"
+    artifact_id: "glance"
+    version: "1.3.0-alpha01"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.glance"
+    artifact_id: "glance-appwidget"
+    version: "1.3.0-alpha01"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.work"
+    artifact_id: "work-runtime"
+    version: "2.8.1"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.work"
+    artifact_id: "work-runtime-ktx"
+    version: "2.8.1"
+    is_tip_of_tree: false
+  }
+}
+release_checklist {
+}
+build_id: "15103823"
+group_id: "androidx.glance"
+artifact_id: "glance-appwidget-samples"
+path: "/glance/glance-appwidget/samples"
+sha: "ad261a1d1a12056ced5899983c3b3b2e8da30d41"
+require_same_version_group_build: true
+project_zip_path: "per-project-zips/androidx.glance-glance-appwidget-samples-all-1.3.0-alpha01.zip"
+kotlin_version: "2.3.20"
+dependency_constraint_list {
+  dependency {
+    group_id: "androidx.glance"
+    artifact_id: "glance"
+    version: "1.3.0-alpha01"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.glance"
+    artifact_id: "glance-appwidget"
+    version: "1.3.0-alpha01"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.glance"
+    artifact_id: "glance-appwidget-external-protobuf"
+    version: "1.3.0-alpha01"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.glance"
+    artifact_id: "glance-appwidget-multiprocess"
+    version: "1.3.0-alpha01"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.glance"
+    artifact_id: "glance-appwidget-preview"
+    version: "1.3.0-alpha01"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.glance"
+    artifact_id: "glance-appwidget-proto"
+    version: "1.3.0-alpha01"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.glance"
+    artifact_id: "glance-appwidget-testing"
+    version: "1.3.0-alpha01"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.glance"
+    artifact_id: "glance-material"
+    version: "1.3.0-alpha01"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.glance"
+    artifact_id: "glance-material3"
+    version: "1.3.0-alpha01"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.glance"
+    artifact_id: "glance-preview"
+    version: "1.3.0-alpha01"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.glance"
+    artifact_id: "glance-testing"
+    version: "1.3.0-alpha01"
+    is_tip_of_tree: true
+  }
+}
+should_publish_docs: false
+is_kmp: false
+target: "androidx"
+test_module_names: "glance-glance-appwidget-glance-appwidget-samplesreleaseAndroidTest.xml"
+test_module_names: ":glance:glance-appwidget:glance-appwidget-samples:testReleaseUnitTest"
+all_dependencies_list {
+  dependency {
+    group_id: "androidx.annotation"
+    artifact_id: "annotation"
+    version: "1.9.1"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.annotation"
+    artifact_id: "annotation-experimental"
+    version: "1.4.1"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.annotation"
+    artifact_id: "annotation-jvm"
+    version: "1.9.1"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.arch.core"
+    artifact_id: "core-common"
+    version: "2.1.0"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.arch.core"
+    artifact_id: "core-runtime"
+    version: "2.1.0"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.collection"
+    artifact_id: "collection"
+    version: "1.4.4"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.collection"
+    artifact_id: "collection-jvm"
+    version: "1.4.4"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.collection"
+    artifact_id: "collection-ktx"
+    version: "1.4.4"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.compose.remote"
+    artifact_id: "remote-core"
+    version: "1.0.0-alpha07"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.compose.remote"
+    artifact_id: "remote-creation"
+    version: "1.0.0-alpha07"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.compose.remote"
+    artifact_id: "remote-creation-core"
+    version: "1.0.0-alpha07"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.compose.runtime"
+    artifact_id: "runtime"
+    version: "1.7.8"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.compose.runtime"
+    artifact_id: "runtime-android"
+    version: "1.7.8"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.compose.ui"
+    artifact_id: "ui-geometry"
+    version: "1.6.8"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.compose.ui"
+    artifact_id: "ui-geometry-android"
+    version: "1.6.8"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.compose.ui"
+    artifact_id: "ui-graphics"
+    version: "1.6.8"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.compose.ui"
+    artifact_id: "ui-graphics-android"
+    version: "1.6.8"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.compose.ui"
+    artifact_id: "ui-unit"
+    version: "1.6.8"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.compose.ui"
+    artifact_id: "ui-unit-android"
+    version: "1.6.8"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.compose.ui"
+    artifact_id: "ui-util"
+    version: "1.6.8"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.compose.ui"
+    artifact_id: "ui-util-android"
+    version: "1.6.8"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.concurrent"
+    artifact_id: "concurrent-futures"
+    version: "1.1.0"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.concurrent"
+    artifact_id: "concurrent-futures-ktx"
+    version: "1.1.0"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.core"
+    artifact_id: "core"
+    version: "1.12.0"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.core"
+    artifact_id: "core-ktx"
+    version: "1.12.0"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.core"
+    artifact_id: "core-remoteviews"
+    version: "1.1.0"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.datastore"
+    artifact_id: "datastore"
+    version: "1.0.0"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.datastore"
+    artifact_id: "datastore-core"
+    version: "1.0.0"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.datastore"
+    artifact_id: "datastore-preferences"
+    version: "1.0.0"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.datastore"
+    artifact_id: "datastore-preferences-core"
+    version: "1.0.0"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.glance"
+    artifact_id: "glance"
+    version: "1.3.0-alpha01"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.glance"
+    artifact_id: "glance-appwidget"
+    version: "1.3.0-alpha01"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.glance"
+    artifact_id: "glance-appwidget-external-protobuf"
+    version: "1.3.0-alpha01"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.glance"
+    artifact_id: "glance-appwidget-proto"
+    version: "1.3.0-alpha01"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.graphics"
+    artifact_id: "graphics-path"
+    version: "1.1.0-alpha01"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.interpolator"
+    artifact_id: "interpolator"
+    version: "1.0.0"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.lifecycle"
+    artifact_id: "lifecycle-common"
+    version: "2.3.1"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.lifecycle"
+    artifact_id: "lifecycle-livedata"
+    version: "2.1.0"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.lifecycle"
+    artifact_id: "lifecycle-livedata-core"
+    version: "2.1.0"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.lifecycle"
+    artifact_id: "lifecycle-runtime"
+    version: "2.3.1"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.lifecycle"
+    artifact_id: "lifecycle-service"
+    version: "2.1.0"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.room"
+    artifact_id: "room-common"
+    version: "2.5.0"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.room"
+    artifact_id: "room-runtime"
+    version: "2.5.0"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.sqlite"
+    artifact_id: "sqlite"
+    version: "2.3.0"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.sqlite"
+    artifact_id: "sqlite-framework"
+    version: "2.3.0"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.startup"
+    artifact_id: "startup-runtime"
+    version: "1.0.0"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.tracing"
+    artifact_id: "tracing"
+    version: "1.0.0"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.versionedparcelable"
+    artifact_id: "versionedparcelable"
+    version: "1.1.1"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.work"
+    artifact_id: "work-runtime"
+    version: "2.8.1"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.work"
+    artifact_id: "work-runtime-ktx"
+    version: "2.8.1"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "com.google.guava"
+    artifact_id: "listenablefuture"
+    version: "1.0"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "org.jetbrains"
+    artifact_id: "annotations"
+    version: "23.0.0"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "org.jetbrains.kotlin"
+    artifact_id: "kotlin-stdlib"
+    version: "2.1.20"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "org.jetbrains.kotlin"
+    artifact_id: "kotlin-stdlib-common"
+    version: "2.1.20"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "org.jetbrains.kotlin"
+    artifact_id: "kotlin-stdlib-jdk7"
+    version: "2.1.20"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "org.jetbrains.kotlin"
+    artifact_id: "kotlin-stdlib-jdk8"
+    version: "2.1.20"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "org.jetbrains.kotlinx"
+    artifact_id: "kotlinx-coroutines-android"
+    version: "1.7.3"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "org.jetbrains.kotlinx"
+    artifact_id: "kotlinx-coroutines-bom"
+    version: "1.7.3"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "org.jetbrains.kotlinx"
+    artifact_id: "kotlinx-coroutines-core"
+    version: "1.7.3"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "org.jetbrains.kotlinx"
+    artifact_id: "kotlinx-coroutines-core-jvm"
+    version: "1.7.3"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "org.jspecify"
+    artifact_id: "jspecify"
+    version: "1.0.0"
+    is_tip_of_tree: false
+  }
+}

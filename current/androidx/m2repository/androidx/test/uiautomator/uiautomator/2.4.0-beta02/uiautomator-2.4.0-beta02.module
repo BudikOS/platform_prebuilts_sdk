@@ -1,0 +1,205 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.test.uiautomator",
+    "module": "uiautomator",
+    "version": "2.4.0-beta02",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0-milestone-7",
+      "buildId:": "15103823"
+    }
+  },
+  "variants": [
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "androidx.test.uiautomator",
+          "module": "uiautomator-shell",
+          "version": {
+            "requires": "2.4.0-beta02"
+          },
+          "reason": "uiautomator is in atomic group androidx.test.uiautomator"
+        }
+      ],
+      "files": [
+        {
+          "name": "uiautomator-2.4.0-beta02-sources.jar",
+          "url": "uiautomator-2.4.0-beta02-sources.jar",
+          "size": 139986,
+          "sha512": "a21ceb0d14fc2b65ed68df652cec624b1d04d2cf9cdff2109ea85b24fc5eb024b4eccfdda3bde64b20d9a82d6d7ced82aba66bafe1389a65679cebec93e57de0",
+          "sha256": "02db16650018d1b154bc41d697a9a810c710b189d16e833e9ae8bfc0d33e2a1b",
+          "sha1": "39a6d83a372eb87d5a78f2fe82cb071c670f078e",
+          "md5": "b2a01a68c0db95d26b22286d18160571"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        },
+        {
+          "group": "org.jspecify",
+          "module": "jspecify",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "androidx.test.uiautomator",
+          "module": "uiautomator-shell",
+          "version": {
+            "requires": "2.4.0-beta02"
+          },
+          "reason": "uiautomator is in atomic group androidx.test.uiautomator"
+        }
+      ],
+      "files": [
+        {
+          "name": "uiautomator-2.4.0-beta02.aar",
+          "url": "uiautomator-2.4.0-beta02.aar",
+          "size": 227695,
+          "sha512": "6fa12d4c13e078432dae551c244adf364de4f7c8cbc8b7bc00de5d1cb37196f1be1aa626133d2e9b6230d4b7e21f71a77bac65b1afe6995845676aeffba0a047",
+          "sha256": "710051fe0d4151faa28a98da11cd854eee3470ced496386c9b3b56d928831695",
+          "sha1": "8169662b0c8d5390845d003e12c4946741d004e6",
+          "md5": "8770ea0e72b87e8158a4f20c96e0fa0b"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "androidx.test",
+          "module": "core",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "androidx.test.uiautomator",
+          "module": "uiautomator-shell",
+          "version": {
+            "requires": "2.4.0-beta02"
+          }
+        },
+        {
+          "group": "androidx.tracing",
+          "module": "tracing",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "junit",
+          "module": "junit",
+          "version": {
+            "requires": "4.13.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        },
+        {
+          "group": "org.jspecify",
+          "module": "jspecify",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "androidx.test.uiautomator",
+          "module": "uiautomator-shell",
+          "version": {
+            "requires": "2.4.0-beta02"
+          },
+          "reason": "uiautomator is in atomic group androidx.test.uiautomator"
+        }
+      ],
+      "files": [
+        {
+          "name": "uiautomator-2.4.0-beta02.aar",
+          "url": "uiautomator-2.4.0-beta02.aar",
+          "size": 227695,
+          "sha512": "6fa12d4c13e078432dae551c244adf364de4f7c8cbc8b7bc00de5d1cb37196f1be1aa626133d2e9b6230d4b7e21f71a77bac65b1afe6995845676aeffba0a047",
+          "sha256": "710051fe0d4151faa28a98da11cd854eee3470ced496386c9b3b56d928831695",
+          "sha1": "8169662b0c8d5390845d003e12c4946741d004e6",
+          "md5": "8770ea0e72b87e8158a4f20c96e0fa0b"
+        }
+      ]
+    },
+    {
+      "name": "libraryVersionMetadata",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.usage": "library-version-metadata"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "androidx.test.uiautomator",
+          "module": "uiautomator-shell",
+          "version": {
+            "requires": "2.4.0-beta02"
+          },
+          "reason": "uiautomator is in atomic group androidx.test.uiautomator"
+        }
+      ],
+      "files": [
+        {
+          "name": "uiautomator-2.4.0-beta02-versionMetadata.json",
+          "url": "uiautomator-2.4.0-beta02-versionMetadata.json",
+          "size": 57304,
+          "sha512": "9a5983df555883e2252d5f80fed8dabf91995144817d49dec91cdeb9b2352db7840e26593fbffb2171f89836c0c1403f962e3bcc06ed4e3213ceca5e4967a8af",
+          "sha256": "4e443f6abfbaaec4db356b3e0f7e337053687ed4582007a7980d03655e6a4177",
+          "sha1": "39e19a0b8a6a2526bd5b17ce9444c64e493bfbdc",
+          "md5": "01cc80bbc7bc22f6671999caa86ed723"
+        }
+      ]
+    }
+  ]
+}

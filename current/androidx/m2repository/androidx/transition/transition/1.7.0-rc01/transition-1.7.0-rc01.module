@@ -1,0 +1,212 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.transition",
+    "module": "transition",
+    "version": "1.7.0-rc01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0-milestone-7",
+      "buildId:": "15103823"
+    }
+  },
+  "variants": [
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "androidx.transition",
+          "module": "transition-ktx",
+          "version": {
+            "requires": "1.7.0-rc01"
+          },
+          "reason": "transition is in atomic group androidx.transition"
+        }
+      ],
+      "files": [
+        {
+          "name": "transition-1.7.0-rc01-sources.jar",
+          "url": "transition-1.7.0-rc01-sources.jar",
+          "size": 135203,
+          "sha512": "4f86d3b0c661a1e16aad72c65ca9a09176267435db58e2d6c97a20ea89e40eb0adff1d8439f9804e779a686ba7f9109d38a5a42e71cc27cf84a78631f7f3ba47",
+          "sha256": "2c3a815652a051f2f84f6fa608136e34a0e956354f0dc1dca260b414f191772b",
+          "sha1": "a936fb05849d55b66f7445ce899fa5d3ae2a4c1b",
+          "md5": "cbcea971f15df57dd8d47b22b49ba522"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.16.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        },
+        {
+          "group": "org.jspecify",
+          "module": "jspecify",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "androidx.transition",
+          "module": "transition-ktx",
+          "version": {
+            "requires": "1.7.0-rc01"
+          },
+          "reason": "transition is in atomic group androidx.transition"
+        }
+      ],
+      "files": [
+        {
+          "name": "transition-1.7.0-rc01.aar",
+          "url": "transition-1.7.0-rc01.aar",
+          "size": 192596,
+          "sha512": "bde97643d02a7eb247a5898cf9bce8eec338bea4a8a7000025a790c159304d98ecd06cdfc5ea45b82c445b23245f9c5f8b138212730571023366f8a8c9efee29",
+          "sha256": "be7dc80c930bdeaa6f02fc7593a458a23f91200b838e73e048cd205a1529cbd4",
+          "sha1": "aa529b0c7c459ada6fb94b50d41de69d4bd7ac43",
+          "md5": "e37ee9a859dbd1badba63969c14d12b4"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "androidx.collection",
+          "module": "collection",
+          "version": {
+            "requires": "1.4.2"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.16.0"
+          }
+        },
+        {
+          "group": "androidx.dynamicanimation",
+          "module": "dynamicanimation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        },
+        {
+          "group": "org.jspecify",
+          "module": "jspecify",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "androidx.transition",
+          "module": "transition-ktx",
+          "version": {
+            "requires": "1.7.0-rc01"
+          },
+          "reason": "transition is in atomic group androidx.transition"
+        }
+      ],
+      "files": [
+        {
+          "name": "transition-1.7.0-rc01.aar",
+          "url": "transition-1.7.0-rc01.aar",
+          "size": 192596,
+          "sha512": "bde97643d02a7eb247a5898cf9bce8eec338bea4a8a7000025a790c159304d98ecd06cdfc5ea45b82c445b23245f9c5f8b138212730571023366f8a8c9efee29",
+          "sha256": "be7dc80c930bdeaa6f02fc7593a458a23f91200b838e73e048cd205a1529cbd4",
+          "sha1": "aa529b0c7c459ada6fb94b50d41de69d4bd7ac43",
+          "md5": "e37ee9a859dbd1badba63969c14d12b4"
+        }
+      ]
+    },
+    {
+      "name": "libraryVersionMetadata",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.usage": "library-version-metadata"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "androidx.transition",
+          "module": "transition-ktx",
+          "version": {
+            "requires": "1.7.0-rc01"
+          },
+          "reason": "transition is in atomic group androidx.transition"
+        }
+      ],
+      "files": [
+        {
+          "name": "transition-1.7.0-rc01-versionMetadata.json",
+          "url": "transition-1.7.0-rc01-versionMetadata.json",
+          "size": 14976,
+          "sha512": "bc91f4e65c3685404208fb3a3820432602160fe38dc5d0c76ee68e30cf5af5c76ec5bb5bdf35fcbbd4ece103fdfc882a9e648c468acb9a961649862903c07a60",
+          "sha256": "e03af0858b252dd315f7d1e09975faf7b519df0c450795d77c75b79c543e6f76",
+          "sha1": "767de59370f361ea8957d2f320595cde58409421",
+          "md5": "9d593c3315a7590aba57df38d54bfe12"
+        }
+      ]
+    }
+  ]
+}

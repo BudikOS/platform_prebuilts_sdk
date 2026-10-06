@@ -1,0 +1,186 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.hilt",
+    "module": "hilt-lifecycle-viewmodel-compose",
+    "version": "1.4.0-alpha02",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0-milestone-7",
+      "buildId:": "15103823"
+    }
+  },
+  "variants": [
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "hilt-lifecycle-viewmodel-compose-1.4.0-alpha02-sources.jar",
+          "url": "hilt-lifecycle-viewmodel-compose-1.4.0-alpha02-sources.jar",
+          "size": 6740,
+          "sha512": "0c2214e715d48bc00cf48d2c9013dbc3bca5eaaf54048381312118da47be5f760516eb98a37f953762733ef9827ca648e31d59c13a028fe2875fbe0a2fcd6271",
+          "sha256": "b7b36122c8a0494d6645985857a261c7b6eefacc42f97eb3f412679b65732342",
+          "sha1": "ee551983a5a89b903fd4d4f7f8e489ff721b116a",
+          "md5": "165af9622839298f75f9abf1dd281e35"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.8.2"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.8.2"
+          }
+        },
+        {
+          "group": "androidx.hilt",
+          "module": "hilt-lifecycle-viewmodel",
+          "version": {
+            "requires": "1.4.0-alpha02"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-compose",
+          "version": {
+            "requires": "2.11.0-alpha03"
+          }
+        },
+        {
+          "group": "com.google.dagger",
+          "module": "hilt-android",
+          "version": {
+            "requires": "2.59"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "hilt-lifecycle-viewmodel-compose-1.4.0-alpha02.aar",
+          "url": "hilt-lifecycle-viewmodel-compose-1.4.0-alpha02.aar",
+          "size": 10037,
+          "sha512": "39bf56beaf8be7822d56f23ee90a3949d801db1d021f7f6b0bd952a8f3b80a669a4981fe15af61eebf3be8bd954b60c4ae0e1c5031c240f052e1a74983a61475",
+          "sha256": "77d579abb5630fbb8d14db7c2713db3f946275c160c3ba595d7948921d41ca18",
+          "sha1": "0fe2b7bcf6416ba16d109ade82742aa8654ce31a",
+          "md5": "b36d82fd2a05bd2197c4e0978fa24e35"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.8.2"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.8.2"
+          }
+        },
+        {
+          "group": "androidx.hilt",
+          "module": "hilt-lifecycle-viewmodel",
+          "version": {
+            "requires": "1.4.0-alpha02"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-compose",
+          "version": {
+            "requires": "2.11.0-alpha03"
+          }
+        },
+        {
+          "group": "com.google.dagger",
+          "module": "hilt-android",
+          "version": {
+            "requires": "2.59"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "hilt-lifecycle-viewmodel-compose-1.4.0-alpha02.aar",
+          "url": "hilt-lifecycle-viewmodel-compose-1.4.0-alpha02.aar",
+          "size": 10037,
+          "sha512": "39bf56beaf8be7822d56f23ee90a3949d801db1d021f7f6b0bd952a8f3b80a669a4981fe15af61eebf3be8bd954b60c4ae0e1c5031c240f052e1a74983a61475",
+          "sha256": "77d579abb5630fbb8d14db7c2713db3f946275c160c3ba595d7948921d41ca18",
+          "sha1": "0fe2b7bcf6416ba16d109ade82742aa8654ce31a",
+          "md5": "b36d82fd2a05bd2197c4e0978fa24e35"
+        }
+      ]
+    },
+    {
+      "name": "libraryVersionMetadata",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.usage": "library-version-metadata"
+      },
+      "files": [
+        {
+          "name": "hilt-lifecycle-viewmodel-compose-1.4.0-alpha02-versionMetadata.json",
+          "url": "hilt-lifecycle-viewmodel-compose-1.4.0-alpha02-versionMetadata.json",
+          "size": 737,
+          "sha512": "82c3c636ccb620a26c2171a5aa8628d15355a1620c862cb4a8f8fa2d696908c7c57be746e3c3b18a1ddfdbe153a110547b61edb13b2f94725f41a768abb12fa1",
+          "sha256": "afcd1dc9c9c97d9a35a553936a8656f508186d4ea837d45d781e206c1b73d8c9",
+          "sha1": "e7a424df263939f83e4111415a04cf43a019c905",
+          "md5": "03c5a743054164d2730c2a25091f7143"
+        }
+      ]
+    }
+  ]
+}

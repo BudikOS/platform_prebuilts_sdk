@@ -1,0 +1,144 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.cursoradapter",
+    "module": "cursoradapter",
+    "version": "1.1.0-alpha01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0-milestone-7",
+      "buildId:": "15103823"
+    }
+  },
+  "variants": [
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "cursoradapter-1.1.0-alpha01-sources.jar",
+          "url": "cursoradapter-1.1.0-alpha01-sources.jar",
+          "size": 16385,
+          "sha512": "30107e0f064188c2d6dc288464611439f96177aaafd202d919481821f426f046c0ce723a683c61786b87e8b36824c61f9caf0aa721df725b95e66b2c43e2ce21",
+          "sha256": "9ee94978d6409aad3ed452c450e9bdc611614446abf4286f42e5bfdf71789d73",
+          "sha1": "8f2c46d45c3563d109e32183e743780301aa9216",
+          "md5": "82087bf9fca00c7737572cd14e94b03c"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        },
+        {
+          "group": "org.jspecify",
+          "module": "jspecify",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "cursoradapter-1.1.0-alpha01.aar",
+          "url": "cursoradapter-1.1.0-alpha01.aar",
+          "size": 16459,
+          "sha512": "aa6e595090ecfa9a94ae4293f846175e9f87a18b46e4b7d685d76e0a0632a807d9d91542c6186b55ad966fcae115d4ac2bf42ac6c20495d7341ce38380e2526a",
+          "sha256": "5c6da25c5dfffe3d9e43678889d2a58c8704dea46b75946f9df4f469db79f307",
+          "sha1": "f1d97ce411c41c5eaa23284ecde96fbebd9a36d6",
+          "md5": "4a5971411d47fdc8126a02c7efa4d2d1"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        },
+        {
+          "group": "org.jspecify",
+          "module": "jspecify",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "cursoradapter-1.1.0-alpha01.aar",
+          "url": "cursoradapter-1.1.0-alpha01.aar",
+          "size": 16459,
+          "sha512": "aa6e595090ecfa9a94ae4293f846175e9f87a18b46e4b7d685d76e0a0632a807d9d91542c6186b55ad966fcae115d4ac2bf42ac6c20495d7341ce38380e2526a",
+          "sha256": "5c6da25c5dfffe3d9e43678889d2a58c8704dea46b75946f9df4f469db79f307",
+          "sha1": "f1d97ce411c41c5eaa23284ecde96fbebd9a36d6",
+          "md5": "4a5971411d47fdc8126a02c7efa4d2d1"
+        }
+      ]
+    },
+    {
+      "name": "libraryVersionMetadata",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.usage": "library-version-metadata"
+      },
+      "files": [
+        {
+          "name": "cursoradapter-1.1.0-alpha01-versionMetadata.json",
+          "url": "cursoradapter-1.1.0-alpha01-versionMetadata.json",
+          "size": 3922,
+          "sha512": "a26d193be916df5c2082fe6d91c4e04ad01dbef6e07d5d1f812c0ec85e0f1f905c48b597f5a0e7b59ed0a9c76160e1e036ab0e896b036fae8c18ebe3e3b5c228",
+          "sha256": "c51cab2ca98bd44c88cd041ecaf6420f1ea85c570e6009076d4dd498ea4266de",
+          "sha1": "0e1c073a20ef5fdc69e22476734990dc0262fbae",
+          "md5": "5ed2415c53e9afca76184f8464b6ea2e"
+        }
+      ]
+    }
+  ]
+}

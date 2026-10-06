@@ -1,0 +1,22 @@
+// Signature format: 2.0
+package android.telecom {
+
+  public abstract class ConnectionService extends android.app.Service {
+    method @Nullable @RequiresPermission(android.Manifest.permission.MODIFY_PHONE_STATE) public android.telecom.Connection onCreateUnknownConnection(@NonNull android.telecom.PhoneAccountHandle, @NonNull android.telecom.ConnectionRequest);
+  }
+
+  public class TelecomFrameworkInitializer {
+    method public static void registerServiceWrapper();
+  }
+
+  public final class TelecomServiceInitializerRepository {
+    method @Nullable public static android.telecom.TelecomServiceInitializerRepository.Initializer getInitializer();
+    method public static void setInitializer(@Nullable android.telecom.TelecomServiceInitializerRepository.Initializer);
+  }
+
+  public static interface TelecomServiceInitializerRepository.Initializer {
+    method @Nullable public android.os.IBinder initialize(@NonNull android.content.Context);
+  }
+
+}
+

@@ -1,0 +1,69 @@
+// Signature format: 2.0
+package com.android.os.profiling.anomaly {
+
+  public interface AnomalyDetectorManagerLocal {
+    method public <T extends com.android.os.profiling.anomaly.collector.SignalCollectorConfig, U extends com.android.os.profiling.anomaly.collector.SignalCollectorData> void registerSignalCollector(@NonNull Class<T>, @NonNull Class<U>, @NonNull com.android.os.profiling.anomaly.collector.SignalCollector<T,U>);
+    method public <T extends com.android.os.profiling.anomaly.collector.SignalCollectorConfig, U extends com.android.os.profiling.anomaly.collector.SignalCollectorData> void unregisterSignalCollector(@NonNull Class<T>, @NonNull Class<U>);
+  }
+
+}
+
+package com.android.os.profiling.anomaly.collector {
+
+  public interface SignalCollector<T extends com.android.os.profiling.anomaly.collector.SignalCollectorConfig, U extends com.android.os.profiling.anomaly.collector.SignalCollectorData> {
+    method @Nullable public U getData(@NonNull com.android.os.profiling.anomaly.collector.SubscriptionId);
+    method public void requestUpdate(@NonNull com.android.os.profiling.anomaly.collector.SubscriptionId);
+    method @NonNull public com.android.os.profiling.anomaly.collector.SubscriptionId subscribe(@NonNull T, @NonNull android.os.OutcomeReceiver<U,java.lang.Throwable>);
+    method public void unsubscribe(@NonNull com.android.os.profiling.anomaly.collector.SubscriptionId);
+  }
+
+  public interface SignalCollectorConfig {
+  }
+
+  public interface SignalCollectorData {
+  }
+
+  public final class SubscriptionId {
+    method @NonNull public static com.android.os.profiling.anomaly.collector.SubscriptionId generateNew();
+  }
+
+}
+
+package com.android.os.profiling.anomaly.collector.binder {
+
+  public final class BinderSpamConfig {
+    method @NonNull public int[] getCallerImportanceList();
+    method @NonNull public String getInterfaceName();
+    method @NonNull public String getMethodName();
+    method @NonNull public int[] getUids();
+  }
+
+  public final class BinderSpamConfigList implements com.android.os.profiling.anomaly.collector.SignalCollectorConfig {
+    ctor public BinderSpamConfigList(@NonNull java.util.List<com.android.os.profiling.anomaly.collector.binder.BinderSpamConfig>);
+    method @NonNull public java.util.List<com.android.os.profiling.anomaly.collector.binder.BinderSpamConfig> getConfigs();
+  }
+
+  public final class BinderSpamData implements com.android.os.profiling.anomaly.collector.SignalCollectorData {
+    method public int getCallCount();
+    method public int getCallerImportance();
+    method public int getCallingUid();
+    method @NonNull public String getInterfaceName();
+    method @NonNull public String getMethodName();
+    method public int getServerUid();
+    method @NonNull public java.time.Duration getTimespan();
+  }
+
+  public static final class BinderSpamData.Builder {
+    ctor public BinderSpamData.Builder();
+    method @NonNull public com.android.os.profiling.anomaly.collector.binder.BinderSpamData build();
+    method @NonNull public com.android.os.profiling.anomaly.collector.binder.BinderSpamData.Builder setCallCount(int);
+    method @NonNull public com.android.os.profiling.anomaly.collector.binder.BinderSpamData.Builder setCallerImportance(int);
+    method @NonNull public com.android.os.profiling.anomaly.collector.binder.BinderSpamData.Builder setCallingUid(int);
+    method @NonNull public com.android.os.profiling.anomaly.collector.binder.BinderSpamData.Builder setInterfaceName(@NonNull String);
+    method @NonNull public com.android.os.profiling.anomaly.collector.binder.BinderSpamData.Builder setMethodName(@NonNull String);
+    method @NonNull public com.android.os.profiling.anomaly.collector.binder.BinderSpamData.Builder setServerUid(int);
+    method @NonNull public com.android.os.profiling.anomaly.collector.binder.BinderSpamData.Builder setTimespan(@NonNull java.time.Duration);
+  }
+
+}
+

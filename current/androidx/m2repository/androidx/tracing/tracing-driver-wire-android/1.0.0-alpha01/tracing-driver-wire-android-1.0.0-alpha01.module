@@ -1,0 +1,196 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../tracing-driver-wire/1.0.0-alpha01/tracing-driver-wire-1.0.0-alpha01.module",
+    "group": "androidx.tracing",
+    "module": "tracing-driver-wire",
+    "version": "1.0.0-alpha01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.1.0",
+      "buildId:": "14534998"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "androidx.tracing",
+          "module": "tracing-driver",
+          "version": {
+            "requires": "1.0.0-alpha01"
+          }
+        },
+        {
+          "group": "com.squareup.wire",
+          "module": "wire-runtime",
+          "version": {
+            "requires": "5.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "androidx.tracing",
+          "module": "tracing-driver",
+          "version": {
+            "requires": "1.0.0-alpha01"
+          },
+          "reason": "tracing-driver-wire is in atomic group androidx.tracing"
+        }
+      ],
+      "files": [
+        {
+          "name": "tracing-driver-wire.aar",
+          "url": "tracing-driver-wire-android-1.0.0-alpha01.aar",
+          "size": 135367,
+          "sha512": "f103ccb54006606317cc19acefa3d5adc2ce75937d89ba71599844bd0db8fc3e5f7744faeaf3ccc70a15e695e2db8ee196c4b98c075825724eb58eb59d43ea89",
+          "sha256": "b21ad536d26256ae8ceb0214797aa4f2705c88c3e68c5c523ad93dd983d02b18",
+          "sha1": "87560fbf701e45501861fb2c5a325d7e22273a92",
+          "md5": "303ba64decd2db11ce1dc0072ea73a24"
+        }
+      ]
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "androidx.tracing",
+          "module": "tracing-driver",
+          "version": {
+            "requires": "1.0.0-alpha01"
+          }
+        },
+        {
+          "group": "com.squareup.okio",
+          "module": "okio",
+          "version": {
+            "requires": "3.9.1"
+          }
+        },
+        {
+          "group": "com.squareup.wire",
+          "module": "wire-runtime",
+          "version": {
+            "requires": "5.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "androidx.tracing",
+          "module": "tracing-driver",
+          "version": {
+            "requires": "1.0.0-alpha01"
+          },
+          "reason": "tracing-driver-wire is in atomic group androidx.tracing"
+        }
+      ],
+      "files": [
+        {
+          "name": "tracing-driver-wire.aar",
+          "url": "tracing-driver-wire-android-1.0.0-alpha01.aar",
+          "size": 135367,
+          "sha512": "f103ccb54006606317cc19acefa3d5adc2ce75937d89ba71599844bd0db8fc3e5f7744faeaf3ccc70a15e695e2db8ee196c4b98c075825724eb58eb59d43ea89",
+          "sha256": "b21ad536d26256ae8ceb0214797aa4f2705c88c3e68c5c523ad93dd983d02b18",
+          "sha1": "87560fbf701e45501861fb2c5a325d7e22273a92",
+          "md5": "303ba64decd2db11ce1dc0072ea73a24"
+        }
+      ]
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "androidx.tracing",
+          "module": "tracing-driver",
+          "version": {
+            "requires": "1.0.0-alpha01"
+          },
+          "reason": "tracing-driver-wire is in atomic group androidx.tracing"
+        }
+      ],
+      "files": [
+        {
+          "name": "tracing-driver-wire-android-1.0.0-alpha01-sources.jar",
+          "url": "tracing-driver-wire-android-1.0.0-alpha01-sources.jar",
+          "size": 43827,
+          "sha512": "75e4ba6ac3ea2ee139671b464edbabfc6edf049884e51d5355d67c49d45a3d21b197b1502a15785561228b0e571d7da24da87a08db1d08f639db1f2db117ad89",
+          "sha256": "80117e3a5032c034973d0d0f00bfdc179b0e6b172b710e6ae1fc20f12d2e1c25",
+          "sha1": "f00b8907fdcc95a2c276acc23c1943f952de1664",
+          "md5": "0b997becf6ad412c9b58a3249f3804ae"
+        }
+      ]
+    }
+  ]
+}

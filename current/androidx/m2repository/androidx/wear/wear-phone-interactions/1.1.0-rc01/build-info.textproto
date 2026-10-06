@@ -1,0 +1,220 @@
+version: "1.1.0-rc01"
+dependency_list {
+  dependency {
+    group_id: "androidx.annotation"
+    artifact_id: "annotation"
+    version: "1.8.1"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.core"
+    artifact_id: "core"
+    version: "1.6.0"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.wear"
+    artifact_id: "wear"
+    version: "1.2.0"
+    is_tip_of_tree: false
+  }
+}
+release_checklist {
+}
+build_id: "15103823"
+group_id: "androidx.wear"
+artifact_id: "wear-phone-interactions"
+path: "/wear/wear-phone-interactions"
+sha: "ad261a1d1a12056ced5899983c3b3b2e8da30d41"
+require_same_version_group_build: false
+project_zip_path: "per-project-zips/androidx.wear-wear-phone-interactions-all-1.1.0-rc01.zip"
+kotlin_version: "2.3.20"
+dependency_constraint_list {
+}
+should_publish_docs: true
+is_kmp: false
+target: "androidx"
+test_module_names: "wear-wear-phone-interactionsreleaseAndroidTest.xml"
+test_module_names: ":wear:wear-phone-interactions:testReleaseUnitTest"
+all_dependencies_list {
+  dependency {
+    group_id: "androidx.activity"
+    artifact_id: "activity"
+    version: "1.1.0"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.annotation"
+    artifact_id: "annotation"
+    version: "1.8.1"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.annotation"
+    artifact_id: "annotation-experimental"
+    version: "1.1.0"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.annotation"
+    artifact_id: "annotation-jvm"
+    version: "1.8.1"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.arch.core"
+    artifact_id: "core-common"
+    version: "2.1.0"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.arch.core"
+    artifact_id: "core-runtime"
+    version: "2.1.0"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.collection"
+    artifact_id: "collection"
+    version: "1.1.0"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.core"
+    artifact_id: "core"
+    version: "1.6.0"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.core"
+    artifact_id: "core-ktx"
+    version: "1.6.0"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.customview"
+    artifact_id: "customview"
+    version: "1.0.0"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.fragment"
+    artifact_id: "fragment"
+    version: "1.2.4"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.interpolator"
+    artifact_id: "interpolator"
+    version: "1.0.0"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.lifecycle"
+    artifact_id: "lifecycle-common"
+    version: "2.2.0"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.lifecycle"
+    artifact_id: "lifecycle-livedata"
+    version: "2.0.0"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.lifecycle"
+    artifact_id: "lifecycle-livedata-core"
+    version: "2.2.0"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.lifecycle"
+    artifact_id: "lifecycle-runtime"
+    version: "2.2.0"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.lifecycle"
+    artifact_id: "lifecycle-viewmodel"
+    version: "2.2.0"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.lifecycle"
+    artifact_id: "lifecycle-viewmodel-savedstate"
+    version: "2.2.0"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.loader"
+    artifact_id: "loader"
+    version: "1.0.0"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.recyclerview"
+    artifact_id: "recyclerview"
+    version: "1.1.0"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.savedstate"
+    artifact_id: "savedstate"
+    version: "1.0.0"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.swiperefreshlayout"
+    artifact_id: "swiperefreshlayout"
+    version: "1.0.0"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.versionedparcelable"
+    artifact_id: "versionedparcelable"
+    version: "1.1.1"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.viewpager"
+    artifact_id: "viewpager"
+    version: "1.0.0"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.wear"
+    artifact_id: "wear"
+    version: "1.2.0"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "org.jetbrains"
+    artifact_id: "annotations"
+    version: "23.0.0"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "org.jetbrains.kotlin"
+    artifact_id: "kotlin-stdlib"
+    version: "2.1.20"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "org.jetbrains.kotlinx"
+    artifact_id: "kotlinx-coroutines-bom"
+    version: "1.9.0"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "org.jetbrains.kotlinx"
+    artifact_id: "kotlinx-coroutines-core"
+    version: "1.9.0"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "org.jetbrains.kotlinx"
+    artifact_id: "kotlinx-coroutines-core-jvm"
+    version: "1.9.0"
+    is_tip_of_tree: false
+  }
+}

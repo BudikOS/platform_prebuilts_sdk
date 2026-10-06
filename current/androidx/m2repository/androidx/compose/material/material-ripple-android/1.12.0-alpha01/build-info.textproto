@@ -1,0 +1,57 @@
+version: "1.12.0-alpha01"
+dependency_list {
+  dependency {
+    group_id: "androidx.compose.foundation"
+    artifact_id: "foundation"
+    version: "1.7.1"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.compose.material"
+    artifact_id: "material-ripple-android"
+    version: "1.12.0-alpha01"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.compose.material"
+    artifact_id: "material-ripple-jvmstubs"
+    version: "1.12.0-alpha01"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.compose.material"
+    artifact_id: "material-ripple-linuxx64stubs"
+    version: "1.12.0-alpha01"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.compose.runtime"
+    artifact_id: "runtime"
+    version: "1.12.0-alpha01"
+    is_tip_of_tree: true
+  }
+}
+release_checklist {
+}
+build_id: "15103823"
+group_id: "androidx.compose.material"
+artifact_id: "material-ripple"
+path: "/compose/material/material-ripple"
+sha: "ad261a1d1a12056ced5899983c3b3b2e8da30d41"
+require_same_version_group_build: false
+project_zip_path: "per-project-zips/androidx.compose.material-material-ripple-all-1.12.0-alpha01.zip"
+kotlin_version: "2.3.20"
+dependency_constraint_list {
+}
+should_publish_docs: true
+is_kmp: true
+target: "androidx"
+kmp_children: "android"
+kmp_children: "jvmstubs"
+kmp_children: "linuxx64stubs"
+test_module_names: ":compose:material:material-ripple:jvmStubsTest"
+test_module_names: ":compose:material:material-ripple:linuxx64StubsTest"
+test_module_names: "compose-material-material-rippleandroidDeviceTest.xml"
+test_module_names: ":compose:material:material-ripple:testAndroidHostTest"
+all_dependencies_list {
+}

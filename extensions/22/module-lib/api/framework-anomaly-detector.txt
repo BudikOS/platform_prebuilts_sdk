@@ -1,0 +1,9 @@
+// Signature format: 2.0
+package android.os.profiling.anomaly {
+
+  public final class AnomalyDetectorFrameworkInitializer {
+    method public static void registerServiceWrappers();
+  }
+
+}
+

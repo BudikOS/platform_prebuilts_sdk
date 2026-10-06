@@ -1,0 +1,338 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.appcompat",
+    "module": "appcompat",
+    "version": "1.8.0-alpha01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0-milestone-7",
+      "buildId:": "15103823"
+    }
+  },
+  "variants": [
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat-resources",
+          "version": {
+            "requires": "1.8.0-alpha01"
+          },
+          "reason": "appcompat is in atomic group androidx.appcompat"
+        }
+      ],
+      "files": [
+        {
+          "name": "appcompat-1.8.0-alpha01-sources.jar",
+          "url": "appcompat-1.8.0-alpha01-sources.jar",
+          "size": 502610,
+          "sha512": "a4e8e848d79cd0a7f3c43bf86a31ecf1228dd4f748c051052867f3ab54e8baf96a6f32cb4b76098dd43303fdb89dbb290da0e8b1d87d653d0b709932fd71e3b5",
+          "sha256": "09c20158af623e12f74a39c760567a128690f11d584f489e07b9bbc6991b1406",
+          "sha1": "564c643c35e4e8574350bfcd1eab00f8bfa23e17",
+          "md5": "58a2a2f289836a7458e1099d40246035"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.activity",
+          "module": "activity",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat-resources",
+          "version": {
+            "requires": "1.8.0-alpha01"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "androidx.cursoradapter",
+          "module": "cursoradapter",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.drawerlayout",
+          "module": "drawerlayout",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.fragment",
+          "module": "fragment",
+          "version": {
+            "requires": "1.5.4"
+          }
+        },
+        {
+          "group": "androidx.savedstate",
+          "module": "savedstate",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        },
+        {
+          "group": "org.jspecify",
+          "module": "jspecify",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat-resources",
+          "version": {
+            "requires": "1.8.0-alpha01"
+          },
+          "reason": "appcompat is in atomic group androidx.appcompat"
+        }
+      ],
+      "files": [
+        {
+          "name": "appcompat-1.8.0-alpha01.aar",
+          "url": "appcompat-1.8.0-alpha01.aar",
+          "size": 1193418,
+          "sha512": "156edfca6c88f3fb5caf7de2dbfc1fd14a52b538436dcc95d204f25c285f6d24aa6b7585f7c8111ff4f7a96fa9b3c772387540bb91e07cbb018a1efea64614e8",
+          "sha256": "443345d1d3f114ff199a9a030b3fe9c55c161ab67f6a895bbd66e676f2d5f2e0",
+          "sha1": "715bf377a2d9167b9cd0e8046c18f4850a516d26",
+          "md5": "5a46e784eeeda1224840e17daa8583d8"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.activity",
+          "module": "activity",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat-resources",
+          "version": {
+            "requires": "1.8.0-alpha01"
+          }
+        },
+        {
+          "group": "androidx.collection",
+          "module": "collection",
+          "version": {
+            "requires": "1.4.2"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "androidx.cursoradapter",
+          "module": "cursoradapter",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.drawerlayout",
+          "module": "drawerlayout",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.emoji2",
+          "module": "emoji2",
+          "version": {
+            "requires": "1.3.0"
+          }
+        },
+        {
+          "group": "androidx.emoji2",
+          "module": "emoji2-views-helper",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "androidx.fragment",
+          "module": "fragment",
+          "version": {
+            "requires": "1.5.4"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime",
+          "version": {
+            "requires": "2.6.1"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel",
+          "version": {
+            "requires": "2.6.1"
+          }
+        },
+        {
+          "group": "androidx.profileinstaller",
+          "module": "profileinstaller",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "androidx.resourceinspection",
+          "module": "resourceinspection-annotation",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "androidx.savedstate",
+          "module": "savedstate",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        },
+        {
+          "group": "org.jspecify",
+          "module": "jspecify",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat-resources",
+          "version": {
+            "requires": "1.8.0-alpha01"
+          },
+          "reason": "appcompat is in atomic group androidx.appcompat"
+        }
+      ],
+      "files": [
+        {
+          "name": "appcompat-1.8.0-alpha01.aar",
+          "url": "appcompat-1.8.0-alpha01.aar",
+          "size": 1193418,
+          "sha512": "156edfca6c88f3fb5caf7de2dbfc1fd14a52b538436dcc95d204f25c285f6d24aa6b7585f7c8111ff4f7a96fa9b3c772387540bb91e07cbb018a1efea64614e8",
+          "sha256": "443345d1d3f114ff199a9a030b3fe9c55c161ab67f6a895bbd66e676f2d5f2e0",
+          "sha1": "715bf377a2d9167b9cd0e8046c18f4850a516d26",
+          "md5": "5a46e784eeeda1224840e17daa8583d8"
+        }
+      ]
+    },
+    {
+      "name": "libraryVersionMetadata",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.usage": "library-version-metadata"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat-resources",
+          "version": {
+            "requires": "1.8.0-alpha01"
+          },
+          "reason": "appcompat is in atomic group androidx.appcompat"
+        }
+      ],
+      "files": [
+        {
+          "name": "appcompat-1.8.0-alpha01-versionMetadata.json",
+          "url": "appcompat-1.8.0-alpha01-versionMetadata.json",
+          "size": 66687,
+          "sha512": "faefe2204dcdf2cef765545de2758f1bc4995485c9355a3c85f7ddbb34609c9e758309198ca5cf458b0206b9fb436e6d3530c3de4e4bf14829437fdf9332b995",
+          "sha256": "2a969d427cdf50d7c3090a59f4edd7a1dc05c6f3773e06cca37220f1fa7d1ff9",
+          "sha1": "8523a55d798ed6edccadf49a665d81cb7694ed33",
+          "md5": "d6c04d8403d9a765dc0affeb3b8cfce8"
+        }
+      ]
+    }
+  ]
+}

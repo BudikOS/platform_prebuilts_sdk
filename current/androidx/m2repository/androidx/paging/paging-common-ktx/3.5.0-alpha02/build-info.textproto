@@ -1,0 +1,135 @@
+version: "3.5.0-alpha02"
+dependency_list {
+  dependency {
+    group_id: "androidx.paging"
+    artifact_id: "paging-common"
+    version: "3.5.0-alpha02"
+    is_tip_of_tree: true
+  }
+}
+release_checklist {
+}
+build_id: "15103823"
+group_id: "androidx.paging"
+artifact_id: "paging-common-ktx"
+path: "/paging/paging-common-ktx"
+sha: "ad261a1d1a12056ced5899983c3b3b2e8da30d41"
+require_same_version_group_build: true
+project_zip_path: "per-project-zips/androidx.paging-paging-common-ktx-all-3.5.0-alpha02.zip"
+kotlin_version: "2.3.20"
+dependency_constraint_list {
+  dependency {
+    group_id: "androidx.paging"
+    artifact_id: "paging-common"
+    version: "3.5.0-alpha02"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.paging"
+    artifact_id: "paging-compose"
+    version: "3.5.0-alpha02"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.paging"
+    artifact_id: "paging-guava"
+    version: "3.5.0-alpha02"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.paging"
+    artifact_id: "paging-runtime"
+    version: "3.5.0-alpha02"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.paging"
+    artifact_id: "paging-runtime-ktx"
+    version: "3.5.0-alpha02"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.paging"
+    artifact_id: "paging-rxjava2"
+    version: "3.5.0-alpha02"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.paging"
+    artifact_id: "paging-rxjava2-ktx"
+    version: "3.5.0-alpha02"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.paging"
+    artifact_id: "paging-rxjava3"
+    version: "3.5.0-alpha02"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.paging"
+    artifact_id: "paging-testing"
+    version: "3.5.0-alpha02"
+    is_tip_of_tree: true
+  }
+}
+should_publish_docs: true
+is_kmp: false
+target: "androidx"
+test_module_names: ":paging:paging-common-ktx:test"
+all_dependencies_list {
+  dependency {
+    group_id: "androidx.annotation"
+    artifact_id: "annotation"
+    version: "1.9.1"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.annotation"
+    artifact_id: "annotation-jvm"
+    version: "1.9.1"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.arch.core"
+    artifact_id: "core-common"
+    version: "2.2.0"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.paging"
+    artifact_id: "paging-common"
+    version: "3.5.0-alpha02"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "org.jetbrains"
+    artifact_id: "annotations"
+    version: "23.0.0"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "org.jetbrains.kotlin"
+    artifact_id: "kotlin-stdlib"
+    version: "2.1.20"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "org.jetbrains.kotlinx"
+    artifact_id: "kotlinx-coroutines-bom"
+    version: "1.9.0"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "org.jetbrains.kotlinx"
+    artifact_id: "kotlinx-coroutines-core"
+    version: "1.9.0"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "org.jetbrains.kotlinx"
+    artifact_id: "kotlinx-coroutines-core-jvm"
+    version: "1.9.0"
+    is_tip_of_tree: false
+  }
+}

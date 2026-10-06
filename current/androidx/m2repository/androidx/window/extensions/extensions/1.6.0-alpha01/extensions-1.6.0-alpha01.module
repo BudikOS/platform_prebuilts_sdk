@@ -1,0 +1,144 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.window.extensions",
+    "module": "extensions",
+    "version": "1.6.0-alpha01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0-milestone-7",
+      "buildId:": "15103823"
+    }
+  },
+  "variants": [
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "extensions-1.6.0-alpha01-sources.jar",
+          "url": "extensions-1.6.0-alpha01-sources.jar",
+          "size": 72557,
+          "sha512": "031cffc95c0d3a8dc3daa6753824dee6e2bbac7a5ac112967fd0444b0a517c1c63b338dcf1dd2a832309fb5f58cfec8431fb05505cdc54184097ad2fb8e414d6",
+          "sha256": "eb42df71a76a3ef8cbf2d726e9f91c17d298ecc11b96e09a6f16834cabe06f40",
+          "sha1": "8d3cee1a1e60af77c434af87a30f7f9ef6e252d0",
+          "md5": "122eab7ffe42e56a49ad5da413395dda"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        },
+        {
+          "group": "org.jspecify",
+          "module": "jspecify",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "extensions-1.6.0-alpha01.aar",
+          "url": "extensions-1.6.0-alpha01.aar",
+          "size": 78194,
+          "sha512": "3452e8d54cbacda3f291c9e50316757980ad7b4512f98303759ca71fc3b014e869bfec6c167efee796efb1c3cfa5992d04ad9d1795345635ac3049cc088f239d",
+          "sha256": "44f794faa584ca7fa83529598621b5596249b167a18a29ee7ce2f7926c36d3de",
+          "sha1": "beb5f5ff381646d119455fffcb1abfce3af6fb28",
+          "md5": "bab6fadaa41be8448a5ff5f396c6f518"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation-experimental",
+          "version": {
+            "requires": "1.4.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        },
+        {
+          "group": "org.jspecify",
+          "module": "jspecify",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "extensions-1.6.0-alpha01.aar",
+          "url": "extensions-1.6.0-alpha01.aar",
+          "size": 78194,
+          "sha512": "3452e8d54cbacda3f291c9e50316757980ad7b4512f98303759ca71fc3b014e869bfec6c167efee796efb1c3cfa5992d04ad9d1795345635ac3049cc088f239d",
+          "sha256": "44f794faa584ca7fa83529598621b5596249b167a18a29ee7ce2f7926c36d3de",
+          "sha1": "beb5f5ff381646d119455fffcb1abfce3af6fb28",
+          "md5": "bab6fadaa41be8448a5ff5f396c6f518"
+        }
+      ]
+    },
+    {
+      "name": "libraryVersionMetadata",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.usage": "library-version-metadata"
+      },
+      "files": [
+        {
+          "name": "extensions-1.6.0-alpha01-versionMetadata.json",
+          "url": "extensions-1.6.0-alpha01-versionMetadata.json",
+          "size": 25317,
+          "sha512": "85414aaf3f9bf496a14758ed664aa76204874902757720212938ae61f90ff02cebbae499c0b7c66023faacdfba29e3edf77838a929eaf9bfdafb34066e52798d",
+          "sha256": "71d329742f429892b44efe7be66fb0e9e4700218234445f75505167006baf482",
+          "sha1": "550b3e399074688948e46f92740752dfdc815f3f",
+          "md5": "7bbf01418a5a18577edb4e578853a30c"
+        }
+      ]
+    }
+  ]
+}

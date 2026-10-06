@@ -1,0 +1,123 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.core",
+    "module": "core-pip",
+    "version": "1.0.0-beta01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0-milestone-7",
+      "buildId:": "15103823"
+    }
+  },
+  "variants": [
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "core-pip-1.0.0-beta01-sources.jar",
+          "url": "core-pip-1.0.0-beta01-sources.jar",
+          "size": 16004,
+          "sha512": "6f73d116b5df57caef987b50becc5d4c93fa4df31dea60dddfb6f507bc2e99bcb60afccce5acf51ea877ef0d228e18415608c43d6f0f6b0bcffc69e5b9af8827",
+          "sha256": "09c51df4b8d3fc8e6648f533c559eed667049ff666ef4bb5ac35d5b7642efc85",
+          "sha1": "92d37571049b3aa3660e191380d76b81e3c72310",
+          "md5": "a374ee020039af7e0d5dbc234db94432"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-pip-1.0.0-beta01.aar",
+          "url": "core-pip-1.0.0-beta01.aar",
+          "size": 24729,
+          "sha512": "5e4a09342a38b4fa5b292c2e197d1a030fd30b46e340f02555d850012d6a0ba45044f9e8c077155705e82d5593e07812101bb8f1a0cedda3eef7b80c81e1739a",
+          "sha256": "aa271d418f4f4e5224bcb5ef3bce795d9f72b751bb077cf9f3974a5efae51145",
+          "sha1": "fa0d1ac62623c48a689e86d76359e58ef0ac5f98",
+          "md5": "4d02d31ae9282d47c6310c786469b143"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.18.0-rc01"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-pip-1.0.0-beta01.aar",
+          "url": "core-pip-1.0.0-beta01.aar",
+          "size": 24729,
+          "sha512": "5e4a09342a38b4fa5b292c2e197d1a030fd30b46e340f02555d850012d6a0ba45044f9e8c077155705e82d5593e07812101bb8f1a0cedda3eef7b80c81e1739a",
+          "sha256": "aa271d418f4f4e5224bcb5ef3bce795d9f72b751bb077cf9f3974a5efae51145",
+          "sha1": "fa0d1ac62623c48a689e86d76359e58ef0ac5f98",
+          "md5": "4d02d31ae9282d47c6310c786469b143"
+        }
+      ]
+    },
+    {
+      "name": "libraryVersionMetadata",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.usage": "library-version-metadata"
+      },
+      "files": [
+        {
+          "name": "core-pip-1.0.0-beta01-versionMetadata.json",
+          "url": "core-pip-1.0.0-beta01-versionMetadata.json",
+          "size": 2353,
+          "sha512": "09b0b01a37fab21ecb0d6f6f0ff95593ea81b0f8aacfe2fded8970daa2421a7f01391c5ea185feef7c31ca26a3ed97120bfcac309475ddf78e58b5dd03f874d4",
+          "sha256": "b7c0ce0c041ac2c8144a4af41f60b60098c99a6b175085d88006ebd37e6acc9d",
+          "sha1": "cea6c27597f1de9689dbb2581b4e73e126ade56b",
+          "md5": "fd7008bfb9169697087cbcae98307a7e"
+        }
+      ]
+    }
+  ]
+}

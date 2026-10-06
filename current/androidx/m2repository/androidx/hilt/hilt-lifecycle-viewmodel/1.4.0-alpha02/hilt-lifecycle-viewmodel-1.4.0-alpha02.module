@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.hilt",
+    "module": "hilt-lifecycle-viewmodel",
+    "version": "1.4.0-alpha02",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0-milestone-7",
+      "buildId:": "15103823"
+    }
+  },
+  "variants": [
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "hilt-lifecycle-viewmodel-1.4.0-alpha02-sources.jar",
+          "url": "hilt-lifecycle-viewmodel-1.4.0-alpha02-sources.jar",
+          "size": 6004,
+          "sha512": "4d266e8c6b7b4a193b6aaffdcd979dbf8c7848c960cc09c7811abb91022f0d9a419a8abc624d77b749e0dcc1f93e547f0add93a9cd65e4560b3f0769758151b6",
+          "sha256": "3577e5df08e03074a3ea3081586449004138652b6f26ae3c4d2a4d1eb9519029",
+          "sha1": "f2a1578ff8e47706deb6ad41e6f2208f7d72ae6a",
+          "md5": "c046b76cf4a967d9f8eb72191d7865bd"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.dagger",
+          "module": "hilt-android",
+          "version": {
+            "requires": "2.59"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "hilt-lifecycle-viewmodel-1.4.0-alpha02.aar",
+          "url": "hilt-lifecycle-viewmodel-1.4.0-alpha02.aar",
+          "size": 7209,
+          "sha512": "28d25531128f346b8ce8d671a3a8e813ec9880f881a8060af645dd07a48cead05afbf39360afe7a6aef61929c19a1fcf30d9120992b2992bfe0096040aaa2ac3",
+          "sha256": "a8ba52a5c6f8887abccdf8e9fc1bb2c4cda0de6d19e4c3594a4b0c3df187ee01",
+          "sha1": "964620f89adda4ec55e318adfb7aa38747cdd22b",
+          "md5": "080e5f5c5b961295c56cf49c318c2f36"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.dagger",
+          "module": "hilt-android",
+          "version": {
+            "requires": "2.59"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "hilt-lifecycle-viewmodel-1.4.0-alpha02.aar",
+          "url": "hilt-lifecycle-viewmodel-1.4.0-alpha02.aar",
+          "size": 7209,
+          "sha512": "28d25531128f346b8ce8d671a3a8e813ec9880f881a8060af645dd07a48cead05afbf39360afe7a6aef61929c19a1fcf30d9120992b2992bfe0096040aaa2ac3",
+          "sha256": "a8ba52a5c6f8887abccdf8e9fc1bb2c4cda0de6d19e4c3594a4b0c3df187ee01",
+          "sha1": "964620f89adda4ec55e318adfb7aa38747cdd22b",
+          "md5": "080e5f5c5b961295c56cf49c318c2f36"
+        }
+      ]
+    },
+    {
+      "name": "libraryVersionMetadata",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.usage": "library-version-metadata"
+      },
+      "files": [
+        {
+          "name": "hilt-lifecycle-viewmodel-1.4.0-alpha02-versionMetadata.json",
+          "url": "hilt-lifecycle-viewmodel-1.4.0-alpha02-versionMetadata.json",
+          "size": 340,
+          "sha512": "5025bf5157867904430ca0f3fb47c7e3a61a1339d628dad92f6730b3db197d27994f5638a13b3da204116138b0d606edd098ae0a037f6606591b4b3f68ebd3d7",
+          "sha256": "74d2941414de0fb1746a10cfb43acceee674588c253a6bc1de7a683167e0856d",
+          "sha1": "93f064da158446c3d95d11a6ce1850385fcf1161",
+          "md5": "a9820529fe3b07a7a43b6e0b07e3c3aa"
+        }
+      ]
+    }
+  ]
+}

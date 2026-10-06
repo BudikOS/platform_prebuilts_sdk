@@ -1,0 +1,63 @@
+version: "1.0.0-alpha14"
+dependency_list {
+}
+release_checklist {
+}
+build_id: "14606683"
+group_id: "androidx.privacysandbox.tools"
+artifact_id: "tools-core-external-protobuf"
+path: "/privacysandbox/tools/tools-core-external-protobuf"
+sha: "84d371c82bfc31dc2c51f1d57e8a3dbc2fb771ba"
+require_same_version_group_build: true
+project_zip_path: "per-project-zips/androidx.privacysandbox.tools-tools-core-external-protobuf-all-1.0.0-alpha14.zip"
+kotlin_version: "2.2.20"
+dependency_constraint_list {
+  dependency {
+    group_id: "androidx.privacysandbox.tools"
+    artifact_id: "tools"
+    version: "1.0.0-alpha14"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.privacysandbox.tools"
+    artifact_id: "tools-apicompiler"
+    version: "1.0.0-alpha14"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.privacysandbox.tools"
+    artifact_id: "tools-apigenerator"
+    version: "1.0.0-alpha14"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.privacysandbox.tools"
+    artifact_id: "tools-apipackager"
+    version: "1.0.0-alpha14"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.privacysandbox.tools"
+    artifact_id: "tools-core"
+    version: "1.0.0-alpha14"
+    is_tip_of_tree: true
+  }
+}
+should_publish_docs: false
+is_kmp: false
+target: "androidx"
+test_module_names: ":privacysandbox:tools:tools-core-external-protobuf:test"
+all_dependencies_list {
+  dependency {
+    group_id: "org.jetbrains"
+    artifact_id: "annotations"
+    version: "13.0"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "org.jetbrains.kotlin"
+    artifact_id: "kotlin-stdlib"
+    version: "2.0.21"
+    is_tip_of_tree: false
+  }
+}

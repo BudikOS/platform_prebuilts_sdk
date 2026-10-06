@@ -1,0 +1,93 @@
+version: "1.0.0-alpha08"
+dependency_list {
+  dependency {
+    group_id: "androidx.annotation"
+    artifact_id: "annotation"
+    version: "1.7.0"
+    is_tip_of_tree: false
+  }
+}
+release_checklist {
+}
+build_id: "15103823"
+group_id: "androidx.appfunctions"
+artifact_id: "appfunctions-compiler"
+path: "/appfunctions/appfunctions-compiler"
+sha: "ad261a1d1a12056ced5899983c3b3b2e8da30d41"
+require_same_version_group_build: true
+project_zip_path: "per-project-zips/androidx.appfunctions-appfunctions-compiler-all-1.0.0-alpha08.zip"
+kotlin_version: "2.3.20"
+dependency_constraint_list {
+  dependency {
+    group_id: "androidx.appfunctions"
+    artifact_id: "appfunctions"
+    version: "1.0.0-alpha08"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.appfunctions"
+    artifact_id: "appfunctions-service"
+    version: "1.0.0-alpha08"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.appfunctions"
+    artifact_id: "appfunctions-testing"
+    version: "1.0.0-alpha08"
+    is_tip_of_tree: true
+  }
+}
+should_publish_docs: false
+is_kmp: false
+target: "androidx"
+test_module_names: ":appfunctions:appfunctions-compiler:test"
+all_dependencies_list {
+  dependency {
+    group_id: "androidx.annotation"
+    artifact_id: "annotation"
+    version: "1.7.0"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.annotation"
+    artifact_id: "annotation-jvm"
+    version: "1.7.0"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "com.google.devtools.ksp"
+    artifact_id: "symbol-processing-api"
+    version: "2.0.10-1.0.24"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "com.squareup"
+    artifact_id: "kotlinpoet"
+    version: "2.0.0"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "com.squareup"
+    artifact_id: "kotlinpoet-jvm"
+    version: "2.0.0"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "org.jetbrains"
+    artifact_id: "annotations"
+    version: "13.0"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "org.jetbrains.kotlin"
+    artifact_id: "kotlin-reflect"
+    version: "2.0.10"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "org.jetbrains.kotlin"
+    artifact_id: "kotlin-stdlib"
+    version: "2.1.20"
+    is_tip_of_tree: false
+  }
+}

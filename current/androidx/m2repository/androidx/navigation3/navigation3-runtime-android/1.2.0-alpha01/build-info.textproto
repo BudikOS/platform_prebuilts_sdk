@@ -1,0 +1,191 @@
+version: "1.2.0-alpha01"
+dependency_list {
+  dependency {
+    group_id: "androidx.collection"
+    artifact_id: "collection"
+    version: "1.5.0"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.compose.runtime"
+    artifact_id: "runtime"
+    version: "1.9.5"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.compose.runtime"
+    artifact_id: "runtime-saveable"
+    version: "1.9.5"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.lifecycle"
+    artifact_id: "lifecycle-runtime"
+    version: "2.10.0"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.navigation3"
+    artifact_id: "navigation3-runtime-android"
+    version: "1.2.0-alpha01"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.navigation3"
+    artifact_id: "navigation3-runtime-desktop"
+    version: "1.2.0-alpha01"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.navigation3"
+    artifact_id: "navigation3-runtime-iosarm64"
+    version: "1.2.0-alpha01"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.navigation3"
+    artifact_id: "navigation3-runtime-iossimulatorarm64"
+    version: "1.2.0-alpha01"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.navigation3"
+    artifact_id: "navigation3-runtime-js"
+    version: "1.2.0-alpha01"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.navigation3"
+    artifact_id: "navigation3-runtime-linuxarm64"
+    version: "1.2.0-alpha01"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.navigation3"
+    artifact_id: "navigation3-runtime-linuxx64"
+    version: "1.2.0-alpha01"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.navigation3"
+    artifact_id: "navigation3-runtime-macosarm64"
+    version: "1.2.0-alpha01"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.navigation3"
+    artifact_id: "navigation3-runtime-mingwx64"
+    version: "1.2.0-alpha01"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.navigation3"
+    artifact_id: "navigation3-runtime-tvosarm64"
+    version: "1.2.0-alpha01"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.navigation3"
+    artifact_id: "navigation3-runtime-tvossimulatorarm64"
+    version: "1.2.0-alpha01"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.navigation3"
+    artifact_id: "navigation3-runtime-wasm-js"
+    version: "1.2.0-alpha01"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.navigation3"
+    artifact_id: "navigation3-runtime-watchosarm32"
+    version: "1.2.0-alpha01"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.navigation3"
+    artifact_id: "navigation3-runtime-watchosarm64"
+    version: "1.2.0-alpha01"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.navigation3"
+    artifact_id: "navigation3-runtime-watchosdevicearm64"
+    version: "1.2.0-alpha01"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.navigation3"
+    artifact_id: "navigation3-runtime-watchossimulatorarm64"
+    version: "1.2.0-alpha01"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.navigationevent"
+    artifact_id: "navigationevent"
+    version: "1.0.2"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.savedstate"
+    artifact_id: "savedstate"
+    version: "1.4.0"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.savedstate"
+    artifact_id: "savedstate-compose"
+    version: "1.4.0"
+    is_tip_of_tree: false
+  }
+}
+release_checklist {
+}
+build_id: "15103823"
+group_id: "androidx.navigation3"
+artifact_id: "navigation3-runtime"
+path: "/navigation3/navigation3-runtime"
+sha: "ad261a1d1a12056ced5899983c3b3b2e8da30d41"
+require_same_version_group_build: true
+project_zip_path: "per-project-zips/androidx.navigation3-navigation3-runtime-all-1.2.0-alpha01.zip"
+kotlin_version: "2.3.20"
+dependency_constraint_list {
+  dependency {
+    group_id: "androidx.navigation3"
+    artifact_id: "navigation3-ui"
+    version: "1.2.0-alpha01"
+    is_tip_of_tree: true
+  }
+}
+should_publish_docs: true
+is_kmp: true
+target: "androidx_multiplatform_mac"
+kmp_children: "android"
+kmp_children: "desktop"
+kmp_children: "mingwx64"
+kmp_children: "linuxarm64"
+kmp_children: "linuxx64"
+kmp_children: "macosarm64"
+kmp_children: "iosarm64"
+kmp_children: "iossimulatorarm64"
+kmp_children: "tvosarm64"
+kmp_children: "tvossimulatorarm64"
+kmp_children: "watchosarm32"
+kmp_children: "watchosarm64"
+kmp_children: "watchosdevicearm64"
+kmp_children: "watchossimulatorarm64"
+kmp_children: "js"
+kmp_children: "wasm-js"
+test_module_names: ":navigation3:navigation3-runtime:desktopTest"
+test_module_names: ":navigation3:navigation3-runtime:mingwX64Test"
+test_module_names: ":navigation3:navigation3-runtime:linuxX64Test"
+test_module_names: ":navigation3:navigation3-runtime:macosArm64Test"
+test_module_names: ":navigation3:navigation3-runtime:iosSimulatorArm64Test"
+test_module_names: ":navigation3:navigation3-runtime:tvosSimulatorArm64Test"
+test_module_names: ":navigation3:navigation3-runtime:watchosSimulatorArm64Test"
+test_module_names: ":navigation3:navigation3-runtime:jsBrowserTest"
+test_module_names: ":navigation3:navigation3-runtime:wasmJsBrowserTest"
+test_module_names: "navigation3-navigation3-runtimeandroidDeviceTest.xml"
+test_module_names: ":navigation3:navigation3-runtime:testAndroidHostTest"
+all_dependencies_list {
+}

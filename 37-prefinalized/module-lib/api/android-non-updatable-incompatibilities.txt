@@ -1,0 +1,5 @@
+// Baseline format: 1.0
+InvalidNullConversion: android.hardware.OverlayProperties#getLutProperties():
+    Attempted to change method return from @NonNull to @Nullable: incompatible change for method android.hardware.OverlayProperties.getLutProperties()
+InvalidNullConversion: android.database.sqlite.SQLiteRawStatement#getColumnText(int):
+    Source breaking change: Attempted to change nullability of java.lang.String (from NONNULL to NULLABLE) in method android.database.sqlite.SQLiteRawStatement.getColumnText(int)

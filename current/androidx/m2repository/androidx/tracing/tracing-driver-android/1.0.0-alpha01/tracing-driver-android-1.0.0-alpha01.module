@@ -1,0 +1,168 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../tracing-driver/1.0.0-alpha01/tracing-driver-1.0.0-alpha01.module",
+    "group": "androidx.tracing",
+    "module": "tracing-driver",
+    "version": "1.0.0-alpha01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.1.0",
+      "buildId:": "14534998"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "androidx.tracing",
+          "module": "tracing-driver-wire",
+          "version": {
+            "requires": "1.0.0-alpha01"
+          },
+          "reason": "tracing-driver is in atomic group androidx.tracing"
+        }
+      ],
+      "files": [
+        {
+          "name": "tracing-driver.aar",
+          "url": "tracing-driver-android-1.0.0-alpha01.aar",
+          "size": 96565,
+          "sha512": "31122eecd4dba997309939c81f1143ce0b1ec5e704ec08d710529548bd3557344385f9dbdd9f5d3c6d74014051198e321bfa32a2eee60f63352e7f0861876d2a",
+          "sha256": "a3a300a09b71587f57a82a30f76c0fc0be65f1db3f3ef96faa956ad0e3c73145",
+          "sha1": "0bbc2043ffb7d9ed7ed49ed62fd5d94216bea893",
+          "md5": "6cd617bc34965878e2c83da22ddf5056"
+        }
+      ]
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "androidx.collection",
+          "module": "collection",
+          "version": {
+            "requires": "1.4.5"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "androidx.tracing",
+          "module": "tracing-driver-wire",
+          "version": {
+            "requires": "1.0.0-alpha01"
+          },
+          "reason": "tracing-driver is in atomic group androidx.tracing"
+        }
+      ],
+      "files": [
+        {
+          "name": "tracing-driver.aar",
+          "url": "tracing-driver-android-1.0.0-alpha01.aar",
+          "size": 96565,
+          "sha512": "31122eecd4dba997309939c81f1143ce0b1ec5e704ec08d710529548bd3557344385f9dbdd9f5d3c6d74014051198e321bfa32a2eee60f63352e7f0861876d2a",
+          "sha256": "a3a300a09b71587f57a82a30f76c0fc0be65f1db3f3ef96faa956ad0e3c73145",
+          "sha1": "0bbc2043ffb7d9ed7ed49ed62fd5d94216bea893",
+          "md5": "6cd617bc34965878e2c83da22ddf5056"
+        }
+      ]
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "androidx.tracing",
+          "module": "tracing-driver-wire",
+          "version": {
+            "requires": "1.0.0-alpha01"
+          },
+          "reason": "tracing-driver is in atomic group androidx.tracing"
+        }
+      ],
+      "files": [
+        {
+          "name": "tracing-driver-android-1.0.0-alpha01-sources.jar",
+          "url": "tracing-driver-android-1.0.0-alpha01-sources.jar",
+          "size": 53158,
+          "sha512": "bc5e0e47a3df6e396ec58e811505ecb702224251fc193af9f2846dfc39dca82b840d03b1a9f369344234d2a36dcbfe688bf320e169fb102cc27acbe244e2526a",
+          "sha256": "27b87da54a480d819303deaa0ebacc9ba6e28565a7d3d2159253c55338fd2c4e",
+          "sha1": "9ef9ff368061dca0adcd88ba40908518a557d066",
+          "md5": "df7f2fd15fb7b0aaa8cf22fa6675ad57"
+        }
+      ]
+    }
+  ]
+}

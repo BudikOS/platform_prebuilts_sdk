@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.graphics",
+    "module": "graphics-path",
+    "version": "1.1.0-rc01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0-milestone-7",
+      "buildId:": "15103823"
+    }
+  },
+  "variants": [
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "graphics-path-1.1.0-rc01-sources.jar",
+          "url": "graphics-path-1.1.0-rc01-sources.jar",
+          "size": 16280,
+          "sha512": "6f3f44ce1ce17dda259524c8af5c2994dbc8e431bede224129a877f3376390cbce19bdf34fb1adf9f0335ad0707e017ebeed93d74737fe4582df121b54b5fcbf",
+          "sha256": "18745465f8ec21337325b45682b2c5bd223413d756820faa27466aee42ee0790",
+          "sha1": "d7dc0ee95a9cbcb410583968fba43030a4cb93d0",
+          "md5": "6abe9ef9a2eed05bd53018944879803c"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "graphics-path-1.1.0-rc01.aar",
+          "url": "graphics-path-1.1.0-rc01.aar",
+          "size": 49099,
+          "sha512": "d16645e3bb8f4b03d92bf962bad27b52aaa1595c0eacb8d721a1aeb3f56af529e8e30bddee4c072db45ffd88624f2b109107c9091417cf037fa574198e0e06c0",
+          "sha256": "06a2c1df315760c9910f4ce4a3eaa8519449d2d24fd0d578a52f3de9b05dbb42",
+          "sha1": "ca90309dd7a4dc512b62268b9007134b2fb6228e",
+          "md5": "9c3c38441b93dea040041bf788d21e38"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.collection",
+          "module": "collection",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "graphics-path-1.1.0-rc01.aar",
+          "url": "graphics-path-1.1.0-rc01.aar",
+          "size": 49099,
+          "sha512": "d16645e3bb8f4b03d92bf962bad27b52aaa1595c0eacb8d721a1aeb3f56af529e8e30bddee4c072db45ffd88624f2b109107c9091417cf037fa574198e0e06c0",
+          "sha256": "06a2c1df315760c9910f4ce4a3eaa8519449d2d24fd0d578a52f3de9b05dbb42",
+          "sha1": "ca90309dd7a4dc512b62268b9007134b2fb6228e",
+          "md5": "9c3c38441b93dea040041bf788d21e38"
+        }
+      ]
+    },
+    {
+      "name": "libraryVersionMetadata",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.usage": "library-version-metadata"
+      },
+      "files": [
+        {
+          "name": "graphics-path-1.1.0-rc01-versionMetadata.json",
+          "url": "graphics-path-1.1.0-rc01-versionMetadata.json",
+          "size": 2609,
+          "sha512": "10dd738c81ee745872ccf0612586311253b619662cb1d86f92eb5335fa240a39074c20a81af55345f7b9b1ff5d8508feca1ef829d6d71e60fccf07f91d41b294",
+          "sha256": "8607cc3f7da7ccbdb3ef2fc4d3c5711f011b786d23f41b0778b851b0e47f8adb",
+          "sha1": "00356e5201eb0c24424cc230978ca79c0dca483b",
+          "md5": "68506a52de54ea124bbd32f77e311375"
+        }
+      ]
+    }
+  ]
+}

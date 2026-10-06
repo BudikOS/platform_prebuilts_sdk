@@ -1,0 +1,21 @@
+{
+  "presubmit": [
+    {
+      "name": "CtsPhotoPickerTest",
+      "options": [
+        {
+          "exclude-annotation": "androidx.test.filters.LargeTest"
+        }
+      ]
+    },
+    {
+      "name": "PhotopickerTests",
+      "options": []
+    }
+  ],
+  "postsubmit": [
+    {
+      "name": "CtsPhotoPickerTest"
+    }
+  ]
+}

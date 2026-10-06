@@ -1,0 +1,137 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.autofill",
+    "module": "autofill",
+    "version": "1.4.0-alpha01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0-milestone-7",
+      "buildId:": "15103823"
+    }
+  },
+  "variants": [
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "autofill-1.4.0-alpha01-sources.jar",
+          "url": "autofill-1.4.0-alpha01-sources.jar",
+          "size": 33788,
+          "sha512": "0c085d622f405f2c44f58468202f4007629ff8cb28700165c13c2b5626b71c8253bc302134d9935a25262cbcdb80444779f13149f598113947d42d89b462821b",
+          "sha256": "50e7b650100e8e2b3a8a3ced7ae69e40febb5ec1830c3a309f4c30654e753abf",
+          "sha1": "c3f871325077f80352deeddaee35ae6d51db47c7",
+          "md5": "e078c51b3020b1d42a1ce5f10e8e9c54"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        },
+        {
+          "group": "org.jspecify",
+          "module": "jspecify",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "autofill-1.4.0-alpha01.aar",
+          "url": "autofill-1.4.0-alpha01.aar",
+          "size": 49588,
+          "sha512": "33a16ed6274b947408d6773c401967e4b8237d42fe6d4f3b1a3ec08ae3e1abb94168486b4f01c487be91176214b3c3c41906599ae0f8f62e644633b98540fbe4",
+          "sha256": "7947a780ffc30e674d13d4c7efbd4822f394741500503910d844e8cc49c3e9c3",
+          "sha1": "ec7a3974708f3442d1e374a883c9ab7afcbe72a5",
+          "md5": "416193067279e6b7c65dfa971aac523f"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        },
+        {
+          "group": "org.jspecify",
+          "module": "jspecify",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "autofill-1.4.0-alpha01.aar",
+          "url": "autofill-1.4.0-alpha01.aar",
+          "size": 49588,
+          "sha512": "33a16ed6274b947408d6773c401967e4b8237d42fe6d4f3b1a3ec08ae3e1abb94168486b4f01c487be91176214b3c3c41906599ae0f8f62e644633b98540fbe4",
+          "sha256": "7947a780ffc30e674d13d4c7efbd4822f394741500503910d844e8cc49c3e9c3",
+          "sha1": "ec7a3974708f3442d1e374a883c9ab7afcbe72a5",
+          "md5": "416193067279e6b7c65dfa971aac523f"
+        }
+      ]
+    },
+    {
+      "name": "libraryVersionMetadata",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.usage": "library-version-metadata"
+      },
+      "files": [
+        {
+          "name": "autofill-1.4.0-alpha01-versionMetadata.json",
+          "url": "autofill-1.4.0-alpha01-versionMetadata.json",
+          "size": 9677,
+          "sha512": "c9f744e27ec0dd2b7770cf0b5a9be659dfc8abe8277007475396b6823fd1337c1a17c396e4196ef683c05aaf2d1413e820ac8c94815e98b31272feea4125640f",
+          "sha256": "f3cd30de25c853036b7f8f889f24b4c0cd76b470bfecfb28c524d7f4af3cdc7f",
+          "sha1": "253f932d53622c337cbd8f2393b72e28d77ba6a1",
+          "md5": "f0d9086cdc3cc66ab5e8f39c3c1fe7b9"
+        }
+      ]
+    }
+  ]
+}

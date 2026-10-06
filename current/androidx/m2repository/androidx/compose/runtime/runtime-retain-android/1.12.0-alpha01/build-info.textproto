@@ -1,0 +1,215 @@
+version: "1.12.0-alpha01"
+dependency_list {
+  dependency {
+    group_id: "androidx.collection"
+    artifact_id: "collection"
+    version: "1.5.0"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.compose.runtime"
+    artifact_id: "runtime"
+    version: "1.12.0-alpha01"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.compose.runtime"
+    artifact_id: "runtime-retain-android"
+    version: "1.12.0-alpha01"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.compose.runtime"
+    artifact_id: "runtime-retain-desktop"
+    version: "1.12.0-alpha01"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.compose.runtime"
+    artifact_id: "runtime-retain-iosarm64"
+    version: "1.12.0-alpha01"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.compose.runtime"
+    artifact_id: "runtime-retain-iossimulatorarm64"
+    version: "1.12.0-alpha01"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.compose.runtime"
+    artifact_id: "runtime-retain-js"
+    version: "1.12.0-alpha01"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.compose.runtime"
+    artifact_id: "runtime-retain-linuxarm64"
+    version: "1.12.0-alpha01"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.compose.runtime"
+    artifact_id: "runtime-retain-linuxx64"
+    version: "1.12.0-alpha01"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.compose.runtime"
+    artifact_id: "runtime-retain-macosarm64"
+    version: "1.12.0-alpha01"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.compose.runtime"
+    artifact_id: "runtime-retain-mingwx64"
+    version: "1.12.0-alpha01"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.compose.runtime"
+    artifact_id: "runtime-retain-tvosarm64"
+    version: "1.12.0-alpha01"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.compose.runtime"
+    artifact_id: "runtime-retain-tvossimulatorarm64"
+    version: "1.12.0-alpha01"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.compose.runtime"
+    artifact_id: "runtime-retain-wasm-js"
+    version: "1.12.0-alpha01"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.compose.runtime"
+    artifact_id: "runtime-retain-watchosarm32"
+    version: "1.12.0-alpha01"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.compose.runtime"
+    artifact_id: "runtime-retain-watchosarm64"
+    version: "1.12.0-alpha01"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.compose.runtime"
+    artifact_id: "runtime-retain-watchosdevicearm64"
+    version: "1.12.0-alpha01"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.compose.runtime"
+    artifact_id: "runtime-retain-watchossimulatorarm64"
+    version: "1.12.0-alpha01"
+    is_tip_of_tree: true
+  }
+}
+release_checklist {
+}
+build_id: "15086128"
+group_id: "androidx.compose.runtime"
+artifact_id: "runtime-retain"
+path: "/compose/runtime/runtime-retain"
+sha: "43252b8ecd5ec90716aa131e6d14cb8e51fdb250"
+require_same_version_group_build: true
+project_zip_path: "per-project-zips/androidx.compose.runtime-runtime-retain-all-1.12.0-alpha01.zip"
+kotlin_version: "2.3.20"
+dependency_constraint_list {
+  dependency {
+    group_id: "androidx.compose.runtime"
+    artifact_id: "runtime"
+    version: "1.12.0-alpha01"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.compose.runtime"
+    artifact_id: "runtime-annotation"
+    version: "1.12.0-alpha01"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.compose.runtime"
+    artifact_id: "runtime-lint"
+    version: "1.12.0-alpha01"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.compose.runtime"
+    artifact_id: "runtime-livedata"
+    version: "1.12.0-alpha01"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.compose.runtime"
+    artifact_id: "runtime-retain-lint"
+    version: "1.12.0-alpha01"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.compose.runtime"
+    artifact_id: "runtime-rxjava2"
+    version: "1.12.0-alpha01"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.compose.runtime"
+    artifact_id: "runtime-rxjava3"
+    version: "1.12.0-alpha01"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.compose.runtime"
+    artifact_id: "runtime-saveable"
+    version: "1.12.0-alpha01"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.compose.runtime"
+    artifact_id: "runtime-saveable-lint"
+    version: "1.12.0-alpha01"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.compose.runtime"
+    artifact_id: "runtime-tracing"
+    version: "1.12.0-alpha01"
+    is_tip_of_tree: true
+  }
+}
+should_publish_docs: true
+is_kmp: true
+target: "androidx_multiplatform_mac"
+kmp_children: "android"
+kmp_children: "desktop"
+kmp_children: "mingwx64"
+kmp_children: "linuxarm64"
+kmp_children: "linuxx64"
+kmp_children: "macosarm64"
+kmp_children: "iosarm64"
+kmp_children: "iossimulatorarm64"
+kmp_children: "tvosarm64"
+kmp_children: "tvossimulatorarm64"
+kmp_children: "watchosarm32"
+kmp_children: "watchosarm64"
+kmp_children: "watchosdevicearm64"
+kmp_children: "watchossimulatorarm64"
+kmp_children: "js"
+kmp_children: "wasm-js"
+test_module_names: ":compose:runtime:runtime-retain:desktopTest"
+test_module_names: ":compose:runtime:runtime-retain:mingwX64Test"
+test_module_names: ":compose:runtime:runtime-retain:linuxX64Test"
+test_module_names: ":compose:runtime:runtime-retain:macosArm64Test"
+test_module_names: ":compose:runtime:runtime-retain:iosSimulatorArm64Test"
+test_module_names: ":compose:runtime:runtime-retain:tvosSimulatorArm64Test"
+test_module_names: ":compose:runtime:runtime-retain:watchosSimulatorArm64Test"
+test_module_names: ":compose:runtime:runtime-retain:jsBrowserTest"
+test_module_names: ":compose:runtime:runtime-retain:wasmJsBrowserTest"
+test_module_names: "compose-runtime-runtime-retainandroidDeviceTest.xml"
+test_module_names: ":compose:runtime:runtime-retain:testAndroidHostTest"
+all_dependencies_list {
+}

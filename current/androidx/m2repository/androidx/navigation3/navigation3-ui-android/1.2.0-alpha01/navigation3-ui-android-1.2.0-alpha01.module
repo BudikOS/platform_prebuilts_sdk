@@ -1,0 +1,296 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../navigation3-ui/1.2.0-alpha01/navigation3-ui-1.2.0-alpha01.module",
+    "group": "androidx.navigation3",
+    "module": "navigation3-ui",
+    "version": "1.2.0-alpha01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0-milestone-7",
+      "buildId:": "15103823"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.activity",
+          "module": "activity-compose",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "androidx.compose.animation",
+          "module": "animation",
+          "version": {
+            "requires": "1.10.0"
+          }
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.10.0"
+          }
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime-saveable",
+          "version": {
+            "requires": "1.10.0"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.10.0"
+          }
+        },
+        {
+          "group": "androidx.navigation3",
+          "module": "navigation3-runtime",
+          "version": {
+            "requires": "1.2.0-alpha01"
+          }
+        },
+        {
+          "group": "androidx.navigationevent",
+          "module": "navigationevent-compose",
+          "version": {
+            "requires": "1.0.2"
+          }
+        },
+        {
+          "group": "androidx.savedstate",
+          "module": "savedstate",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "androidx.savedstate",
+          "module": "savedstate-compose",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "androidx.navigation3",
+          "module": "navigation3-runtime",
+          "version": {
+            "requires": "1.2.0-alpha01"
+          },
+          "reason": "navigation3-ui is in atomic group androidx.navigation3"
+        }
+      ],
+      "files": [
+        {
+          "name": "navigation3-ui.aar",
+          "url": "navigation3-ui-android-1.2.0-alpha01.aar",
+          "size": 104565,
+          "sha512": "b3f0713c7366e5f23cf1ec5b11a869852908eecf99011e130bec57cddb58ba484f5a60ca7b2acb407c20fcc4815ace65921833239ab745ad88bce4c648ee29be",
+          "sha256": "e5db41732b81668b843bd5085141e06a6dc25482841a9a0c6bfbb741cd8ec224",
+          "sha1": "af028d662cd8d0b8c197e25e89114f7dd92a3a47",
+          "md5": "60bde89458890a462114c2240e5cd834"
+        }
+      ]
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.activity",
+          "module": "activity-compose",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "androidx.collection",
+          "module": "collection",
+          "version": {
+            "requires": "1.4.5"
+          }
+        },
+        {
+          "group": "androidx.compose.animation",
+          "module": "animation",
+          "version": {
+            "requires": "1.10.0"
+          }
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.10.0"
+          }
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime-saveable",
+          "version": {
+            "requires": "1.10.0"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.10.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime",
+          "version": {
+            "requires": "2.10.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-compose",
+          "version": {
+            "requires": "2.10.0"
+          }
+        },
+        {
+          "group": "androidx.navigation3",
+          "module": "navigation3-runtime",
+          "version": {
+            "requires": "1.2.0-alpha01"
+          }
+        },
+        {
+          "group": "androidx.navigationevent",
+          "module": "navigationevent-compose",
+          "version": {
+            "requires": "1.0.2"
+          }
+        },
+        {
+          "group": "androidx.savedstate",
+          "module": "savedstate",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "androidx.savedstate",
+          "module": "savedstate-compose",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "androidx.navigation3",
+          "module": "navigation3-runtime",
+          "version": {
+            "requires": "1.2.0-alpha01"
+          },
+          "reason": "navigation3-ui is in atomic group androidx.navigation3"
+        }
+      ],
+      "files": [
+        {
+          "name": "navigation3-ui.aar",
+          "url": "navigation3-ui-android-1.2.0-alpha01.aar",
+          "size": 104565,
+          "sha512": "b3f0713c7366e5f23cf1ec5b11a869852908eecf99011e130bec57cddb58ba484f5a60ca7b2acb407c20fcc4815ace65921833239ab745ad88bce4c648ee29be",
+          "sha256": "e5db41732b81668b843bd5085141e06a6dc25482841a9a0c6bfbb741cd8ec224",
+          "sha1": "af028d662cd8d0b8c197e25e89114f7dd92a3a47",
+          "md5": "60bde89458890a462114c2240e5cd834"
+        }
+      ]
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "androidx.navigation3",
+          "module": "navigation3-runtime",
+          "version": {
+            "requires": "1.2.0-alpha01"
+          },
+          "reason": "navigation3-ui is in atomic group androidx.navigation3"
+        }
+      ],
+      "files": [
+        {
+          "name": "navigation3-ui-android-1.2.0-alpha01-sources.jar",
+          "url": "navigation3-ui-android-1.2.0-alpha01-sources.jar",
+          "size": 34034,
+          "sha512": "5c4cbfee2e97b4d0b9ed65f3e64e7c3e35a0abb9a6cbc921e2d55ae3b3f73af6963b8376d660ac90c6638dd2034222caf67fe19acbdaa5483ceaa45499f4f5be",
+          "sha256": "dd8895d23c7bca26dfdf5f3e515127f40bb642eecd17a9c0e225216d3657c552",
+          "sha1": "5213bf32a768fb7c20e7a565abeac42368b3bc34",
+          "md5": "5436b000fc953e938ffb028112847640"
+        },
+        {
+          "name": "navigation3-ui-1.2.0-alpha01-samples-sources.jar",
+          "url": "navigation3-ui-android-1.2.0-alpha01-samples-sources.jar",
+          "size": 16858,
+          "sha512": "fec097718e063936ecce5f2058bdf46de297770f518aa34bba5ceb7a53cfe6907258f864a99a3d7cacf49953fe8e9f473368a27b8cd41ccc66642b427fc32857",
+          "sha256": "1d14472c859423a9d54f221baf986073a67741be981286fc7f5de3c25954e5c3",
+          "sha1": "5269010bcdfe6e9b48d49656e387da0548011a3f",
+          "md5": "6d3d38ea866bf676789e9b545ce9bcb3"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,415 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.appsearch",
+    "module": "appsearch-builtin-types",
+    "version": "1.2.0-alpha01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0-milestone-7",
+      "buildId:": "15103823"
+    }
+  },
+  "variants": [
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "androidx.appsearch",
+          "module": "appsearch",
+          "version": {
+            "requires": "1.2.0-alpha01"
+          },
+          "reason": "appsearch-builtin-types is in atomic group androidx.appsearch"
+        },
+        {
+          "group": "androidx.appsearch",
+          "module": "appsearch-compiler",
+          "version": {
+            "requires": "1.2.0-alpha01"
+          },
+          "reason": "appsearch-builtin-types is in atomic group androidx.appsearch"
+        },
+        {
+          "group": "androidx.appsearch",
+          "module": "appsearch-debug-view",
+          "version": {
+            "requires": "1.2.0-alpha01"
+          },
+          "reason": "appsearch-builtin-types is in atomic group androidx.appsearch"
+        },
+        {
+          "group": "androidx.appsearch",
+          "module": "appsearch-external-protobuf",
+          "version": {
+            "requires": "1.2.0-alpha01"
+          },
+          "reason": "appsearch-builtin-types is in atomic group androidx.appsearch"
+        },
+        {
+          "group": "androidx.appsearch",
+          "module": "appsearch-ktx",
+          "version": {
+            "requires": "1.2.0-alpha01"
+          },
+          "reason": "appsearch-builtin-types is in atomic group androidx.appsearch"
+        },
+        {
+          "group": "androidx.appsearch",
+          "module": "appsearch-local-storage",
+          "version": {
+            "requires": "1.2.0-alpha01"
+          },
+          "reason": "appsearch-builtin-types is in atomic group androidx.appsearch"
+        },
+        {
+          "group": "androidx.appsearch",
+          "module": "appsearch-platform-storage",
+          "version": {
+            "requires": "1.2.0-alpha01"
+          },
+          "reason": "appsearch-builtin-types is in atomic group androidx.appsearch"
+        },
+        {
+          "group": "androidx.appsearch",
+          "module": "appsearch-play-services-storage",
+          "version": {
+            "requires": "1.2.0-alpha01"
+          },
+          "reason": "appsearch-builtin-types is in atomic group androidx.appsearch"
+        }
+      ],
+      "files": [
+        {
+          "name": "appsearch-builtin-types-1.2.0-alpha01-sources.jar",
+          "url": "appsearch-builtin-types-1.2.0-alpha01-sources.jar",
+          "size": 70607,
+          "sha512": "9ffe651f19409d691710cc431ec736f4e9d2b1ec78f2320ba81cbd3f003464a9d3c1a8a04667172e1294cde3cfb32fe7465c0fba7f95709cc46da4d26fd30453",
+          "sha256": "495aa9ba8c59dc17ac0e14bd9a8a41a0e23b260b52cf0cc9973f5940fa127c99",
+          "sha1": "64997dbbb775057bcb6ad471280a740d3bb61916",
+          "md5": "c5aeeac33c7c09054befe35895130a5f"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        },
+        {
+          "group": "org.jspecify",
+          "module": "jspecify",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "androidx.appsearch",
+          "module": "appsearch",
+          "version": {
+            "requires": "1.2.0-alpha01"
+          },
+          "reason": "appsearch-builtin-types is in atomic group androidx.appsearch"
+        },
+        {
+          "group": "androidx.appsearch",
+          "module": "appsearch-compiler",
+          "version": {
+            "requires": "1.2.0-alpha01"
+          },
+          "reason": "appsearch-builtin-types is in atomic group androidx.appsearch"
+        },
+        {
+          "group": "androidx.appsearch",
+          "module": "appsearch-debug-view",
+          "version": {
+            "requires": "1.2.0-alpha01"
+          },
+          "reason": "appsearch-builtin-types is in atomic group androidx.appsearch"
+        },
+        {
+          "group": "androidx.appsearch",
+          "module": "appsearch-external-protobuf",
+          "version": {
+            "requires": "1.2.0-alpha01"
+          },
+          "reason": "appsearch-builtin-types is in atomic group androidx.appsearch"
+        },
+        {
+          "group": "androidx.appsearch",
+          "module": "appsearch-ktx",
+          "version": {
+            "requires": "1.2.0-alpha01"
+          },
+          "reason": "appsearch-builtin-types is in atomic group androidx.appsearch"
+        },
+        {
+          "group": "androidx.appsearch",
+          "module": "appsearch-local-storage",
+          "version": {
+            "requires": "1.2.0-alpha01"
+          },
+          "reason": "appsearch-builtin-types is in atomic group androidx.appsearch"
+        },
+        {
+          "group": "androidx.appsearch",
+          "module": "appsearch-platform-storage",
+          "version": {
+            "requires": "1.2.0-alpha01"
+          },
+          "reason": "appsearch-builtin-types is in atomic group androidx.appsearch"
+        },
+        {
+          "group": "androidx.appsearch",
+          "module": "appsearch-play-services-storage",
+          "version": {
+            "requires": "1.2.0-alpha01"
+          },
+          "reason": "appsearch-builtin-types is in atomic group androidx.appsearch"
+        }
+      ],
+      "files": [
+        {
+          "name": "appsearch-builtin-types-1.2.0-alpha01.aar",
+          "url": "appsearch-builtin-types-1.2.0-alpha01.aar",
+          "size": 206467,
+          "sha512": "543693f68d6c84d8eed373010bdfd38ad2aa97aa6c6ddce71f68d476e6150b4be0450c554e502bda5fea4cb9692c0e88d41dd9c8c8a489986daa672c4f02b65c",
+          "sha256": "0455948579607ca497a0590e4f36d28289bda973ab8a5f33c7039c3ebeb8085d",
+          "sha1": "c2ed940a0b328c1bfdb186b47f0c9503af98a60f",
+          "md5": "a119c8ff851efedd2cf5d9824e6a0bb8"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation-experimental",
+          "version": {
+            "requires": "1.5.1"
+          }
+        },
+        {
+          "group": "androidx.appsearch",
+          "module": "appsearch",
+          "version": {
+            "requires": "1.2.0-alpha01"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        },
+        {
+          "group": "org.jspecify",
+          "module": "jspecify",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "androidx.appsearch",
+          "module": "appsearch",
+          "version": {
+            "requires": "1.2.0-alpha01"
+          },
+          "reason": "appsearch-builtin-types is in atomic group androidx.appsearch"
+        },
+        {
+          "group": "androidx.appsearch",
+          "module": "appsearch-compiler",
+          "version": {
+            "requires": "1.2.0-alpha01"
+          },
+          "reason": "appsearch-builtin-types is in atomic group androidx.appsearch"
+        },
+        {
+          "group": "androidx.appsearch",
+          "module": "appsearch-debug-view",
+          "version": {
+            "requires": "1.2.0-alpha01"
+          },
+          "reason": "appsearch-builtin-types is in atomic group androidx.appsearch"
+        },
+        {
+          "group": "androidx.appsearch",
+          "module": "appsearch-external-protobuf",
+          "version": {
+            "requires": "1.2.0-alpha01"
+          },
+          "reason": "appsearch-builtin-types is in atomic group androidx.appsearch"
+        },
+        {
+          "group": "androidx.appsearch",
+          "module": "appsearch-ktx",
+          "version": {
+            "requires": "1.2.0-alpha01"
+          },
+          "reason": "appsearch-builtin-types is in atomic group androidx.appsearch"
+        },
+        {
+          "group": "androidx.appsearch",
+          "module": "appsearch-local-storage",
+          "version": {
+            "requires": "1.2.0-alpha01"
+          },
+          "reason": "appsearch-builtin-types is in atomic group androidx.appsearch"
+        },
+        {
+          "group": "androidx.appsearch",
+          "module": "appsearch-platform-storage",
+          "version": {
+            "requires": "1.2.0-alpha01"
+          },
+          "reason": "appsearch-builtin-types is in atomic group androidx.appsearch"
+        },
+        {
+          "group": "androidx.appsearch",
+          "module": "appsearch-play-services-storage",
+          "version": {
+            "requires": "1.2.0-alpha01"
+          },
+          "reason": "appsearch-builtin-types is in atomic group androidx.appsearch"
+        }
+      ],
+      "files": [
+        {
+          "name": "appsearch-builtin-types-1.2.0-alpha01.aar",
+          "url": "appsearch-builtin-types-1.2.0-alpha01.aar",
+          "size": 206467,
+          "sha512": "543693f68d6c84d8eed373010bdfd38ad2aa97aa6c6ddce71f68d476e6150b4be0450c554e502bda5fea4cb9692c0e88d41dd9c8c8a489986daa672c4f02b65c",
+          "sha256": "0455948579607ca497a0590e4f36d28289bda973ab8a5f33c7039c3ebeb8085d",
+          "sha1": "c2ed940a0b328c1bfdb186b47f0c9503af98a60f",
+          "md5": "a119c8ff851efedd2cf5d9824e6a0bb8"
+        }
+      ]
+    },
+    {
+      "name": "libraryVersionMetadata",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.usage": "library-version-metadata"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "androidx.appsearch",
+          "module": "appsearch",
+          "version": {
+            "requires": "1.2.0-alpha01"
+          },
+          "reason": "appsearch-builtin-types is in atomic group androidx.appsearch"
+        },
+        {
+          "group": "androidx.appsearch",
+          "module": "appsearch-compiler",
+          "version": {
+            "requires": "1.2.0-alpha01"
+          },
+          "reason": "appsearch-builtin-types is in atomic group androidx.appsearch"
+        },
+        {
+          "group": "androidx.appsearch",
+          "module": "appsearch-debug-view",
+          "version": {
+            "requires": "1.2.0-alpha01"
+          },
+          "reason": "appsearch-builtin-types is in atomic group androidx.appsearch"
+        },
+        {
+          "group": "androidx.appsearch",
+          "module": "appsearch-external-protobuf",
+          "version": {
+            "requires": "1.2.0-alpha01"
+          },
+          "reason": "appsearch-builtin-types is in atomic group androidx.appsearch"
+        },
+        {
+          "group": "androidx.appsearch",
+          "module": "appsearch-ktx",
+          "version": {
+            "requires": "1.2.0-alpha01"
+          },
+          "reason": "appsearch-builtin-types is in atomic group androidx.appsearch"
+        },
+        {
+          "group": "androidx.appsearch",
+          "module": "appsearch-local-storage",
+          "version": {
+            "requires": "1.2.0-alpha01"
+          },
+          "reason": "appsearch-builtin-types is in atomic group androidx.appsearch"
+        },
+        {
+          "group": "androidx.appsearch",
+          "module": "appsearch-platform-storage",
+          "version": {
+            "requires": "1.2.0-alpha01"
+          },
+          "reason": "appsearch-builtin-types is in atomic group androidx.appsearch"
+        },
+        {
+          "group": "androidx.appsearch",
+          "module": "appsearch-play-services-storage",
+          "version": {
+            "requires": "1.2.0-alpha01"
+          },
+          "reason": "appsearch-builtin-types is in atomic group androidx.appsearch"
+        }
+      ],
+      "files": [
+        {
+          "name": "appsearch-builtin-types-1.2.0-alpha01-versionMetadata.json",
+          "url": "appsearch-builtin-types-1.2.0-alpha01-versionMetadata.json",
+          "size": 40367,
+          "sha512": "b85a08288c954cb9b236e66f33acf85c3fffa85b3465f11ca1ebabb82c7e6645d7179db5074c1056dc11226be170dffeeb3c8ca9b779bb154675f861aa3641bd",
+          "sha256": "4db4f85221adce9083c1688df5074751a730821140df6539d31a8a007892e48f",
+          "sha1": "c6d50ca0a656d0600ff2b17ee54375bba32fdd55",
+          "md5": "9b05ebcde6554407750279015e58c13a"
+        }
+      ]
+    }
+  ]
+}

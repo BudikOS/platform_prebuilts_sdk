@@ -1,0 +1,146 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.graphics",
+    "module": "graphics-core",
+    "version": "1.1.0-beta01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0-milestone-7",
+      "buildId:": "15103823"
+    }
+  },
+  "variants": [
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "graphics-core-1.1.0-beta01-sources.jar",
+          "url": "graphics-core-1.1.0-beta01-sources.jar",
+          "size": 159894,
+          "sha512": "2772614042f8eb488b335a93fedcacfa93cc7d199b3953c49d576527178ad2a73c34d077a2960441c4ed4feea9535c880521325e82591b9941122ec0a865b90a",
+          "sha256": "1c4d407a1e0399f4cf4b3d9a0d4f7dba06c5f34f0af457cb619d3dbcd948c1e1",
+          "sha1": "4710e4a80574a7fd0b361d9a6e62c6843033ea38",
+          "md5": "15dcf66f6bf053bff889c10ca7233a82"
+        },
+        {
+          "name": "graphics-core-1.1.0-beta01-samples-sources.jar",
+          "url": "graphics-core-1.1.0-beta01-samples-sources.jar",
+          "size": 7465,
+          "sha512": "da1ea30c0591b64f5681b3d5394ef56346f58faceeb38fdf74059900799aacb116ff15cb3c0dea6c7942cc98891af7ec1a1e2c2c6c011414c44951cebf8de51e",
+          "sha256": "7cabf7c6886b6eecb5ddef2155e88b3579964a3085e434c7c8450574645f878a",
+          "sha1": "95ccb07a15a7a21f87497e9cf265bf971818a0bd",
+          "md5": "df7d4bd539910837ea411574634dc0bf"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "graphics-core-1.1.0-beta01.aar",
+          "url": "graphics-core-1.1.0-beta01.aar",
+          "size": 699293,
+          "sha512": "67564228d160f0c13b784fa1c6a494a3ee4ac861e379de36ed52e2e45d5c35f50b2029363dc5da427d9a0e19d685e5be23041260bc3a9aef77d6f64414679572",
+          "sha256": "9c61fe8fd5f3ecd6ff657bf40be96550ed852d4d903e3bea320cc32e5996a04f",
+          "sha1": "22bb8f48055d9128880c355516d10c9f3a4a1c54",
+          "md5": "dbab68ffcab0813d82a46e2e70c522d9"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation-experimental",
+          "version": {
+            "requires": "1.4.1"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "graphics-core-1.1.0-beta01.aar",
+          "url": "graphics-core-1.1.0-beta01.aar",
+          "size": 699293,
+          "sha512": "67564228d160f0c13b784fa1c6a494a3ee4ac861e379de36ed52e2e45d5c35f50b2029363dc5da427d9a0e19d685e5be23041260bc3a9aef77d6f64414679572",
+          "sha256": "9c61fe8fd5f3ecd6ff657bf40be96550ed852d4d903e3bea320cc32e5996a04f",
+          "sha1": "22bb8f48055d9128880c355516d10c9f3a4a1c54",
+          "md5": "dbab68ffcab0813d82a46e2e70c522d9"
+        }
+      ]
+    },
+    {
+      "name": "libraryVersionMetadata",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.usage": "library-version-metadata"
+      },
+      "files": [
+        {
+          "name": "graphics-core-1.1.0-beta01-versionMetadata.json",
+          "url": "graphics-core-1.1.0-beta01-versionMetadata.json",
+          "size": 34683,
+          "sha512": "6170358d9466a5ac3459f163164db6dafea102d2d12fd35ec5933e477261a97cc6e50b351cca33edc3a28124941e745181d743ed25776533a87561e2419653b0",
+          "sha256": "a6d7d015d1f4ffe1a13239ea0319cadb68769aa7bd410052539aa1e13fe384f7",
+          "sha1": "1dbe236892d7d3ccb851a59c923e43f14de70567",
+          "md5": "908c9589786d81bdb18c1150982d205e"
+        }
+      ]
+    }
+  ]
+}

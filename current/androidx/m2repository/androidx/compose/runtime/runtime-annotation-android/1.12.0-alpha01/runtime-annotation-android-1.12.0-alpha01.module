@@ -1,0 +1,358 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../runtime-annotation/1.12.0-alpha01/runtime-annotation-1.12.0-alpha01.module",
+    "group": "androidx.compose.runtime",
+    "module": "runtime-annotation",
+    "version": "1.12.0-alpha01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.0",
+      "buildId:": "15086128"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.12.0-alpha01"
+          },
+          "reason": "runtime-annotation is in atomic group androidx.compose.runtime"
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime-lint",
+          "version": {
+            "requires": "1.12.0-alpha01"
+          },
+          "reason": "runtime-annotation is in atomic group androidx.compose.runtime"
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime-livedata",
+          "version": {
+            "requires": "1.12.0-alpha01"
+          },
+          "reason": "runtime-annotation is in atomic group androidx.compose.runtime"
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime-retain",
+          "version": {
+            "requires": "1.12.0-alpha01"
+          },
+          "reason": "runtime-annotation is in atomic group androidx.compose.runtime"
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime-retain-lint",
+          "version": {
+            "requires": "1.12.0-alpha01"
+          },
+          "reason": "runtime-annotation is in atomic group androidx.compose.runtime"
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime-tracing",
+          "version": {
+            "requires": "1.12.0-alpha01"
+          },
+          "reason": "runtime-annotation is in atomic group androidx.compose.runtime"
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime-rxjava2",
+          "version": {
+            "requires": "1.12.0-alpha01"
+          },
+          "reason": "runtime-annotation is in atomic group androidx.compose.runtime"
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime-rxjava3",
+          "version": {
+            "requires": "1.12.0-alpha01"
+          },
+          "reason": "runtime-annotation is in atomic group androidx.compose.runtime"
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime-saveable",
+          "version": {
+            "requires": "1.12.0-alpha01"
+          },
+          "reason": "runtime-annotation is in atomic group androidx.compose.runtime"
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime-saveable-lint",
+          "version": {
+            "requires": "1.12.0-alpha01"
+          },
+          "reason": "runtime-annotation is in atomic group androidx.compose.runtime"
+        }
+      ],
+      "files": [
+        {
+          "name": "runtime-annotation.aar",
+          "url": "runtime-annotation-android-1.12.0-alpha01.aar",
+          "size": 8893,
+          "sha512": "704f55f8ad9340371886ce96a113147268a631931631e253a6e5101b8065ce4ad14b4bbc68a5f6ebdbd319342d82454a0d0444a412872cc30df79378a619cb92",
+          "sha256": "05c21b5e181cc48dffd4a01c29404b894883fe179d169c2f3aa4ce14ab802fe3",
+          "sha1": "e5f885bd70d003ee530ef4128bdbc63d05c8b0ae",
+          "md5": "005642eef3d4d80f38f1430fc583aaa4"
+        }
+      ]
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.12.0-alpha01"
+          },
+          "reason": "runtime-annotation is in atomic group androidx.compose.runtime"
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime-lint",
+          "version": {
+            "requires": "1.12.0-alpha01"
+          },
+          "reason": "runtime-annotation is in atomic group androidx.compose.runtime"
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime-livedata",
+          "version": {
+            "requires": "1.12.0-alpha01"
+          },
+          "reason": "runtime-annotation is in atomic group androidx.compose.runtime"
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime-retain",
+          "version": {
+            "requires": "1.12.0-alpha01"
+          },
+          "reason": "runtime-annotation is in atomic group androidx.compose.runtime"
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime-retain-lint",
+          "version": {
+            "requires": "1.12.0-alpha01"
+          },
+          "reason": "runtime-annotation is in atomic group androidx.compose.runtime"
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime-tracing",
+          "version": {
+            "requires": "1.12.0-alpha01"
+          },
+          "reason": "runtime-annotation is in atomic group androidx.compose.runtime"
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime-rxjava2",
+          "version": {
+            "requires": "1.12.0-alpha01"
+          },
+          "reason": "runtime-annotation is in atomic group androidx.compose.runtime"
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime-rxjava3",
+          "version": {
+            "requires": "1.12.0-alpha01"
+          },
+          "reason": "runtime-annotation is in atomic group androidx.compose.runtime"
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime-saveable",
+          "version": {
+            "requires": "1.12.0-alpha01"
+          },
+          "reason": "runtime-annotation is in atomic group androidx.compose.runtime"
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime-saveable-lint",
+          "version": {
+            "requires": "1.12.0-alpha01"
+          },
+          "reason": "runtime-annotation is in atomic group androidx.compose.runtime"
+        }
+      ],
+      "files": [
+        {
+          "name": "runtime-annotation.aar",
+          "url": "runtime-annotation-android-1.12.0-alpha01.aar",
+          "size": 8893,
+          "sha512": "704f55f8ad9340371886ce96a113147268a631931631e253a6e5101b8065ce4ad14b4bbc68a5f6ebdbd319342d82454a0d0444a412872cc30df79378a619cb92",
+          "sha256": "05c21b5e181cc48dffd4a01c29404b894883fe179d169c2f3aa4ce14ab802fe3",
+          "sha1": "e5f885bd70d003ee530ef4128bdbc63d05c8b0ae",
+          "md5": "005642eef3d4d80f38f1430fc583aaa4"
+        }
+      ]
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.12.0-alpha01"
+          },
+          "reason": "runtime-annotation is in atomic group androidx.compose.runtime"
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime-lint",
+          "version": {
+            "requires": "1.12.0-alpha01"
+          },
+          "reason": "runtime-annotation is in atomic group androidx.compose.runtime"
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime-livedata",
+          "version": {
+            "requires": "1.12.0-alpha01"
+          },
+          "reason": "runtime-annotation is in atomic group androidx.compose.runtime"
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime-retain",
+          "version": {
+            "requires": "1.12.0-alpha01"
+          },
+          "reason": "runtime-annotation is in atomic group androidx.compose.runtime"
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime-retain-lint",
+          "version": {
+            "requires": "1.12.0-alpha01"
+          },
+          "reason": "runtime-annotation is in atomic group androidx.compose.runtime"
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime-tracing",
+          "version": {
+            "requires": "1.12.0-alpha01"
+          },
+          "reason": "runtime-annotation is in atomic group androidx.compose.runtime"
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime-rxjava2",
+          "version": {
+            "requires": "1.12.0-alpha01"
+          },
+          "reason": "runtime-annotation is in atomic group androidx.compose.runtime"
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime-rxjava3",
+          "version": {
+            "requires": "1.12.0-alpha01"
+          },
+          "reason": "runtime-annotation is in atomic group androidx.compose.runtime"
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime-saveable",
+          "version": {
+            "requires": "1.12.0-alpha01"
+          },
+          "reason": "runtime-annotation is in atomic group androidx.compose.runtime"
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime-saveable-lint",
+          "version": {
+            "requires": "1.12.0-alpha01"
+          },
+          "reason": "runtime-annotation is in atomic group androidx.compose.runtime"
+        }
+      ],
+      "files": [
+        {
+          "name": "runtime-annotation-android-1.12.0-alpha01-sources.jar",
+          "url": "runtime-annotation-android-1.12.0-alpha01-sources.jar",
+          "size": 12735,
+          "sha512": "af051f40e53b47e460a36639af640bf45881bbc690434ffa2b631de52b51bcc13ba92ead8f881a0a40a1d7d2d9db3645432105b00d3de10a45ee9ea6533b5474",
+          "sha256": "faddbe6240e43542fcccfb4106f15b36494facbd81dc18e58124c1327dfe4fb1",
+          "sha1": "6a0e4345998bd6d41c0e9993d0bb23c4a96ba112",
+          "md5": "df620258a86188e198205b43603ff9f5"
+        },
+        {
+          "name": "runtime-annotation-1.12.0-alpha01-samples-sources.jar",
+          "url": "runtime-annotation-android-1.12.0-alpha01-samples-sources.jar",
+          "size": 6132,
+          "sha512": "e91df26f47eae05520743a16fcbfeb1d206772dea180805eb6a8087ff486a331ee732dc964f00b54b49bbad86d85befb51a642a0826dfdad054db9f4bd3095c3",
+          "sha256": "728e5ed27524324dc79b771f67891f711058041ef3d6b805edbe0e4c0fea3fd4",
+          "sha1": "7f2edc491e066e09b04bcb56725b8eacb21ed045",
+          "md5": "87b2c17252a543f8eb8c4573978f8d77"
+        }
+      ]
+    }
+  ]
+}

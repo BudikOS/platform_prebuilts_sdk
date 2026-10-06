@@ -1,0 +1,144 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.hilt",
+    "module": "hilt-navigation-fragment",
+    "version": "1.4.0-alpha02",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0-milestone-7",
+      "buildId:": "15103823"
+    }
+  },
+  "variants": [
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "hilt-navigation-fragment-1.4.0-alpha02-sources.jar",
+          "url": "hilt-navigation-fragment-1.4.0-alpha02-sources.jar",
+          "size": 6355,
+          "sha512": "00e719cc430c57a1b4385b553c18ea1f3501a6a60c310cae9851f02d1cbdb1dcaa902e08bebeb041a7cadd3b5b287febdc7939294d7a1071cae9d6f9ed249926",
+          "sha256": "8afdcedd20d3bc26d4c66f3a7e8d40cd9c21290e1ea25f2cd2720a929cb2d12c",
+          "sha1": "19d7f949265b8eae42e436e5605176832b933680",
+          "md5": "071871d46e2aa2938181bb9dc63ff1e3"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.hilt",
+          "module": "hilt-lifecycle-viewmodel",
+          "version": {
+            "requires": "1.4.0-alpha02"
+          }
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-fragment-ktx",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "hilt-navigation-fragment-1.4.0-alpha02.aar",
+          "url": "hilt-navigation-fragment-1.4.0-alpha02.aar",
+          "size": 15585,
+          "sha512": "2ad36fef32a18253b349f7e8533cd31313b662443b0a6f0ce386312c87858d1783ccb50305b16aa80fc1a255c97483911f42b379d52db210b06b3f4b8b3f2a7b",
+          "sha256": "74b492c2a5d3af9fe3a4d4819e5b1cc75069ff7238a3a2ef4141544a7cc6eedb",
+          "sha1": "4192a0faacabe803ca4b2d1d130790eb561f5a7b",
+          "md5": "aa381de3da6aeccbe6bcace941adde61"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.hilt",
+          "module": "hilt-lifecycle-viewmodel",
+          "version": {
+            "requires": "1.4.0-alpha02"
+          }
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-fragment-ktx",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "hilt-navigation-fragment-1.4.0-alpha02.aar",
+          "url": "hilt-navigation-fragment-1.4.0-alpha02.aar",
+          "size": 15585,
+          "sha512": "2ad36fef32a18253b349f7e8533cd31313b662443b0a6f0ce386312c87858d1783ccb50305b16aa80fc1a255c97483911f42b379d52db210b06b3f4b8b3f2a7b",
+          "sha256": "74b492c2a5d3af9fe3a4d4819e5b1cc75069ff7238a3a2ef4141544a7cc6eedb",
+          "sha1": "4192a0faacabe803ca4b2d1d130790eb561f5a7b",
+          "md5": "aa381de3da6aeccbe6bcace941adde61"
+        }
+      ]
+    },
+    {
+      "name": "libraryVersionMetadata",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.usage": "library-version-metadata"
+      },
+      "files": [
+        {
+          "name": "hilt-navigation-fragment-1.4.0-alpha02-versionMetadata.json",
+          "url": "hilt-navigation-fragment-1.4.0-alpha02-versionMetadata.json",
+          "size": 656,
+          "sha512": "371c5517a227652f6e5e053841eb6d5940a602ee872864fa3d9f53ea0f30ea1dbe6a9285c73553d0f84ee85e4ea4c479bd98de168cbf267d9e6a636951a3d13d",
+          "sha256": "ed17bdcc55ae617dd10f2ae506ed04a5bc0639039428de653a0358a131ba467f",
+          "sha1": "080031ed614da6228a465f66f14c8152231e9ff0",
+          "md5": "d4d23b1ad32901a79336b3bae26d21cf"
+        }
+      ]
+    }
+  ]
+}

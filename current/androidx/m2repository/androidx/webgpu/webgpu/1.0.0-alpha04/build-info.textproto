@@ -1,0 +1,70 @@
+version: "1.0.0-alpha04"
+dependency_list {
+  dependency {
+    group_id: "androidx.annotation"
+    artifact_id: "annotation"
+    version: "1.7.0"
+    is_tip_of_tree: false
+  }
+}
+release_checklist {
+}
+build_id: "14959266"
+group_id: "androidx.webgpu"
+artifact_id: "webgpu"
+path: "/webgpu/webgpu"
+sha: "21e3458a7da97c5df8e8c4c995f96156b7d50ec2"
+require_same_version_group_build: true
+project_zip_path: "per-project-zips/androidx.webgpu-webgpu-all-1.0.0-alpha04.zip"
+kotlin_version: "2.3.10"
+dependency_constraint_list {
+}
+should_publish_docs: true
+is_kmp: false
+target: "androidx"
+test_module_names: "webgpu-webgpureleaseAndroidTest.xml"
+test_module_names: ":webgpu:webgpu:testReleaseUnitTest"
+all_dependencies_list {
+  dependency {
+    group_id: "androidx.annotation"
+    artifact_id: "annotation"
+    version: "1.7.0"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.annotation"
+    artifact_id: "annotation-jvm"
+    version: "1.7.0"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "org.jetbrains"
+    artifact_id: "annotations"
+    version: "23.0.0"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "org.jetbrains.kotlin"
+    artifact_id: "kotlin-stdlib"
+    version: "2.1.20"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "org.jetbrains.kotlinx"
+    artifact_id: "kotlinx-coroutines-bom"
+    version: "1.9.0"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "org.jetbrains.kotlinx"
+    artifact_id: "kotlinx-coroutines-core"
+    version: "1.9.0"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "org.jetbrains.kotlinx"
+    artifact_id: "kotlinx-coroutines-core-jvm"
+    version: "1.9.0"
+    is_tip_of_tree: false
+  }
+}

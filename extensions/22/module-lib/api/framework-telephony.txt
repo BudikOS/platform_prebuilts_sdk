@@ -1,0 +1,11 @@
+// Signature format: 2.0
+package android.telephony {
+
+  public final class TelephonyServicesInitializer {
+    method public static void initialize();
+    method public static void initialize(@NonNull android.content.Context);
+    method public static void registerServiceWrappers();
+  }
+
+}
+

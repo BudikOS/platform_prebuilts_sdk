@@ -1,0 +1,484 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.wear.protolayout",
+    "module": "protolayout-material3",
+    "version": "1.5.0-alpha01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0-milestone-7",
+      "buildId:": "15103823"
+    }
+  },
+  "variants": [
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "androidx.wear.protolayout",
+          "module": "protolayout",
+          "version": {
+            "requires": "1.5.0-alpha01"
+          },
+          "reason": "protolayout-material3 is in atomic group androidx.wear.protolayout"
+        },
+        {
+          "group": "androidx.wear.protolayout",
+          "module": "protolayout-expression",
+          "version": {
+            "requires": "1.5.0-alpha01"
+          },
+          "reason": "protolayout-material3 is in atomic group androidx.wear.protolayout"
+        },
+        {
+          "group": "androidx.wear.protolayout",
+          "module": "protolayout-expression-pipeline",
+          "version": {
+            "requires": "1.5.0-alpha01"
+          },
+          "reason": "protolayout-material3 is in atomic group androidx.wear.protolayout"
+        },
+        {
+          "group": "androidx.wear.protolayout",
+          "module": "protolayout-external-protobuf",
+          "version": {
+            "requires": "1.5.0-alpha01"
+          },
+          "reason": "protolayout-material3 is in atomic group androidx.wear.protolayout"
+        },
+        {
+          "group": "androidx.wear.protolayout",
+          "module": "protolayout-material",
+          "version": {
+            "requires": "1.5.0-alpha01"
+          },
+          "reason": "protolayout-material3 is in atomic group androidx.wear.protolayout"
+        },
+        {
+          "group": "androidx.wear.protolayout",
+          "module": "protolayout-material-core",
+          "version": {
+            "requires": "1.5.0-alpha01"
+          },
+          "reason": "protolayout-material3 is in atomic group androidx.wear.protolayout"
+        },
+        {
+          "group": "androidx.wear.protolayout",
+          "module": "protolayout-proto",
+          "version": {
+            "requires": "1.5.0-alpha01"
+          },
+          "reason": "protolayout-material3 is in atomic group androidx.wear.protolayout"
+        },
+        {
+          "group": "androidx.wear.protolayout",
+          "module": "protolayout-renderer",
+          "version": {
+            "requires": "1.5.0-alpha01"
+          },
+          "reason": "protolayout-material3 is in atomic group androidx.wear.protolayout"
+        },
+        {
+          "group": "androidx.wear.protolayout",
+          "module": "protolayout-testing",
+          "version": {
+            "requires": "1.5.0-alpha01"
+          },
+          "reason": "protolayout-material3 is in atomic group androidx.wear.protolayout"
+        }
+      ],
+      "files": [
+        {
+          "name": "protolayout-material3-1.5.0-alpha01-sources.jar",
+          "url": "protolayout-material3-1.5.0-alpha01-sources.jar",
+          "size": 120239,
+          "sha512": "937b6eaafecd8644d710f0d2580a0084779a487cdc07676f840a7623728bdc8150f33116f4cfcd4b05b05921f7bbd9fc63ee3eb8ced599c45140e40fa16f3138",
+          "sha256": "336c2612ff2197c4ac1dba08ab6fe3d78bf698036c3855021f9e82f17fa6c79b",
+          "sha1": "727d49cc2721be64d5e11451c8fa834353a04a27",
+          "md5": "340fed88a7797c7ed4ed8f61ba9dec49"
+        },
+        {
+          "name": "protolayout-material3-1.5.0-alpha01-samples-sources.jar",
+          "url": "protolayout-material3-1.5.0-alpha01-samples-sources.jar",
+          "size": 8631,
+          "sha512": "b40edcaa21f684d3b2ceb26e06b1f022af51eef7a2a67dc66e1ba6c443e34ef03c927b1434757579d10103deeed37ee3cf5efe1206778e4dec6a93119d5dcba6",
+          "sha256": "17f2c2cc6372a4469b3a70b5b85c707f63a4534e3afb8e62d36dddd40fd06ff7",
+          "sha1": "9f14fca1b8673356fad9e7dc26a5feb114b944f2",
+          "md5": "042bf16fb4d22a3166102d43a9676628"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.wear.protolayout",
+          "module": "protolayout",
+          "version": {
+            "requires": "1.5.0-alpha01"
+          }
+        },
+        {
+          "group": "androidx.wear.protolayout",
+          "module": "protolayout-expression",
+          "version": {
+            "requires": "1.5.0-alpha01"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        },
+        {
+          "group": "org.jspecify",
+          "module": "jspecify",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "androidx.wear.protolayout",
+          "module": "protolayout",
+          "version": {
+            "requires": "1.5.0-alpha01"
+          },
+          "reason": "protolayout-material3 is in atomic group androidx.wear.protolayout"
+        },
+        {
+          "group": "androidx.wear.protolayout",
+          "module": "protolayout-expression",
+          "version": {
+            "requires": "1.5.0-alpha01"
+          },
+          "reason": "protolayout-material3 is in atomic group androidx.wear.protolayout"
+        },
+        {
+          "group": "androidx.wear.protolayout",
+          "module": "protolayout-expression-pipeline",
+          "version": {
+            "requires": "1.5.0-alpha01"
+          },
+          "reason": "protolayout-material3 is in atomic group androidx.wear.protolayout"
+        },
+        {
+          "group": "androidx.wear.protolayout",
+          "module": "protolayout-external-protobuf",
+          "version": {
+            "requires": "1.5.0-alpha01"
+          },
+          "reason": "protolayout-material3 is in atomic group androidx.wear.protolayout"
+        },
+        {
+          "group": "androidx.wear.protolayout",
+          "module": "protolayout-material",
+          "version": {
+            "requires": "1.5.0-alpha01"
+          },
+          "reason": "protolayout-material3 is in atomic group androidx.wear.protolayout"
+        },
+        {
+          "group": "androidx.wear.protolayout",
+          "module": "protolayout-material-core",
+          "version": {
+            "requires": "1.5.0-alpha01"
+          },
+          "reason": "protolayout-material3 is in atomic group androidx.wear.protolayout"
+        },
+        {
+          "group": "androidx.wear.protolayout",
+          "module": "protolayout-proto",
+          "version": {
+            "requires": "1.5.0-alpha01"
+          },
+          "reason": "protolayout-material3 is in atomic group androidx.wear.protolayout"
+        },
+        {
+          "group": "androidx.wear.protolayout",
+          "module": "protolayout-renderer",
+          "version": {
+            "requires": "1.5.0-alpha01"
+          },
+          "reason": "protolayout-material3 is in atomic group androidx.wear.protolayout"
+        },
+        {
+          "group": "androidx.wear.protolayout",
+          "module": "protolayout-testing",
+          "version": {
+            "requires": "1.5.0-alpha01"
+          },
+          "reason": "protolayout-material3 is in atomic group androidx.wear.protolayout"
+        }
+      ],
+      "files": [
+        {
+          "name": "protolayout-material3-1.5.0-alpha01.aar",
+          "url": "protolayout-material3-1.5.0-alpha01.aar",
+          "size": 216768,
+          "sha512": "1760aff5e1a6b7426718e8772cf619f83703129950815c103088456e19ac184fe53307e71c88ec6f4952a1e6adc30da6f1dc51944991cfa3891927c30d7c2561",
+          "sha256": "663e2965c9dd9c4eb2d4e35bb2300e5574384550ac0dd7c8a88bfbfdd4437e48",
+          "sha1": "f35f62cd9f6738efb281aa67122f76d1914b9d48",
+          "md5": "dd8d3c5fb20c03ba4be7132d7a0a576c"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation-experimental",
+          "version": {
+            "requires": "1.4.1"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.15.0"
+          }
+        },
+        {
+          "group": "androidx.wear.protolayout",
+          "module": "protolayout",
+          "version": {
+            "requires": "1.5.0-alpha01"
+          }
+        },
+        {
+          "group": "androidx.wear.protolayout",
+          "module": "protolayout-expression",
+          "version": {
+            "requires": "1.5.0-alpha01"
+          }
+        },
+        {
+          "group": "androidx.wear.protolayout",
+          "module": "protolayout-material-core",
+          "version": {
+            "requires": "1.5.0-alpha01"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        },
+        {
+          "group": "org.jspecify",
+          "module": "jspecify",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "androidx.wear.protolayout",
+          "module": "protolayout",
+          "version": {
+            "requires": "1.5.0-alpha01"
+          },
+          "reason": "protolayout-material3 is in atomic group androidx.wear.protolayout"
+        },
+        {
+          "group": "androidx.wear.protolayout",
+          "module": "protolayout-expression",
+          "version": {
+            "requires": "1.5.0-alpha01"
+          },
+          "reason": "protolayout-material3 is in atomic group androidx.wear.protolayout"
+        },
+        {
+          "group": "androidx.wear.protolayout",
+          "module": "protolayout-expression-pipeline",
+          "version": {
+            "requires": "1.5.0-alpha01"
+          },
+          "reason": "protolayout-material3 is in atomic group androidx.wear.protolayout"
+        },
+        {
+          "group": "androidx.wear.protolayout",
+          "module": "protolayout-external-protobuf",
+          "version": {
+            "requires": "1.5.0-alpha01"
+          },
+          "reason": "protolayout-material3 is in atomic group androidx.wear.protolayout"
+        },
+        {
+          "group": "androidx.wear.protolayout",
+          "module": "protolayout-material",
+          "version": {
+            "requires": "1.5.0-alpha01"
+          },
+          "reason": "protolayout-material3 is in atomic group androidx.wear.protolayout"
+        },
+        {
+          "group": "androidx.wear.protolayout",
+          "module": "protolayout-material-core",
+          "version": {
+            "requires": "1.5.0-alpha01"
+          },
+          "reason": "protolayout-material3 is in atomic group androidx.wear.protolayout"
+        },
+        {
+          "group": "androidx.wear.protolayout",
+          "module": "protolayout-proto",
+          "version": {
+            "requires": "1.5.0-alpha01"
+          },
+          "reason": "protolayout-material3 is in atomic group androidx.wear.protolayout"
+        },
+        {
+          "group": "androidx.wear.protolayout",
+          "module": "protolayout-renderer",
+          "version": {
+            "requires": "1.5.0-alpha01"
+          },
+          "reason": "protolayout-material3 is in atomic group androidx.wear.protolayout"
+        },
+        {
+          "group": "androidx.wear.protolayout",
+          "module": "protolayout-testing",
+          "version": {
+            "requires": "1.5.0-alpha01"
+          },
+          "reason": "protolayout-material3 is in atomic group androidx.wear.protolayout"
+        }
+      ],
+      "files": [
+        {
+          "name": "protolayout-material3-1.5.0-alpha01.aar",
+          "url": "protolayout-material3-1.5.0-alpha01.aar",
+          "size": 216768,
+          "sha512": "1760aff5e1a6b7426718e8772cf619f83703129950815c103088456e19ac184fe53307e71c88ec6f4952a1e6adc30da6f1dc51944991cfa3891927c30d7c2561",
+          "sha256": "663e2965c9dd9c4eb2d4e35bb2300e5574384550ac0dd7c8a88bfbfdd4437e48",
+          "sha1": "f35f62cd9f6738efb281aa67122f76d1914b9d48",
+          "md5": "dd8d3c5fb20c03ba4be7132d7a0a576c"
+        }
+      ]
+    },
+    {
+      "name": "libraryVersionMetadata",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.usage": "library-version-metadata"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "androidx.wear.protolayout",
+          "module": "protolayout",
+          "version": {
+            "requires": "1.5.0-alpha01"
+          },
+          "reason": "protolayout-material3 is in atomic group androidx.wear.protolayout"
+        },
+        {
+          "group": "androidx.wear.protolayout",
+          "module": "protolayout-expression",
+          "version": {
+            "requires": "1.5.0-alpha01"
+          },
+          "reason": "protolayout-material3 is in atomic group androidx.wear.protolayout"
+        },
+        {
+          "group": "androidx.wear.protolayout",
+          "module": "protolayout-expression-pipeline",
+          "version": {
+            "requires": "1.5.0-alpha01"
+          },
+          "reason": "protolayout-material3 is in atomic group androidx.wear.protolayout"
+        },
+        {
+          "group": "androidx.wear.protolayout",
+          "module": "protolayout-external-protobuf",
+          "version": {
+            "requires": "1.5.0-alpha01"
+          },
+          "reason": "protolayout-material3 is in atomic group androidx.wear.protolayout"
+        },
+        {
+          "group": "androidx.wear.protolayout",
+          "module": "protolayout-material",
+          "version": {
+            "requires": "1.5.0-alpha01"
+          },
+          "reason": "protolayout-material3 is in atomic group androidx.wear.protolayout"
+        },
+        {
+          "group": "androidx.wear.protolayout",
+          "module": "protolayout-material-core",
+          "version": {
+            "requires": "1.5.0-alpha01"
+          },
+          "reason": "protolayout-material3 is in atomic group androidx.wear.protolayout"
+        },
+        {
+          "group": "androidx.wear.protolayout",
+          "module": "protolayout-proto",
+          "version": {
+            "requires": "1.5.0-alpha01"
+          },
+          "reason": "protolayout-material3 is in atomic group androidx.wear.protolayout"
+        },
+        {
+          "group": "androidx.wear.protolayout",
+          "module": "protolayout-renderer",
+          "version": {
+            "requires": "1.5.0-alpha01"
+          },
+          "reason": "protolayout-material3 is in atomic group androidx.wear.protolayout"
+        },
+        {
+          "group": "androidx.wear.protolayout",
+          "module": "protolayout-testing",
+          "version": {
+            "requires": "1.5.0-alpha01"
+          },
+          "reason": "protolayout-material3 is in atomic group androidx.wear.protolayout"
+        }
+      ],
+      "files": [
+        {
+          "name": "protolayout-material3-1.5.0-alpha01-versionMetadata.json",
+          "url": "protolayout-material3-1.5.0-alpha01-versionMetadata.json",
+          "size": 53571,
+          "sha512": "c16eed6c752b9fe222a10f61edfb4bb042c4c7655550ddadba0b650df22811b0f975d04efbb3498a702dcab60e273aa0b53f52e40398c6dda140ef19108cb8a9",
+          "sha256": "296b634ae250e6d5784c2145bda1f5861523cdc5e0d3e0fecf03ff01abaa191d",
+          "sha1": "027e1afbe72b3ed4638e1d4179e00dabaa4c41b5",
+          "md5": "3698e9fc5d20c7d03b163521ee6b2058"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+version: "1.2.0-alpha01"
+dependency_list {
+  dependency {
+    group_id: "androidx.annotation"
+    artifact_id: "annotation"
+    version: "1.8.1"
+    is_tip_of_tree: false
+  }
+}
+release_checklist {
+}
+build_id: "15086128"
+group_id: "androidx.constraintlayout"
+artifact_id: "constraintlayout-core"
+path: "/constraintlayout/constraintlayout-core"
+sha: "43252b8ecd5ec90716aa131e6d14cb8e51fdb250"
+require_same_version_group_build: false
+project_zip_path: "per-project-zips/androidx.constraintlayout-constraintlayout-core-all-1.2.0-alpha01.zip"
+kotlin_version: "2.3.20"
+dependency_constraint_list {
+}
+should_publish_docs: true
+is_kmp: false
+target: "androidx"
+test_module_names: ":constraintlayout:constraintlayout-core:test"
+all_dependencies_list {
+  dependency {
+    group_id: "androidx.annotation"
+    artifact_id: "annotation"
+    version: "1.8.1"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.annotation"
+    artifact_id: "annotation-jvm"
+    version: "1.8.1"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "org.jetbrains"
+    artifact_id: "annotations"
+    version: "13.0"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "org.jetbrains.kotlin"
+    artifact_id: "kotlin-stdlib"
+    version: "1.7.10"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "org.jetbrains.kotlin"
+    artifact_id: "kotlin-stdlib-common"
+    version: "1.7.10"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "org.jspecify"
+    artifact_id: "jspecify"
+    version: "1.0.0"
+    is_tip_of_tree: false
+  }
+}

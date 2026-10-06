@@ -1,0 +1,142 @@
+version: "1.7.0-alpha02"
+dependency_list {
+  dependency {
+    group_id: "androidx.annotation"
+    artifact_id: "annotation"
+    version: "1.8.1"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.camera"
+    artifact_id: "camera-common"
+    version: "1.7.0-alpha02"
+    is_tip_of_tree: true
+  }
+}
+release_checklist {
+}
+build_id: "15103823"
+group_id: "androidx.camera"
+artifact_id: "camera-common-testing"
+path: "/camera/camera-common-testing"
+sha: "ad261a1d1a12056ced5899983c3b3b2e8da30d41"
+require_same_version_group_build: true
+project_zip_path: "per-project-zips/androidx.camera-camera-common-testing-all-1.7.0-alpha02.zip"
+kotlin_version: "2.3.20"
+dependency_constraint_list {
+  dependency {
+    group_id: "androidx.camera"
+    artifact_id: "camera-camera2"
+    version: "1.7.0-alpha02"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.camera"
+    artifact_id: "camera-camera2-pipe"
+    version: "1.7.0-alpha02"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.camera"
+    artifact_id: "camera-common"
+    version: "1.7.0-alpha02"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.camera"
+    artifact_id: "camera-compose"
+    version: "1.7.0-alpha02"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.camera"
+    artifact_id: "camera-core"
+    version: "1.7.0-alpha02"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.camera"
+    artifact_id: "camera-effects"
+    version: "1.7.0-alpha02"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.camera"
+    artifact_id: "camera-extensions"
+    version: "1.7.0-alpha02"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.camera"
+    artifact_id: "camera-lifecycle"
+    version: "1.7.0-alpha02"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.camera"
+    artifact_id: "camera-mlkit-vision"
+    version: "1.7.0-alpha02"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.camera"
+    artifact_id: "camera-video"
+    version: "1.7.0-alpha02"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.camera"
+    artifact_id: "camera-view"
+    version: "1.7.0-alpha02"
+    is_tip_of_tree: true
+  }
+}
+should_publish_docs: true
+is_kmp: false
+target: "androidx"
+test_module_names: "camera-camera-common-testingreleaseAndroidTest.xml"
+test_module_names: ":camera:camera-common-testing:testReleaseUnitTest"
+all_dependencies_list {
+  dependency {
+    group_id: "androidx.annotation"
+    artifact_id: "annotation"
+    version: "1.8.1"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.annotation"
+    artifact_id: "annotation-jvm"
+    version: "1.8.1"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.camera"
+    artifact_id: "camera-common"
+    version: "1.7.0-alpha02"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "org.jetbrains"
+    artifact_id: "annotations"
+    version: "13.0"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "org.jetbrains.kotlin"
+    artifact_id: "kotlin-stdlib"
+    version: "2.1.20"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "org.jetbrains.kotlinx"
+    artifact_id: "atomicfu"
+    version: "0.28.0"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "org.jetbrains.kotlinx"
+    artifact_id: "atomicfu-jvm"
+    version: "0.28.0"
+    is_tip_of_tree: false
+  }
+}

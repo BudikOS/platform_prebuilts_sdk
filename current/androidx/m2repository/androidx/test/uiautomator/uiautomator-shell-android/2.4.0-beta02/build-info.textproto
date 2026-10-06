@@ -1,0 +1,35 @@
+version: "2.4.0-beta02"
+dependency_list {
+  dependency {
+    group_id: "androidx.test.uiautomator"
+    artifact_id: "uiautomator-shell-android"
+    version: "2.4.0-beta02"
+    is_tip_of_tree: true
+  }
+}
+release_checklist {
+}
+build_id: "15103823"
+group_id: "androidx.test.uiautomator"
+artifact_id: "uiautomator-shell"
+path: "/test/uiautomator/uiautomator-shell"
+sha: "ad261a1d1a12056ced5899983c3b3b2e8da30d41"
+require_same_version_group_build: true
+project_zip_path: "per-project-zips/androidx.test.uiautomator-uiautomator-shell-all-2.4.0-beta02.zip"
+kotlin_version: "2.3.20"
+dependency_constraint_list {
+  dependency {
+    group_id: "androidx.test.uiautomator"
+    artifact_id: "uiautomator"
+    version: "2.4.0-beta02"
+    is_tip_of_tree: true
+  }
+}
+should_publish_docs: true
+is_kmp: true
+target: "androidx"
+kmp_children: "android"
+test_module_names: "test-uiautomator-uiautomator-shellandroidDeviceTest.xml"
+test_module_names: ":test:uiautomator:uiautomator-shell:testAndroidHostTest"
+all_dependencies_list {
+}

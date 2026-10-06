@@ -1,0 +1,326 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.window",
+    "module": "window-java",
+    "version": "1.6.0-alpha02",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0-milestone-7",
+      "buildId:": "15103823"
+    }
+  },
+  "variants": [
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "androidx.window",
+          "module": "window",
+          "version": {
+            "requires": "1.6.0-alpha02"
+          },
+          "reason": "window-java is in atomic group androidx.window"
+        },
+        {
+          "group": "androidx.window",
+          "module": "window-core",
+          "version": {
+            "requires": "1.6.0-alpha02"
+          },
+          "reason": "window-java is in atomic group androidx.window"
+        },
+        {
+          "group": "androidx.window",
+          "module": "window-rxjava2",
+          "version": {
+            "requires": "1.6.0-alpha02"
+          },
+          "reason": "window-java is in atomic group androidx.window"
+        },
+        {
+          "group": "androidx.window",
+          "module": "window-rxjava3",
+          "version": {
+            "requires": "1.6.0-alpha02"
+          },
+          "reason": "window-java is in atomic group androidx.window"
+        },
+        {
+          "group": "androidx.window",
+          "module": "window-testing",
+          "version": {
+            "requires": "1.6.0-alpha02"
+          },
+          "reason": "window-java is in atomic group androidx.window"
+        }
+      ],
+      "files": [
+        {
+          "name": "window-java-1.6.0-alpha02-sources.jar",
+          "url": "window-java-1.6.0-alpha02-sources.jar",
+          "size": 15167,
+          "sha512": "3c70f2477e1006c38c69af5ea67944b28dee19f4b78ea7d29d84582fb2abc4606624f9ff95b590d618017c38ca22cb2ddca2d98f231227e3c8b888e684be84bc",
+          "sha256": "e9e80df6504e1479aa3d3a72f33ad520dc0b8bb153914e9fd011c3ff71da5929",
+          "sha1": "533de0fb9bcc5799b4da3edfec9f347fe484c166",
+          "md5": "d9da93becadf33ae4b646221b4a9b39a"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.window",
+          "module": "window",
+          "version": {
+            "requires": "1.6.0-alpha02"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "androidx.window",
+          "module": "window",
+          "version": {
+            "requires": "1.6.0-alpha02"
+          },
+          "reason": "window-java is in atomic group androidx.window"
+        },
+        {
+          "group": "androidx.window",
+          "module": "window-core",
+          "version": {
+            "requires": "1.6.0-alpha02"
+          },
+          "reason": "window-java is in atomic group androidx.window"
+        },
+        {
+          "group": "androidx.window",
+          "module": "window-rxjava2",
+          "version": {
+            "requires": "1.6.0-alpha02"
+          },
+          "reason": "window-java is in atomic group androidx.window"
+        },
+        {
+          "group": "androidx.window",
+          "module": "window-rxjava3",
+          "version": {
+            "requires": "1.6.0-alpha02"
+          },
+          "reason": "window-java is in atomic group androidx.window"
+        },
+        {
+          "group": "androidx.window",
+          "module": "window-testing",
+          "version": {
+            "requires": "1.6.0-alpha02"
+          },
+          "reason": "window-java is in atomic group androidx.window"
+        }
+      ],
+      "files": [
+        {
+          "name": "window-java-1.6.0-alpha02.aar",
+          "url": "window-java-1.6.0-alpha02.aar",
+          "size": 18218,
+          "sha512": "c64234dbf0c2870cb234f3620fad986e9a691ce5c96d516f180ddab58f8482b234bf73e3669e6b25db6d8b1d5f0b3cbf7d7baa47817b6a6a22773be6d175cddb",
+          "sha256": "efd317e43b5d46074f6a45c016a9fe6cffa8b326a447db2373d893db43f0c2a8",
+          "sha1": "a3b2aece59ca677b8ebf966f158d8f5a2db03952",
+          "md5": "92e3f2bda3a966acf0a81d492f2c1658"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "androidx.window",
+          "module": "window",
+          "version": {
+            "requires": "1.6.0-alpha02"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "androidx.window",
+          "module": "window",
+          "version": {
+            "requires": "1.6.0-alpha02"
+          },
+          "reason": "window-java is in atomic group androidx.window"
+        },
+        {
+          "group": "androidx.window",
+          "module": "window-core",
+          "version": {
+            "requires": "1.6.0-alpha02"
+          },
+          "reason": "window-java is in atomic group androidx.window"
+        },
+        {
+          "group": "androidx.window",
+          "module": "window-rxjava2",
+          "version": {
+            "requires": "1.6.0-alpha02"
+          },
+          "reason": "window-java is in atomic group androidx.window"
+        },
+        {
+          "group": "androidx.window",
+          "module": "window-rxjava3",
+          "version": {
+            "requires": "1.6.0-alpha02"
+          },
+          "reason": "window-java is in atomic group androidx.window"
+        },
+        {
+          "group": "androidx.window",
+          "module": "window-testing",
+          "version": {
+            "requires": "1.6.0-alpha02"
+          },
+          "reason": "window-java is in atomic group androidx.window"
+        }
+      ],
+      "files": [
+        {
+          "name": "window-java-1.6.0-alpha02.aar",
+          "url": "window-java-1.6.0-alpha02.aar",
+          "size": 18218,
+          "sha512": "c64234dbf0c2870cb234f3620fad986e9a691ce5c96d516f180ddab58f8482b234bf73e3669e6b25db6d8b1d5f0b3cbf7d7baa47817b6a6a22773be6d175cddb",
+          "sha256": "efd317e43b5d46074f6a45c016a9fe6cffa8b326a447db2373d893db43f0c2a8",
+          "sha1": "a3b2aece59ca677b8ebf966f158d8f5a2db03952",
+          "md5": "92e3f2bda3a966acf0a81d492f2c1658"
+        }
+      ]
+    },
+    {
+      "name": "libraryVersionMetadata",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.usage": "library-version-metadata"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "androidx.window",
+          "module": "window",
+          "version": {
+            "requires": "1.6.0-alpha02"
+          },
+          "reason": "window-java is in atomic group androidx.window"
+        },
+        {
+          "group": "androidx.window",
+          "module": "window-core",
+          "version": {
+            "requires": "1.6.0-alpha02"
+          },
+          "reason": "window-java is in atomic group androidx.window"
+        },
+        {
+          "group": "androidx.window",
+          "module": "window-rxjava2",
+          "version": {
+            "requires": "1.6.0-alpha02"
+          },
+          "reason": "window-java is in atomic group androidx.window"
+        },
+        {
+          "group": "androidx.window",
+          "module": "window-rxjava3",
+          "version": {
+            "requires": "1.6.0-alpha02"
+          },
+          "reason": "window-java is in atomic group androidx.window"
+        },
+        {
+          "group": "androidx.window",
+          "module": "window-testing",
+          "version": {
+            "requires": "1.6.0-alpha02"
+          },
+          "reason": "window-java is in atomic group androidx.window"
+        }
+      ],
+      "files": [
+        {
+          "name": "window-java-1.6.0-alpha02-versionMetadata.json",
+          "url": "window-java-1.6.0-alpha02-versionMetadata.json",
+          "size": 4357,
+          "sha512": "7a5052b2b746d4c6a089d122c64668509e58990086f44af4d0312460fccd70db8084c4817570c980f56c7d75e3c4d98641a373bd564be78a4803015049624a7b",
+          "sha256": "ba773949bebfb81b188b8755fc4767bb7bcf1dbd57276b31c7027ced9e27e21e",
+          "sha1": "5c875bdf2a6119b3c2d1960e5699b02324a00113",
+          "md5": "30594da55b48991c16d1e02eb9e7a327"
+        }
+      ]
+    }
+  ]
+}

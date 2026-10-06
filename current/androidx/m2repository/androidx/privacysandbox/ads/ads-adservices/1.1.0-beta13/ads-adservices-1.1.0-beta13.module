@@ -1,0 +1,191 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.privacysandbox.ads",
+    "module": "ads-adservices",
+    "version": "1.1.0-beta13",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0-milestone-7",
+      "buildId:": "15103823"
+    }
+  },
+  "variants": [
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "androidx.privacysandbox.ads",
+          "module": "ads-adservices-java",
+          "version": {
+            "requires": "1.1.0-beta13"
+          },
+          "reason": "ads-adservices is in atomic group androidx.privacysandbox.ads"
+        }
+      ],
+      "files": [
+        {
+          "name": "ads-adservices-1.1.0-beta13-sources.jar",
+          "url": "ads-adservices-1.1.0-beta13-sources.jar",
+          "size": 112182,
+          "sha512": "46c032099fc934addefa0a4f9f299d65e72d952d000cfc5bbbbcb97bc4983dc76c0cb42a9c12c8c9df7da26da97f8aacbda5ac906cdbd4c08d60b561d213fabf",
+          "sha256": "1de947bf15552ef93f2070d9794dae444e5f5dc7e6678a87f5abaf0cb0ae92c6",
+          "sha1": "ec07dea2006f70968797458d187c0138f6f5bdb3",
+          "md5": "99422d88a0a57b99565ac1f758389e07"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "androidx.privacysandbox.ads",
+          "module": "ads-adservices-java",
+          "version": {
+            "requires": "1.1.0-beta13"
+          },
+          "reason": "ads-adservices is in atomic group androidx.privacysandbox.ads"
+        }
+      ],
+      "files": [
+        {
+          "name": "ads-adservices-1.1.0-beta13.aar",
+          "url": "ads-adservices-1.1.0-beta13.aar",
+          "size": 238190,
+          "sha512": "e5f78675d3028753496fe9074005e9f518145cfc4cee0848f96c6d85b47efacff6705e97d22bd3395736296e4795a2e7606b13ab7a4e28b1ed0bb4d345b7304d",
+          "sha256": "53cf79dc661ad73fe9c5b200f86200275e88456702a4dca97f12132d20687127",
+          "sha1": "4625f111b86e81286bc2f0f8d9c9f8461ad93fb1",
+          "md5": "526a491e6e15159c684dd3195ea37f40"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "androidx.privacysandbox.ads",
+          "module": "ads-adservices-java",
+          "version": {
+            "requires": "1.1.0-beta13"
+          },
+          "reason": "ads-adservices is in atomic group androidx.privacysandbox.ads"
+        }
+      ],
+      "files": [
+        {
+          "name": "ads-adservices-1.1.0-beta13.aar",
+          "url": "ads-adservices-1.1.0-beta13.aar",
+          "size": 238190,
+          "sha512": "e5f78675d3028753496fe9074005e9f518145cfc4cee0848f96c6d85b47efacff6705e97d22bd3395736296e4795a2e7606b13ab7a4e28b1ed0bb4d345b7304d",
+          "sha256": "53cf79dc661ad73fe9c5b200f86200275e88456702a4dca97f12132d20687127",
+          "sha1": "4625f111b86e81286bc2f0f8d9c9f8461ad93fb1",
+          "md5": "526a491e6e15159c684dd3195ea37f40"
+        }
+      ]
+    },
+    {
+      "name": "libraryVersionMetadata",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.usage": "library-version-metadata"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "androidx.privacysandbox.ads",
+          "module": "ads-adservices-java",
+          "version": {
+            "requires": "1.1.0-beta13"
+          },
+          "reason": "ads-adservices is in atomic group androidx.privacysandbox.ads"
+        }
+      ],
+      "files": [
+        {
+          "name": "ads-adservices-1.1.0-beta13-versionMetadata.json",
+          "url": "ads-adservices-1.1.0-beta13-versionMetadata.json",
+          "size": 38208,
+          "sha512": "85691f75ea941f6510ccad9a526f43eb7ce666d6e3a7e76dd602f6cc555cc0ed74b2168dd945588b5069e6957c05f28a4ee06ab687176e79f9200766b81c1151",
+          "sha256": "44f385637cd5c939156586451055aad214d8527be4ed41b9e0328725f7689104",
+          "sha1": "ba068ae51e80f0066b749f0385620bbbbc6916e9",
+          "md5": "783bf18b8acc2aedc4da5526d5c445a4"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+// Signature format: 2.0
+package android.service.uprobestats {
+
+  public final class DynamicInstrumentationEvent {
+    ctor public DynamicInstrumentationEvent(int, @NonNull java.time.Instant, int, @NonNull android.os.Bundle);
+    method @NonNull public android.os.Bundle getPayload();
+    method public int getPayloadId();
+    method @Nullable public java.time.Instant getTimestamp();
+    method public int getUid();
+  }
+
+  public class DynamicInstrumentationEventSender {
+    method public boolean disableTestMode();
+    method public boolean enableTestMode(@NonNull android.content.ComponentName);
+    method public void sendEvent(@NonNull android.service.uprobestats.DynamicInstrumentationEvent, boolean);
+    method public boolean waitQueueFlushed();
+  }
+
+  public abstract class DynamicInstrumentationEventService extends android.app.Service {
+    ctor public DynamicInstrumentationEventService();
+    method @NonNull public final android.os.IBinder onBind(@Nullable android.content.Intent);
+    method public abstract void onEvent(@NonNull java.util.List<android.service.uprobestats.DynamicInstrumentationEvent>);
+  }
+
+}
+

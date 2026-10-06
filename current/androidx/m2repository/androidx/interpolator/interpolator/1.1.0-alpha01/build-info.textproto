@@ -1,0 +1,52 @@
+version: "1.1.0-alpha01"
+dependency_list {
+  dependency {
+    group_id: "androidx.annotation"
+    artifact_id: "annotation"
+    version: "1.8.1"
+    is_tip_of_tree: false
+  }
+}
+release_checklist {
+}
+build_id: "15103823"
+group_id: "androidx.interpolator"
+artifact_id: "interpolator"
+path: "/interpolator/interpolator"
+sha: "ad261a1d1a12056ced5899983c3b3b2e8da30d41"
+require_same_version_group_build: true
+project_zip_path: "per-project-zips/androidx.interpolator-interpolator-all-1.1.0-alpha01.zip"
+kotlin_version: "2.3.20"
+dependency_constraint_list {
+}
+should_publish_docs: true
+is_kmp: false
+target: "androidx"
+test_module_names: "interpolator-interpolatorreleaseAndroidTest.xml"
+test_module_names: ":interpolator:interpolator:testReleaseUnitTest"
+all_dependencies_list {
+  dependency {
+    group_id: "androidx.annotation"
+    artifact_id: "annotation"
+    version: "1.8.1"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.annotation"
+    artifact_id: "annotation-jvm"
+    version: "1.8.1"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "org.jetbrains"
+    artifact_id: "annotations"
+    version: "13.0"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "org.jetbrains.kotlin"
+    artifact_id: "kotlin-stdlib"
+    version: "2.1.20"
+    is_tip_of_tree: false
+  }
+}

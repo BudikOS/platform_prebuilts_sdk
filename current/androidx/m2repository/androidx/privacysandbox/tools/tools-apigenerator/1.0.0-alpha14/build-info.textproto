@@ -1,0 +1,171 @@
+version: "1.0.0-alpha14"
+dependency_list {
+  dependency {
+    group_id: "androidx.privacysandbox.tools"
+    artifact_id: "tools"
+    version: "1.0.0-alpha14"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.privacysandbox.tools"
+    artifact_id: "tools-core"
+    version: "1.0.0-alpha14"
+    is_tip_of_tree: true
+  }
+}
+release_checklist {
+}
+build_id: "14606683"
+group_id: "androidx.privacysandbox.tools"
+artifact_id: "tools-apigenerator"
+path: "/privacysandbox/tools/tools-apigenerator"
+sha: "84d371c82bfc31dc2c51f1d57e8a3dbc2fb771ba"
+require_same_version_group_build: true
+project_zip_path: "per-project-zips/androidx.privacysandbox.tools-tools-apigenerator-all-1.0.0-alpha14.zip"
+kotlin_version: "2.2.20"
+dependency_constraint_list {
+  dependency {
+    group_id: "androidx.privacysandbox.tools"
+    artifact_id: "tools"
+    version: "1.0.0-alpha14"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.privacysandbox.tools"
+    artifact_id: "tools-apicompiler"
+    version: "1.0.0-alpha14"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.privacysandbox.tools"
+    artifact_id: "tools-apipackager"
+    version: "1.0.0-alpha14"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.privacysandbox.tools"
+    artifact_id: "tools-core"
+    version: "1.0.0-alpha14"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.privacysandbox.tools"
+    artifact_id: "tools-core-external-protobuf"
+    version: "1.0.0-alpha14"
+    is_tip_of_tree: true
+  }
+}
+should_publish_docs: false
+is_kmp: false
+target: "androidx"
+test_module_names: ":privacysandbox:tools:tools-apigenerator:test"
+all_dependencies_list {
+  dependency {
+    group_id: "androidx.annotation"
+    artifact_id: "annotation"
+    version: "1.3.0"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.privacysandbox.tools"
+    artifact_id: "tools"
+    version: "1.0.0-alpha14"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.privacysandbox.tools"
+    artifact_id: "tools-core"
+    version: "1.0.0-alpha14"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.privacysandbox.tools"
+    artifact_id: "tools-core-external-protobuf"
+    version: "1.0.0-alpha14"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "com.google.code.findbugs"
+    artifact_id: "jsr305"
+    version: "3.0.2"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "com.google.errorprone"
+    artifact_id: "error_prone_annotations"
+    version: "2.26.1"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "com.google.guava"
+    artifact_id: "failureaccess"
+    version: "1.0.2"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "com.google.guava"
+    artifact_id: "guava"
+    version: "33.2.1-jre"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "com.squareup"
+    artifact_id: "kotlinpoet"
+    version: "2.0.0"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "com.squareup"
+    artifact_id: "kotlinpoet-jvm"
+    version: "2.0.0"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "org.checkerframework"
+    artifact_id: "checker-qual"
+    version: "3.42.0"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "org.jetbrains"
+    artifact_id: "annotations"
+    version: "13.0"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "org.jetbrains.kotlin"
+    artifact_id: "kotlin-metadata-jvm"
+    version: "2.2.20"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "org.jetbrains.kotlin"
+    artifact_id: "kotlin-reflect"
+    version: "2.0.10"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "org.jetbrains.kotlin"
+    artifact_id: "kotlin-stdlib"
+    version: "2.2.20"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "org.ow2.asm"
+    artifact_id: "asm"
+    version: "9.7"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "org.ow2.asm"
+    artifact_id: "asm-commons"
+    version: "9.7"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "org.ow2.asm"
+    artifact_id: "asm-tree"
+    version: "9.7"
+    is_tip_of_tree: false
+  }
+}

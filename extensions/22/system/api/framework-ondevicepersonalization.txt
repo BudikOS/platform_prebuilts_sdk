@@ -1,0 +1,36 @@
+// Signature format: 2.0
+package android.adservices.ondevicepersonalization {
+
+  @Deprecated public final class MeasurementWebTriggerEventParams {
+    method @Deprecated @NonNull public String getAppPackageName();
+    method @Deprecated @Nullable public String getCertDigest();
+    method @Deprecated @NonNull public android.net.Uri getDestinationUrl();
+    method @Deprecated @Nullable public byte[] getEventData();
+    method @Deprecated @NonNull public android.content.ComponentName getIsolatedService();
+  }
+
+  @Deprecated public static final class MeasurementWebTriggerEventParams.Builder {
+    ctor @Deprecated public MeasurementWebTriggerEventParams.Builder(@NonNull android.net.Uri, @NonNull String, @NonNull android.content.ComponentName);
+    method @Deprecated @NonNull public android.adservices.ondevicepersonalization.MeasurementWebTriggerEventParams build();
+    method @Deprecated @NonNull public android.adservices.ondevicepersonalization.MeasurementWebTriggerEventParams.Builder setAppPackageName(@NonNull String);
+    method @Deprecated @NonNull public android.adservices.ondevicepersonalization.MeasurementWebTriggerEventParams.Builder setCertDigest(@Nullable String);
+    method @Deprecated @NonNull public android.adservices.ondevicepersonalization.MeasurementWebTriggerEventParams.Builder setDestinationUrl(@NonNull android.net.Uri);
+    method @Deprecated @NonNull public android.adservices.ondevicepersonalization.MeasurementWebTriggerEventParams.Builder setEventData(@Nullable byte...);
+    method @Deprecated @NonNull public android.adservices.ondevicepersonalization.MeasurementWebTriggerEventParams.Builder setIsolatedService(@NonNull android.content.ComponentName);
+  }
+
+  @Deprecated public class OnDevicePersonalizationConfigManager {
+    method @Deprecated @RequiresPermission(android.adservices.ondevicepersonalization.OnDevicePersonalizationPermissions.MODIFY_ONDEVICEPERSONALIZATION_STATE) public void setPersonalizationEnabled(boolean, @NonNull java.util.concurrent.Executor, @NonNull android.os.OutcomeReceiver<java.lang.Void,java.lang.Exception>);
+  }
+
+  @Deprecated public class OnDevicePersonalizationPermissions {
+    field @Deprecated public static final String MODIFY_ONDEVICEPERSONALIZATION_STATE = "android.permission.ondevicepersonalization.MODIFY_ONDEVICEPERSONALIZATION_STATE";
+    field @Deprecated public static final String NOTIFY_MEASUREMENT_EVENT = "android.permission.ondevicepersonalization.NOTIFY_MEASUREMENT_EVENT";
+  }
+
+  @Deprecated public class OnDevicePersonalizationSystemEventManager {
+    method @Deprecated @RequiresPermission(android.adservices.ondevicepersonalization.OnDevicePersonalizationPermissions.NOTIFY_MEASUREMENT_EVENT) public void notifyMeasurementEvent(@NonNull android.adservices.ondevicepersonalization.MeasurementWebTriggerEventParams, @NonNull java.util.concurrent.Executor, @NonNull android.os.OutcomeReceiver<java.lang.Void,java.lang.Exception>);
+  }
+
+}
+

@@ -1,0 +1,309 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../adaptive-layout/1.3.0-alpha09/adaptive-layout-1.3.0-alpha09.module",
+    "group": "androidx.compose.material3.adaptive",
+    "module": "adaptive-layout",
+    "version": "1.3.0-alpha09",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0-milestone-7",
+      "buildId:": "15103823"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.9.1"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation-experimental",
+          "version": {
+            "requires": "1.5.1"
+          }
+        },
+        {
+          "group": "androidx.compose.animation",
+          "module": "animation-core",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "androidx.compose.material3.adaptive",
+          "module": "adaptive",
+          "version": {
+            "requires": "1.3.0-alpha09"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "androidx.compose.material3.adaptive",
+          "module": "adaptive",
+          "version": {
+            "requires": "1.3.0-alpha09"
+          },
+          "reason": "adaptive-layout is in atomic group androidx.compose.material3.adaptive"
+        },
+        {
+          "group": "androidx.compose.material3.adaptive",
+          "module": "adaptive-navigation",
+          "version": {
+            "requires": "1.3.0-alpha09"
+          },
+          "reason": "adaptive-layout is in atomic group androidx.compose.material3.adaptive"
+        },
+        {
+          "group": "androidx.compose.material3.adaptive",
+          "module": "adaptive-navigation3",
+          "version": {
+            "requires": "1.3.0-alpha09"
+          },
+          "reason": "adaptive-layout is in atomic group androidx.compose.material3.adaptive"
+        }
+      ],
+      "files": [
+        {
+          "name": "adaptive-layout.aar",
+          "url": "adaptive-layout-android-1.3.0-alpha09.aar",
+          "size": 480816,
+          "sha512": "28bd3a3af7e6d7a30a691358d052ccb38d8b6f0bb956f108c88866736eb2638fcbd6b33adff0c404e4f8cd54dabba7f28ac61df4c50cdd064ebebbe2f7ae17a7",
+          "sha256": "0d480679b8eebbbc644932b17470e4c8ef925bbec2dfdcd80bf7ee677088b9bf",
+          "sha1": "101b63facb953f778c8d116226801b78bd45c970",
+          "md5": "b57d4507e230b2cbe432d2c81e02d44f"
+        }
+      ]
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.9.1"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation-experimental",
+          "version": {
+            "requires": "1.5.1"
+          }
+        },
+        {
+          "group": "androidx.compose.animation",
+          "module": "animation",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "androidx.compose.animation",
+          "module": "animation-core",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "androidx.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "androidx.compose.foundation",
+          "module": "foundation-layout",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "androidx.compose.material3.adaptive",
+          "module": "adaptive",
+          "version": {
+            "requires": "1.3.0-alpha09"
+          }
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-geometry",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.15.0"
+          }
+        },
+        {
+          "group": "androidx.window",
+          "module": "window-core",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "androidx.compose.material3.adaptive",
+          "module": "adaptive",
+          "version": {
+            "requires": "1.3.0-alpha09"
+          },
+          "reason": "adaptive-layout is in atomic group androidx.compose.material3.adaptive"
+        },
+        {
+          "group": "androidx.compose.material3.adaptive",
+          "module": "adaptive-navigation",
+          "version": {
+            "requires": "1.3.0-alpha09"
+          },
+          "reason": "adaptive-layout is in atomic group androidx.compose.material3.adaptive"
+        },
+        {
+          "group": "androidx.compose.material3.adaptive",
+          "module": "adaptive-navigation3",
+          "version": {
+            "requires": "1.3.0-alpha09"
+          },
+          "reason": "adaptive-layout is in atomic group androidx.compose.material3.adaptive"
+        }
+      ],
+      "files": [
+        {
+          "name": "adaptive-layout.aar",
+          "url": "adaptive-layout-android-1.3.0-alpha09.aar",
+          "size": 480816,
+          "sha512": "28bd3a3af7e6d7a30a691358d052ccb38d8b6f0bb956f108c88866736eb2638fcbd6b33adff0c404e4f8cd54dabba7f28ac61df4c50cdd064ebebbe2f7ae17a7",
+          "sha256": "0d480679b8eebbbc644932b17470e4c8ef925bbec2dfdcd80bf7ee677088b9bf",
+          "sha1": "101b63facb953f778c8d116226801b78bd45c970",
+          "md5": "b57d4507e230b2cbe432d2c81e02d44f"
+        }
+      ]
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "androidx.compose.material3.adaptive",
+          "module": "adaptive",
+          "version": {
+            "requires": "1.3.0-alpha09"
+          },
+          "reason": "adaptive-layout is in atomic group androidx.compose.material3.adaptive"
+        },
+        {
+          "group": "androidx.compose.material3.adaptive",
+          "module": "adaptive-navigation",
+          "version": {
+            "requires": "1.3.0-alpha09"
+          },
+          "reason": "adaptive-layout is in atomic group androidx.compose.material3.adaptive"
+        },
+        {
+          "group": "androidx.compose.material3.adaptive",
+          "module": "adaptive-navigation3",
+          "version": {
+            "requires": "1.3.0-alpha09"
+          },
+          "reason": "adaptive-layout is in atomic group androidx.compose.material3.adaptive"
+        }
+      ],
+      "files": [
+        {
+          "name": "adaptive-layout-android-1.3.0-alpha09-sources.jar",
+          "url": "adaptive-layout-android-1.3.0-alpha09-sources.jar",
+          "size": 99420,
+          "sha512": "aff06d7d0ae63c4a096de620861932fcdc89e06974768db648201d498221dd6ee915e71540b858c7973c11047a7d46306208bb05c203ff6ac40bf0ccf11bf37e",
+          "sha256": "2671712925105481b6fab61130c8758f60ae16731d3945eb1101f2447faf38d2",
+          "sha1": "b3904088e1181dbae65ebe4b05594dbc9ea9e0a8",
+          "md5": "534ce9573ed57c3ddd5aedd4f1827a52"
+        },
+        {
+          "name": "adaptive-layout-1.3.0-alpha09-samples-sources.jar",
+          "url": "adaptive-layout-android-1.3.0-alpha09-samples-sources.jar",
+          "size": 11983,
+          "sha512": "b69f7205f4f108dddb2e7ebcbd807832fadd7d1afaf25450740b1cd34cc1bbc36be66706ef6df837bc803a51ff0c606b8a48ee424f1c134e0a05074303996097",
+          "sha256": "1e7185247947c97a5c0810d4fd8b719330269da03a374abd76c54c2bd205ef68",
+          "sha1": "02a2216cdd6bb3920b5d6c3515ea026d84cf1b6a",
+          "md5": "1dee92a69e19190e1b2f0dedcb08f581"
+        }
+      ]
+    }
+  ]
+}

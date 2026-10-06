@@ -1,0 +1,262 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.privacysandbox.ui",
+    "module": "ui-core",
+    "version": "1.0.0-alpha17",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.2.1",
+      "buildId:": "14606683"
+    }
+  },
+  "variants": [
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "androidx.privacysandbox.ui",
+          "module": "ui-client",
+          "version": {
+            "requires": "1.0.0-alpha17"
+          },
+          "reason": "ui-core is in atomic group androidx.privacysandbox.ui"
+        },
+        {
+          "group": "androidx.privacysandbox.ui",
+          "module": "ui-client-compose",
+          "version": {
+            "requires": "1.0.0-alpha17"
+          },
+          "reason": "ui-core is in atomic group androidx.privacysandbox.ui"
+        },
+        {
+          "group": "androidx.privacysandbox.ui",
+          "module": "ui-provider",
+          "version": {
+            "requires": "1.0.0-alpha17"
+          },
+          "reason": "ui-core is in atomic group androidx.privacysandbox.ui"
+        }
+      ],
+      "files": [
+        {
+          "name": "ui-core-1.0.0-alpha17-sources.jar",
+          "url": "ui-core-1.0.0-alpha17-sources.jar",
+          "size": 27466,
+          "sha512": "9b4adeed8b79cf66c7757dbd1c3a20e997cc5eed657ab38f75aeee629233df6af924ef82bf4bbec1139a78d20ec98d620fac5fb0113cef850b4ac37733cf404c",
+          "sha256": "f5a558891a01d2b10aab53d1f02d94e903d1e488084d4755fa92a0e7d2c9129e",
+          "sha1": "46c80b9b26d4a7518dc6914548b8d8a43027c92f",
+          "md5": "82e349ef7b696f76551db982b367ff82"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "androidx.privacysandbox.ui",
+          "module": "ui-client",
+          "version": {
+            "requires": "1.0.0-alpha17"
+          },
+          "reason": "ui-core is in atomic group androidx.privacysandbox.ui"
+        },
+        {
+          "group": "androidx.privacysandbox.ui",
+          "module": "ui-client-compose",
+          "version": {
+            "requires": "1.0.0-alpha17"
+          },
+          "reason": "ui-core is in atomic group androidx.privacysandbox.ui"
+        },
+        {
+          "group": "androidx.privacysandbox.ui",
+          "module": "ui-provider",
+          "version": {
+            "requires": "1.0.0-alpha17"
+          },
+          "reason": "ui-core is in atomic group androidx.privacysandbox.ui"
+        }
+      ],
+      "files": [
+        {
+          "name": "ui-core-1.0.0-alpha17.aar",
+          "url": "ui-core-1.0.0-alpha17.aar",
+          "size": 88936,
+          "sha512": "a1c3cdf00a27b68828e6cc44122a315b84fa74c565830cfcfdecf68e77445964c086ba47eebe186d89b37156701b8a7ed25ae8ece92a75cad5d259a5aede4b54",
+          "sha256": "12bdc25b8b83ee4e06c7dcb748af41b1deea977c4d964a06ab040e0a622b6d9d",
+          "sha1": "b59b9601df4925ab5266e66f7af9d6805cc89c43",
+          "md5": "5c0e4b5089f211227352e73e537513ba"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "androidx.privacysandbox.ui",
+          "module": "ui-client",
+          "version": {
+            "requires": "1.0.0-alpha17"
+          },
+          "reason": "ui-core is in atomic group androidx.privacysandbox.ui"
+        },
+        {
+          "group": "androidx.privacysandbox.ui",
+          "module": "ui-client-compose",
+          "version": {
+            "requires": "1.0.0-alpha17"
+          },
+          "reason": "ui-core is in atomic group androidx.privacysandbox.ui"
+        },
+        {
+          "group": "androidx.privacysandbox.ui",
+          "module": "ui-provider",
+          "version": {
+            "requires": "1.0.0-alpha17"
+          },
+          "reason": "ui-core is in atomic group androidx.privacysandbox.ui"
+        }
+      ],
+      "files": [
+        {
+          "name": "ui-core-1.0.0-alpha17.aar",
+          "url": "ui-core-1.0.0-alpha17.aar",
+          "size": 88936,
+          "sha512": "a1c3cdf00a27b68828e6cc44122a315b84fa74c565830cfcfdecf68e77445964c086ba47eebe186d89b37156701b8a7ed25ae8ece92a75cad5d259a5aede4b54",
+          "sha256": "12bdc25b8b83ee4e06c7dcb748af41b1deea977c4d964a06ab040e0a622b6d9d",
+          "sha1": "b59b9601df4925ab5266e66f7af9d6805cc89c43",
+          "md5": "5c0e4b5089f211227352e73e537513ba"
+        }
+      ]
+    },
+    {
+      "name": "libraryVersionMetadata",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.usage": "library-version-metadata"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "androidx.privacysandbox.ui",
+          "module": "ui-client",
+          "version": {
+            "requires": "1.0.0-alpha17"
+          },
+          "reason": "ui-core is in atomic group androidx.privacysandbox.ui"
+        },
+        {
+          "group": "androidx.privacysandbox.ui",
+          "module": "ui-client-compose",
+          "version": {
+            "requires": "1.0.0-alpha17"
+          },
+          "reason": "ui-core is in atomic group androidx.privacysandbox.ui"
+        },
+        {
+          "group": "androidx.privacysandbox.ui",
+          "module": "ui-provider",
+          "version": {
+            "requires": "1.0.0-alpha17"
+          },
+          "reason": "ui-core is in atomic group androidx.privacysandbox.ui"
+        }
+      ],
+      "files": [
+        {
+          "name": "ui-core-1.0.0-alpha17-versionMetadata.json",
+          "url": "ui-core-1.0.0-alpha17-versionMetadata.json",
+          "size": 8745,
+          "sha512": "eeb5844be3beadb5dc45780cb0e31dd1b0102143b339fb8e79341801f71ec66a8bc1ca290f9263f8f7c1889f8a24df454d2f002f4bb642418aabb1025885c815",
+          "sha256": "3ed042cb460f57e29309e72062372faec18249ada562eae08f2f5fa861ae1a62",
+          "sha1": "db06e8413abca89edd7f65b06ed0b0d4ba88f1ad",
+          "md5": "c92e4120fdc0288583baa645da779cc9"
+        }
+      ]
+    }
+  ]
+}

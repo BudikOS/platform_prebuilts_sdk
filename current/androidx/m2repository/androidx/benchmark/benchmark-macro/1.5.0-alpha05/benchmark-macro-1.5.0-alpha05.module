@@ -1,0 +1,456 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.benchmark",
+    "module": "benchmark-macro",
+    "version": "1.5.0-alpha05",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0-milestone-7",
+      "buildId:": "15103823"
+    }
+  },
+  "variants": [
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "androidx.benchmark",
+          "module": "benchmark-common",
+          "version": {
+            "requires": "1.5.0-alpha05"
+          },
+          "reason": "benchmark-macro is in atomic group androidx.benchmark"
+        },
+        {
+          "group": "androidx.benchmark",
+          "module": "benchmark-gradle-plugin",
+          "version": {
+            "requires": "1.5.0-alpha05"
+          },
+          "reason": "benchmark-macro is in atomic group androidx.benchmark"
+        },
+        {
+          "group": "androidx.benchmark",
+          "module": "benchmark-baseline-profile-gradle-plugin",
+          "version": {
+            "requires": "1.5.0-alpha05"
+          },
+          "reason": "benchmark-macro is in atomic group androidx.benchmark"
+        },
+        {
+          "group": "androidx.benchmark",
+          "module": "benchmark-junit4",
+          "version": {
+            "requires": "1.5.0-alpha05"
+          },
+          "reason": "benchmark-macro is in atomic group androidx.benchmark"
+        },
+        {
+          "group": "androidx.benchmark",
+          "module": "benchmark-macro-junit4",
+          "version": {
+            "requires": "1.5.0-alpha05"
+          },
+          "reason": "benchmark-macro is in atomic group androidx.benchmark"
+        },
+        {
+          "group": "androidx.benchmark",
+          "module": "benchmark-traceprocessor",
+          "version": {
+            "requires": "1.5.0-alpha05"
+          },
+          "reason": "benchmark-macro is in atomic group androidx.benchmark"
+        }
+      ],
+      "files": [
+        {
+          "name": "benchmark-macro-1.5.0-alpha05-sources.jar",
+          "url": "benchmark-macro-1.5.0-alpha05-sources.jar",
+          "size": 88162,
+          "sha512": "8a4d693df52daf904a8218042913ba670a65e1b0b527ec0bf288a0606328999716d577c644a5b60416e549b47737585b794a81194eb168047bcea8f13009cbec",
+          "sha256": "0ff5633f5dd4ae58cb15769c9b0a044c84694b331d6d311d56f012813ba24a84",
+          "sha1": "064bcaf1cf3d50790f60d07674fd7f5b5e7baa18",
+          "md5": "17ef99161be3b66db6939cc943e41468"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "androidx.benchmark",
+          "module": "benchmark-common",
+          "version": {
+            "requires": "1.5.0-alpha05"
+          }
+        },
+        {
+          "group": "androidx.test.uiautomator",
+          "module": "uiautomator",
+          "version": {
+            "requires": "2.4.0-beta02"
+          }
+        },
+        {
+          "group": "junit",
+          "module": "junit",
+          "version": {
+            "requires": "4.13.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        },
+        {
+          "group": "org.jspecify",
+          "module": "jspecify",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "androidx.benchmark",
+          "module": "benchmark-common",
+          "version": {
+            "requires": "1.5.0-alpha05"
+          },
+          "reason": "benchmark-macro is in atomic group androidx.benchmark"
+        },
+        {
+          "group": "androidx.benchmark",
+          "module": "benchmark-gradle-plugin",
+          "version": {
+            "requires": "1.5.0-alpha05"
+          },
+          "reason": "benchmark-macro is in atomic group androidx.benchmark"
+        },
+        {
+          "group": "androidx.benchmark",
+          "module": "benchmark-baseline-profile-gradle-plugin",
+          "version": {
+            "requires": "1.5.0-alpha05"
+          },
+          "reason": "benchmark-macro is in atomic group androidx.benchmark"
+        },
+        {
+          "group": "androidx.benchmark",
+          "module": "benchmark-junit4",
+          "version": {
+            "requires": "1.5.0-alpha05"
+          },
+          "reason": "benchmark-macro is in atomic group androidx.benchmark"
+        },
+        {
+          "group": "androidx.benchmark",
+          "module": "benchmark-macro-junit4",
+          "version": {
+            "requires": "1.5.0-alpha05"
+          },
+          "reason": "benchmark-macro is in atomic group androidx.benchmark"
+        },
+        {
+          "group": "androidx.benchmark",
+          "module": "benchmark-traceprocessor",
+          "version": {
+            "requires": "1.5.0-alpha05"
+          },
+          "reason": "benchmark-macro is in atomic group androidx.benchmark"
+        }
+      ],
+      "files": [
+        {
+          "name": "benchmark-macro-1.5.0-alpha05.aar",
+          "url": "benchmark-macro-1.5.0-alpha05.aar",
+          "size": 14990473,
+          "sha512": "8369fbc8587725101b169a6f5510c443e8e5eabf53f3128d6f81dabab19c0193e9bd106042f279fe6555cf196b4c328e0ead9c8febf45e702d5d7dcbab1e9c6d",
+          "sha256": "7cc94e08f544896f355886433ae0fd1ade8e36bb9f5d8b87e93e284c8d0a3c38",
+          "sha1": "cb09c585950716e2514be567677322e97eda7bbd",
+          "md5": "49017650c439ec1505408f290b05165f"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "androidx.benchmark",
+          "module": "benchmark-common",
+          "version": {
+            "requires": "1.5.0-alpha05"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "androidx.profileinstaller",
+          "module": "profileinstaller",
+          "version": {
+            "requires": "1.4.1"
+          }
+        },
+        {
+          "group": "androidx.test",
+          "module": "core",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "androidx.test",
+          "module": "runner",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "androidx.test.ext",
+          "module": "junit",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "androidx.test.uiautomator",
+          "module": "uiautomator",
+          "version": {
+            "requires": "2.4.0-beta02"
+          }
+        },
+        {
+          "group": "androidx.tracing",
+          "module": "tracing-ktx",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.tracing",
+          "module": "tracing-perfetto",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "androidx.tracing",
+          "module": "tracing-perfetto-binary",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "androidx.tracing",
+          "module": "tracing-perfetto-handshake",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "com.squareup.wire",
+          "module": "wire-runtime",
+          "version": {
+            "requires": "6.0.0"
+          }
+        },
+        {
+          "group": "junit",
+          "module": "junit",
+          "version": {
+            "requires": "4.13.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        },
+        {
+          "group": "org.jspecify",
+          "module": "jspecify",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "androidx.benchmark",
+          "module": "benchmark-common",
+          "version": {
+            "requires": "1.5.0-alpha05"
+          },
+          "reason": "benchmark-macro is in atomic group androidx.benchmark"
+        },
+        {
+          "group": "androidx.benchmark",
+          "module": "benchmark-gradle-plugin",
+          "version": {
+            "requires": "1.5.0-alpha05"
+          },
+          "reason": "benchmark-macro is in atomic group androidx.benchmark"
+        },
+        {
+          "group": "androidx.benchmark",
+          "module": "benchmark-baseline-profile-gradle-plugin",
+          "version": {
+            "requires": "1.5.0-alpha05"
+          },
+          "reason": "benchmark-macro is in atomic group androidx.benchmark"
+        },
+        {
+          "group": "androidx.benchmark",
+          "module": "benchmark-junit4",
+          "version": {
+            "requires": "1.5.0-alpha05"
+          },
+          "reason": "benchmark-macro is in atomic group androidx.benchmark"
+        },
+        {
+          "group": "androidx.benchmark",
+          "module": "benchmark-macro-junit4",
+          "version": {
+            "requires": "1.5.0-alpha05"
+          },
+          "reason": "benchmark-macro is in atomic group androidx.benchmark"
+        },
+        {
+          "group": "androidx.benchmark",
+          "module": "benchmark-traceprocessor",
+          "version": {
+            "requires": "1.5.0-alpha05"
+          },
+          "reason": "benchmark-macro is in atomic group androidx.benchmark"
+        }
+      ],
+      "files": [
+        {
+          "name": "benchmark-macro-1.5.0-alpha05.aar",
+          "url": "benchmark-macro-1.5.0-alpha05.aar",
+          "size": 14990473,
+          "sha512": "8369fbc8587725101b169a6f5510c443e8e5eabf53f3128d6f81dabab19c0193e9bd106042f279fe6555cf196b4c328e0ead9c8febf45e702d5d7dcbab1e9c6d",
+          "sha256": "7cc94e08f544896f355886433ae0fd1ade8e36bb9f5d8b87e93e284c8d0a3c38",
+          "sha1": "cb09c585950716e2514be567677322e97eda7bbd",
+          "md5": "49017650c439ec1505408f290b05165f"
+        }
+      ]
+    },
+    {
+      "name": "libraryVersionMetadata",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.usage": "library-version-metadata"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "androidx.benchmark",
+          "module": "benchmark-common",
+          "version": {
+            "requires": "1.5.0-alpha05"
+          },
+          "reason": "benchmark-macro is in atomic group androidx.benchmark"
+        },
+        {
+          "group": "androidx.benchmark",
+          "module": "benchmark-gradle-plugin",
+          "version": {
+            "requires": "1.5.0-alpha05"
+          },
+          "reason": "benchmark-macro is in atomic group androidx.benchmark"
+        },
+        {
+          "group": "androidx.benchmark",
+          "module": "benchmark-baseline-profile-gradle-plugin",
+          "version": {
+            "requires": "1.5.0-alpha05"
+          },
+          "reason": "benchmark-macro is in atomic group androidx.benchmark"
+        },
+        {
+          "group": "androidx.benchmark",
+          "module": "benchmark-junit4",
+          "version": {
+            "requires": "1.5.0-alpha05"
+          },
+          "reason": "benchmark-macro is in atomic group androidx.benchmark"
+        },
+        {
+          "group": "androidx.benchmark",
+          "module": "benchmark-macro-junit4",
+          "version": {
+            "requires": "1.5.0-alpha05"
+          },
+          "reason": "benchmark-macro is in atomic group androidx.benchmark"
+        },
+        {
+          "group": "androidx.benchmark",
+          "module": "benchmark-traceprocessor",
+          "version": {
+            "requires": "1.5.0-alpha05"
+          },
+          "reason": "benchmark-macro is in atomic group androidx.benchmark"
+        }
+      ],
+      "files": [
+        {
+          "name": "benchmark-macro-1.5.0-alpha05-versionMetadata.json",
+          "url": "benchmark-macro-1.5.0-alpha05-versionMetadata.json",
+          "size": 22099,
+          "sha512": "1d4b7cbed23d0e801231608005991a2e4f70c70e0223d6ccc49fb84bfd568deb6798407f562256000575bb3990c836265cb0623cbcda0bc6e3ec4bd30e8584d0",
+          "sha256": "c284f4223ec4c960e8e44f02fc3971ef7199c2c315a9f50e189e946c9629197a",
+          "sha1": "d74978d6957c3db694cc93f6627f90e4505e7edc",
+          "md5": "33730bd1ce0b15328e5fa9cb6ad2ec76"
+        }
+      ]
+    }
+  ]
+}

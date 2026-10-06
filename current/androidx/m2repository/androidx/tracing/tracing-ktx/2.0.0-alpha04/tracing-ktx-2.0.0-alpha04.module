@@ -1,0 +1,202 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.tracing",
+    "module": "tracing-ktx",
+    "version": "2.0.0-alpha04",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0-milestone-7",
+      "buildId:": "15103823"
+    }
+  },
+  "variants": [
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "androidx.tracing",
+          "module": "tracing",
+          "version": {
+            "requires": "2.0.0-alpha04"
+          },
+          "reason": "tracing-ktx is in atomic group androidx.tracing"
+        },
+        {
+          "group": "androidx.tracing",
+          "module": "tracing-wire",
+          "version": {
+            "requires": "2.0.0-alpha04"
+          },
+          "reason": "tracing-ktx is in atomic group androidx.tracing"
+        }
+      ],
+      "files": [
+        {
+          "name": "tracing-ktx-2.0.0-alpha04-sources.jar",
+          "url": "tracing-ktx-2.0.0-alpha04-sources.jar",
+          "size": 4396,
+          "sha512": "447476de2454150fa333cbb1be97c8ece92a41d9d25921372f6bf91c9a9c4f65ab5eedd2fc7c74a95cce2553956a6e683b233a11e550b54ec02e813261ffa420",
+          "sha256": "082d88d1d827c10f686647ac536fc250d8b19250a881f9054cb5dc0dd2759a17",
+          "sha1": "4386485b63db7aec37b6caa62f2672c55ab60a2b",
+          "md5": "cb5157168cc4cb81a630e1badf41e96f"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.tracing",
+          "module": "tracing",
+          "version": {
+            "requires": "2.0.0-alpha04"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "androidx.tracing",
+          "module": "tracing",
+          "version": {
+            "requires": "2.0.0-alpha04"
+          },
+          "reason": "tracing-ktx is in atomic group androidx.tracing"
+        },
+        {
+          "group": "androidx.tracing",
+          "module": "tracing-wire",
+          "version": {
+            "requires": "2.0.0-alpha04"
+          },
+          "reason": "tracing-ktx is in atomic group androidx.tracing"
+        }
+      ],
+      "files": [
+        {
+          "name": "tracing-ktx-2.0.0-alpha04.aar",
+          "url": "tracing-ktx-2.0.0-alpha04.aar",
+          "size": 5932,
+          "sha512": "54aee2e2d510f1ed1a2d8b5384c67181465c66ba53ffdeee44378205dabdb41e2bfb20162b337270a97d4bb0dee2c454924788ad1c8f784e7f1e0c6ca57554b3",
+          "sha256": "700f4f560a138f411e4d827bc03a33041d442f45daa9c7de1fc17b21bc5f8a78",
+          "sha1": "3daa472a1a54ce71354ca34257a58f9c22dce735",
+          "md5": "3397d9346f9e3611259eaea095641473"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.tracing",
+          "module": "tracing",
+          "version": {
+            "requires": "2.0.0-alpha04"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "androidx.tracing",
+          "module": "tracing",
+          "version": {
+            "requires": "2.0.0-alpha04"
+          },
+          "reason": "tracing-ktx is in atomic group androidx.tracing"
+        },
+        {
+          "group": "androidx.tracing",
+          "module": "tracing-wire",
+          "version": {
+            "requires": "2.0.0-alpha04"
+          },
+          "reason": "tracing-ktx is in atomic group androidx.tracing"
+        }
+      ],
+      "files": [
+        {
+          "name": "tracing-ktx-2.0.0-alpha04.aar",
+          "url": "tracing-ktx-2.0.0-alpha04.aar",
+          "size": 5932,
+          "sha512": "54aee2e2d510f1ed1a2d8b5384c67181465c66ba53ffdeee44378205dabdb41e2bfb20162b337270a97d4bb0dee2c454924788ad1c8f784e7f1e0c6ca57554b3",
+          "sha256": "700f4f560a138f411e4d827bc03a33041d442f45daa9c7de1fc17b21bc5f8a78",
+          "sha1": "3daa472a1a54ce71354ca34257a58f9c22dce735",
+          "md5": "3397d9346f9e3611259eaea095641473"
+        }
+      ]
+    },
+    {
+      "name": "libraryVersionMetadata",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.usage": "library-version-metadata"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "androidx.tracing",
+          "module": "tracing",
+          "version": {
+            "requires": "2.0.0-alpha04"
+          },
+          "reason": "tracing-ktx is in atomic group androidx.tracing"
+        },
+        {
+          "group": "androidx.tracing",
+          "module": "tracing-wire",
+          "version": {
+            "requires": "2.0.0-alpha04"
+          },
+          "reason": "tracing-ktx is in atomic group androidx.tracing"
+        }
+      ],
+      "files": [
+        {
+          "name": "tracing-ktx-2.0.0-alpha04-versionMetadata.json",
+          "url": "tracing-ktx-2.0.0-alpha04-versionMetadata.json",
+          "size": 698,
+          "sha512": "6e84160ed92e93f8d8cb4848d6b6237545b31e509472e68c5871d026de74213a108469f4583adb5a0db1d5cd1c437c7102353ade9a660852e8bf9b7889c28e23",
+          "sha256": "8523dcdeef56adf4a51120412a0c970cb1f1beb64c4aaefd22aae3ff659686ba",
+          "sha1": "a4d18bac8d74c5dff8f9780824a2e5b1aab4d32c",
+          "md5": "cc3e26cabda661bf01d51203c9864184"
+        }
+      ]
+    }
+  ]
+}

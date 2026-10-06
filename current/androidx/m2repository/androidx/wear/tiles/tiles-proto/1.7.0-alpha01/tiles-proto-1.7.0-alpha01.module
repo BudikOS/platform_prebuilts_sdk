@@ -1,0 +1,270 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.wear.tiles",
+    "module": "tiles-proto",
+    "version": "1.7.0-alpha01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0-milestone-7",
+      "buildId:": "15103823"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.wear.protolayout",
+          "module": "protolayout-proto",
+          "version": {
+            "requires": "1.5.0-alpha01"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "androidx.wear.protolayout",
+          "module": "protolayout-proto",
+          "version": {
+            "requires": "1.5.0-alpha01"
+          }
+        },
+        {
+          "group": "androidx.wear.tiles",
+          "module": "tiles",
+          "version": {
+            "requires": "1.7.0-alpha01"
+          },
+          "reason": "tiles-proto is in atomic group androidx.wear.tiles"
+        },
+        {
+          "group": "androidx.wear.tiles",
+          "module": "tiles-material",
+          "version": {
+            "requires": "1.7.0-alpha01"
+          },
+          "reason": "tiles-proto is in atomic group androidx.wear.tiles"
+        },
+        {
+          "group": "androidx.wear.tiles",
+          "module": "tiles-renderer",
+          "version": {
+            "requires": "1.7.0-alpha01"
+          },
+          "reason": "tiles-proto is in atomic group androidx.wear.tiles"
+        },
+        {
+          "group": "androidx.wear.tiles",
+          "module": "tiles-testing",
+          "version": {
+            "requires": "1.7.0-alpha01"
+          },
+          "reason": "tiles-proto is in atomic group androidx.wear.tiles"
+        },
+        {
+          "group": "androidx.wear.tiles",
+          "module": "tiles-tooling",
+          "version": {
+            "requires": "1.7.0-alpha01"
+          },
+          "reason": "tiles-proto is in atomic group androidx.wear.tiles"
+        },
+        {
+          "group": "androidx.wear.tiles",
+          "module": "tiles-tooling-preview",
+          "version": {
+            "requires": "1.7.0-alpha01"
+          },
+          "reason": "tiles-proto is in atomic group androidx.wear.tiles"
+        }
+      ],
+      "files": [
+        {
+          "name": "tiles-proto-1.7.0-alpha01.jar",
+          "url": "tiles-proto-1.7.0-alpha01.jar",
+          "size": 67090,
+          "sha512": "ab7f142abf0651c67a9e35bae0c99fc04bf5d90678391c828b4cb052b2fcf272d384ee239c07da4e12bc7049142e0bd4399c08109754797f86d4663cd8bab24f",
+          "sha256": "114ee8d984a0a0d98c0d9ced84ca5b86aa7e0752532d4a4e6c72dd5cabcd6f2a",
+          "sha1": "44eb81a4afc6e3b3b546b458f0e1efba83a4d95c",
+          "md5": "c90e8934ddcde957b0dd8ecd20a8dae6"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "androidx.wear.protolayout",
+          "module": "protolayout-proto",
+          "version": {
+            "requires": "1.5.0-alpha01"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "androidx.wear.protolayout",
+          "module": "protolayout-proto",
+          "version": {
+            "requires": "1.5.0-alpha01"
+          }
+        },
+        {
+          "group": "androidx.wear.tiles",
+          "module": "tiles",
+          "version": {
+            "requires": "1.7.0-alpha01"
+          },
+          "reason": "tiles-proto is in atomic group androidx.wear.tiles"
+        },
+        {
+          "group": "androidx.wear.tiles",
+          "module": "tiles-material",
+          "version": {
+            "requires": "1.7.0-alpha01"
+          },
+          "reason": "tiles-proto is in atomic group androidx.wear.tiles"
+        },
+        {
+          "group": "androidx.wear.tiles",
+          "module": "tiles-renderer",
+          "version": {
+            "requires": "1.7.0-alpha01"
+          },
+          "reason": "tiles-proto is in atomic group androidx.wear.tiles"
+        },
+        {
+          "group": "androidx.wear.tiles",
+          "module": "tiles-testing",
+          "version": {
+            "requires": "1.7.0-alpha01"
+          },
+          "reason": "tiles-proto is in atomic group androidx.wear.tiles"
+        },
+        {
+          "group": "androidx.wear.tiles",
+          "module": "tiles-tooling",
+          "version": {
+            "requires": "1.7.0-alpha01"
+          },
+          "reason": "tiles-proto is in atomic group androidx.wear.tiles"
+        },
+        {
+          "group": "androidx.wear.tiles",
+          "module": "tiles-tooling-preview",
+          "version": {
+            "requires": "1.7.0-alpha01"
+          },
+          "reason": "tiles-proto is in atomic group androidx.wear.tiles"
+        }
+      ],
+      "files": [
+        {
+          "name": "tiles-proto-1.7.0-alpha01.jar",
+          "url": "tiles-proto-1.7.0-alpha01.jar",
+          "size": 67090,
+          "sha512": "ab7f142abf0651c67a9e35bae0c99fc04bf5d90678391c828b4cb052b2fcf272d384ee239c07da4e12bc7049142e0bd4399c08109754797f86d4663cd8bab24f",
+          "sha256": "114ee8d984a0a0d98c0d9ced84ca5b86aa7e0752532d4a4e6c72dd5cabcd6f2a",
+          "sha1": "44eb81a4afc6e3b3b546b458f0e1efba83a4d95c",
+          "md5": "c90e8934ddcde957b0dd8ecd20a8dae6"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "androidx.wear.tiles",
+          "module": "tiles",
+          "version": {
+            "requires": "1.7.0-alpha01"
+          },
+          "reason": "tiles-proto is in atomic group androidx.wear.tiles"
+        },
+        {
+          "group": "androidx.wear.tiles",
+          "module": "tiles-material",
+          "version": {
+            "requires": "1.7.0-alpha01"
+          },
+          "reason": "tiles-proto is in atomic group androidx.wear.tiles"
+        },
+        {
+          "group": "androidx.wear.tiles",
+          "module": "tiles-renderer",
+          "version": {
+            "requires": "1.7.0-alpha01"
+          },
+          "reason": "tiles-proto is in atomic group androidx.wear.tiles"
+        },
+        {
+          "group": "androidx.wear.tiles",
+          "module": "tiles-testing",
+          "version": {
+            "requires": "1.7.0-alpha01"
+          },
+          "reason": "tiles-proto is in atomic group androidx.wear.tiles"
+        },
+        {
+          "group": "androidx.wear.tiles",
+          "module": "tiles-tooling",
+          "version": {
+            "requires": "1.7.0-alpha01"
+          },
+          "reason": "tiles-proto is in atomic group androidx.wear.tiles"
+        },
+        {
+          "group": "androidx.wear.tiles",
+          "module": "tiles-tooling-preview",
+          "version": {
+            "requires": "1.7.0-alpha01"
+          },
+          "reason": "tiles-proto is in atomic group androidx.wear.tiles"
+        }
+      ],
+      "files": [
+        {
+          "name": "tiles-proto-1.7.0-alpha01-sources.jar",
+          "url": "tiles-proto-1.7.0-alpha01-sources.jar",
+          "size": 23337,
+          "sha512": "d21062c10071d3d172937afaab4b3786ca5a416ea09e91a72273c3d19220e7cc996647c23198bc0bf88ab8e57ab434d043c99ce224142ff7177f05e882fc41f9",
+          "sha256": "ecad9d11594fd052e28dab3867c9074f8aa617887937b03d9ca7d17756f6b953",
+          "sha1": "5208b17b6b7cdecbdd4c659a1392604f3c7ffba6",
+          "md5": "ce76abb094b5acaa3b5d047c98c1d9f0"
+        }
+      ]
+    }
+  ]
+}

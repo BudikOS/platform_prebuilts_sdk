@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.interpolator",
+    "module": "interpolator",
+    "version": "1.1.0-alpha01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0-milestone-7",
+      "buildId:": "15103823"
+    }
+  },
+  "variants": [
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "interpolator-1.1.0-alpha01-sources.jar",
+          "url": "interpolator-1.1.0-alpha01-sources.jar",
+          "size": 12980,
+          "sha512": "662f54a86ffd8650dfe108d1a36932c393678ee786c7392760825e9fa02369c78687d2360b58a113c0e41559031c7d7e0790174dbd2fbd6b9366996b5dbce798",
+          "sha256": "48ec7783a53339f196a00deb59cc43e40554345af964826f8301face924cfbb0",
+          "sha1": "dea2a41727ef96340e4709280b5a26f3ace3ab3a",
+          "md5": "40ddce0733c91ad70b60ebf293572aba"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "interpolator-1.1.0-alpha01.aar",
+          "url": "interpolator-1.1.0-alpha01.aar",
+          "size": 14575,
+          "sha512": "a14cb5f36b1b37abd640dd4aa95cf29feaddd79584efe9366ef1591f5ec1caa0c571b1e6454a89f6c2f9296f202cdd78731355a56c23658af8c72aa59c0cb273",
+          "sha256": "da101481d82108ae985d2d3fffe306a53ab906830042fa82da5f16e3156ca98d",
+          "sha1": "06ca2f963852d16850de6c040bd7ad24b9c119fc",
+          "md5": "59b97dae9a330d4b9ec522554fecc0fd"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "interpolator-1.1.0-alpha01.aar",
+          "url": "interpolator-1.1.0-alpha01.aar",
+          "size": 14575,
+          "sha512": "a14cb5f36b1b37abd640dd4aa95cf29feaddd79584efe9366ef1591f5ec1caa0c571b1e6454a89f6c2f9296f202cdd78731355a56c23658af8c72aa59c0cb273",
+          "sha256": "da101481d82108ae985d2d3fffe306a53ab906830042fa82da5f16e3156ca98d",
+          "sha1": "06ca2f963852d16850de6c040bd7ad24b9c119fc",
+          "md5": "59b97dae9a330d4b9ec522554fecc0fd"
+        }
+      ]
+    },
+    {
+      "name": "libraryVersionMetadata",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.usage": "library-version-metadata"
+      },
+      "files": [
+        {
+          "name": "interpolator-1.1.0-alpha01-versionMetadata.json",
+          "url": "interpolator-1.1.0-alpha01-versionMetadata.json",
+          "size": 967,
+          "sha512": "4792a453c448ed4633fd8a78a8ef279317bb8ccb33ca0599d1ebe5425f057b0ac11a085f2d8a5c5f5a66626a3d17e29914c36ffe4a2d75404b24a77655c9cfb4",
+          "sha256": "d373679d3700c1581a02bab2e842e68df3c852d80f7b80d8ff514aa012ea2f3e",
+          "sha1": "b5529f495636024a4789258fef562f467af38297",
+          "md5": "aa9c68d70cceee635d1e972a9c54d3c6"
+        }
+      ]
+    }
+  ]
+}

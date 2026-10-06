@@ -1,0 +1,17 @@
+// Signature format: 2.0
+package android.os {
+
+  public class ProfilingFrameworkInitializer {
+    method public static void registerServiceWrappers();
+    method public static void setProfilingServiceManager(@NonNull android.os.ProfilingServiceManager);
+  }
+
+  public class ProfilingServiceHelper {
+    method @NonNull public static android.os.ProfilingServiceHelper getInstance();
+    method public void onProfilingTriggerOccurred(int, @NonNull String, int);
+    method @NonNull public java.time.Duration profileApplicationCrash(int, @NonNull String, @NonNull android.app.ApplicationErrorReport.CrashInfo, @NonNull java.util.concurrent.Executor, @NonNull Runnable);
+    method public void stopActiveProfiling(int, @NonNull String, int);
+  }
+
+}
+

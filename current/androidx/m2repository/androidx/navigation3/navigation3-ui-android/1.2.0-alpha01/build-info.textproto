@@ -1,0 +1,99 @@
+version: "1.2.0-alpha01"
+dependency_list {
+  dependency {
+    group_id: "androidx.compose.animation"
+    artifact_id: "animation"
+    version: "1.10.0"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.compose.runtime"
+    artifact_id: "runtime"
+    version: "1.10.0"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.compose.runtime"
+    artifact_id: "runtime-saveable"
+    version: "1.10.0"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.compose.ui"
+    artifact_id: "ui"
+    version: "1.10.0"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.navigation3"
+    artifact_id: "navigation3-runtime"
+    version: "1.2.0-alpha01"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.navigation3"
+    artifact_id: "navigation3-ui-android"
+    version: "1.2.0-alpha01"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.navigation3"
+    artifact_id: "navigation3-ui-jvmstubs"
+    version: "1.2.0-alpha01"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.navigation3"
+    artifact_id: "navigation3-ui-linuxx64stubs"
+    version: "1.2.0-alpha01"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.navigationevent"
+    artifact_id: "navigationevent-compose"
+    version: "1.0.2"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.savedstate"
+    artifact_id: "savedstate"
+    version: "1.4.0"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.savedstate"
+    artifact_id: "savedstate-compose"
+    version: "1.4.0"
+    is_tip_of_tree: false
+  }
+}
+release_checklist {
+}
+build_id: "15103823"
+group_id: "androidx.navigation3"
+artifact_id: "navigation3-ui"
+path: "/navigation3/navigation3-ui"
+sha: "ad261a1d1a12056ced5899983c3b3b2e8da30d41"
+require_same_version_group_build: true
+project_zip_path: "per-project-zips/androidx.navigation3-navigation3-ui-all-1.2.0-alpha01.zip"
+kotlin_version: "2.3.20"
+dependency_constraint_list {
+  dependency {
+    group_id: "androidx.navigation3"
+    artifact_id: "navigation3-runtime"
+    version: "1.2.0-alpha01"
+    is_tip_of_tree: true
+  }
+}
+should_publish_docs: true
+is_kmp: true
+target: "androidx"
+kmp_children: "android"
+kmp_children: "jvmstubs"
+kmp_children: "linuxx64stubs"
+test_module_names: ":navigation3:navigation3-ui:jvmStubsTest"
+test_module_names: ":navigation3:navigation3-ui:linuxx64StubsTest"
+test_module_names: "navigation3-navigation3-uiandroidDeviceTest.xml"
+test_module_names: ":navigation3:navigation3-ui:testAndroidHostTest"
+all_dependencies_list {
+}

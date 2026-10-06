@@ -1,0 +1,191 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.dynamicanimation",
+    "module": "dynamicanimation",
+    "version": "1.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0-milestone-7",
+      "buildId:": "15103823"
+    }
+  },
+  "variants": [
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "androidx.dynamicanimation",
+          "module": "dynamicanimation-ktx",
+          "version": {
+            "requires": "1.1.0"
+          },
+          "reason": "dynamicanimation is in atomic group androidx.dynamicanimation"
+        }
+      ],
+      "files": [
+        {
+          "name": "dynamicanimation-1.1.0-sources.jar",
+          "url": "dynamicanimation-1.1.0-sources.jar",
+          "size": 29271,
+          "sha512": "ebf30840a0e485709d7ce4ecdefddebd07d757ee5f638d17aa7088e8b17f9a50d9dc7e345cff5e7014534dd3f08859beddf6c29a2f4f07ca2df140017189c17a",
+          "sha256": "d730234d4276722a13721feea2630a5aaa189d5dc11681aacc7cfe94527d7b94",
+          "sha1": "b86343035ca5621a570e22afde7d730f4dd2fa65",
+          "md5": "cd2b0fcab9663b58a87d154df02a3d57"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        },
+        {
+          "group": "org.jspecify",
+          "module": "jspecify",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "androidx.dynamicanimation",
+          "module": "dynamicanimation-ktx",
+          "version": {
+            "requires": "1.1.0"
+          },
+          "reason": "dynamicanimation is in atomic group androidx.dynamicanimation"
+        }
+      ],
+      "files": [
+        {
+          "name": "dynamicanimation-1.1.0.aar",
+          "url": "dynamicanimation-1.1.0.aar",
+          "size": 39422,
+          "sha512": "91a2dbae55e933289953ea5f93a4da5a0cc21fed7d0f2f99599806cbddef83280d0f204dc51747f0bd32b3ee0ae92d7edf37b275df854d6b88e64bb0151cc75e",
+          "sha256": "a0a68a18e0eba1fe66ce002c9e1b81441d318a26c2e7f59a3f2729e0395439ec",
+          "sha1": "b94aa29fd39af16d1f062045ccb0d0cbef4dcf66",
+          "md5": "066dbb9368c33a71aa74642ac4d615ce"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.collection",
+          "module": "collection",
+          "version": {
+            "requires": "1.4.2"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        },
+        {
+          "group": "org.jspecify",
+          "module": "jspecify",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "androidx.dynamicanimation",
+          "module": "dynamicanimation-ktx",
+          "version": {
+            "requires": "1.1.0"
+          },
+          "reason": "dynamicanimation is in atomic group androidx.dynamicanimation"
+        }
+      ],
+      "files": [
+        {
+          "name": "dynamicanimation-1.1.0.aar",
+          "url": "dynamicanimation-1.1.0.aar",
+          "size": 39422,
+          "sha512": "91a2dbae55e933289953ea5f93a4da5a0cc21fed7d0f2f99599806cbddef83280d0f204dc51747f0bd32b3ee0ae92d7edf37b275df854d6b88e64bb0151cc75e",
+          "sha256": "a0a68a18e0eba1fe66ce002c9e1b81441d318a26c2e7f59a3f2729e0395439ec",
+          "sha1": "b94aa29fd39af16d1f062045ccb0d0cbef4dcf66",
+          "md5": "066dbb9368c33a71aa74642ac4d615ce"
+        }
+      ]
+    },
+    {
+      "name": "libraryVersionMetadata",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.usage": "library-version-metadata"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "androidx.dynamicanimation",
+          "module": "dynamicanimation-ktx",
+          "version": {
+            "requires": "1.1.0"
+          },
+          "reason": "dynamicanimation is in atomic group androidx.dynamicanimation"
+        }
+      ],
+      "files": [
+        {
+          "name": "dynamicanimation-1.1.0-versionMetadata.json",
+          "url": "dynamicanimation-1.1.0-versionMetadata.json",
+          "size": 5964,
+          "sha512": "ed89dc49df12936d62e65f97c5f9c20c489875c3f8a0f2a592655ddc414e7c25b9d74eb096f7d99fc607b137054635535f237459fa1dfab080a3fdcca230dc5a",
+          "sha256": "589ee3ac408a3d4e3497093e1c15a0516768fd63ed03f9dafc1757524842984a",
+          "sha1": "4fe0e3bb3698dbe5a3c4ff363af791f20d2f28c7",
+          "md5": "b1729e62036d8a30555484a35f37148e"
+        }
+      ]
+    }
+  ]
+}

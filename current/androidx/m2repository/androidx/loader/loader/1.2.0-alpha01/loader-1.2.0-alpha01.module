@@ -1,0 +1,219 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.loader",
+    "module": "loader",
+    "version": "1.2.0-alpha01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0-milestone-7",
+      "buildId:": "15103823"
+    }
+  },
+  "variants": [
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "androidx.loader",
+          "module": "loader-ktx",
+          "version": {
+            "requires": "1.2.0-alpha01"
+          },
+          "reason": "loader is in atomic group androidx.loader"
+        }
+      ],
+      "files": [
+        {
+          "name": "loader-1.2.0-alpha01-sources.jar",
+          "url": "loader-1.2.0-alpha01-sources.jar",
+          "size": 28003,
+          "sha512": "8bca7cb885a08ef0855f19aac42878b91f73b965f11f8f44d8125a36bb6dcd3bbc7a99a19e1f8398fe4d2875bb9e5c1904636cf3813133b00bd9fa2712fab327",
+          "sha256": "4165383e80250832d05fb5d9834aff1b079bbeb914bee77472770f359005723f",
+          "sha1": "be97ba2eeb0cfa11f0ed155d65a6d445d9d099cf",
+          "md5": "d5c845d168d67bc1d38d63230be45f6b"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel",
+          "version": {
+            "requires": "2.0.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        },
+        {
+          "group": "org.jspecify",
+          "module": "jspecify",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "androidx.loader",
+          "module": "loader-ktx",
+          "version": {
+            "requires": "1.2.0-alpha01"
+          },
+          "reason": "loader is in atomic group androidx.loader"
+        }
+      ],
+      "files": [
+        {
+          "name": "loader-1.2.0-alpha01.aar",
+          "url": "loader-1.2.0-alpha01.aar",
+          "size": 35428,
+          "sha512": "a0afeabd730df2904f576d86f230233a43a6920fe29600206bb5c73d4dbbe6785abce34f6b9ebf5e5a98092a98e1af9c40173dc74a00e1d0cedab6588dc35261",
+          "sha256": "b594dff965bacb3fa3f23c1585d3914bb5dbe36be3a84de03cdf2e97a0f6a8ca",
+          "sha1": "1fb3c5d66501df0e7760b1d9fc7549e9f3f5bb7e",
+          "md5": "9890ac345ae639fb5eae1791c01e9453"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "androidx.collection",
+          "module": "collection",
+          "version": {
+            "requires": "1.4.2"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.15.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-livedata-core",
+          "version": {
+            "requires": "2.0.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel",
+          "version": {
+            "requires": "2.0.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        },
+        {
+          "group": "org.jspecify",
+          "module": "jspecify",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "androidx.loader",
+          "module": "loader-ktx",
+          "version": {
+            "requires": "1.2.0-alpha01"
+          },
+          "reason": "loader is in atomic group androidx.loader"
+        }
+      ],
+      "files": [
+        {
+          "name": "loader-1.2.0-alpha01.aar",
+          "url": "loader-1.2.0-alpha01.aar",
+          "size": 35428,
+          "sha512": "a0afeabd730df2904f576d86f230233a43a6920fe29600206bb5c73d4dbbe6785abce34f6b9ebf5e5a98092a98e1af9c40173dc74a00e1d0cedab6588dc35261",
+          "sha256": "b594dff965bacb3fa3f23c1585d3914bb5dbe36be3a84de03cdf2e97a0f6a8ca",
+          "sha1": "1fb3c5d66501df0e7760b1d9fc7549e9f3f5bb7e",
+          "md5": "9890ac345ae639fb5eae1791c01e9453"
+        }
+      ]
+    },
+    {
+      "name": "libraryVersionMetadata",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.usage": "library-version-metadata"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "androidx.loader",
+          "module": "loader-ktx",
+          "version": {
+            "requires": "1.2.0-alpha01"
+          },
+          "reason": "loader is in atomic group androidx.loader"
+        }
+      ],
+      "files": [
+        {
+          "name": "loader-1.2.0-alpha01-versionMetadata.json",
+          "url": "loader-1.2.0-alpha01-versionMetadata.json",
+          "size": 5198,
+          "sha512": "d7292512df164fdedb645408ba5cf719be5fc46fdd04f820a1d8104619f5d6f5c90536a9fe8fe86459d2f13bffced564fa4b357d9a1fc09476bf84cd9335494e",
+          "sha256": "182cd8d59ea38340166b4679c3361a3e6cbde2e5ce183901275f52ca961de92d",
+          "sha1": "cb8a0a5a365a04352b98bee5f7a8a0a1046bc92f",
+          "md5": "2073714ef9ab79ee5c71800751b99703"
+        }
+      ]
+    }
+  ]
+}

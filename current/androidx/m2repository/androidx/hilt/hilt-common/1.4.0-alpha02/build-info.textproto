@@ -1,0 +1,57 @@
+version: "1.4.0-alpha02"
+dependency_list {
+}
+release_checklist {
+}
+build_id: "15103823"
+group_id: "androidx.hilt"
+artifact_id: "hilt-common"
+path: "/hilt/hilt-common"
+sha: "ad261a1d1a12056ced5899983c3b3b2e8da30d41"
+require_same_version_group_build: false
+project_zip_path: "per-project-zips/androidx.hilt-hilt-common-all-1.4.0-alpha02.zip"
+kotlin_version: "2.3.20"
+dependency_constraint_list {
+}
+should_publish_docs: true
+is_kmp: false
+target: "androidx"
+test_module_names: ":hilt:hilt-common:test"
+all_dependencies_list {
+  dependency {
+    group_id: "com.google.code.findbugs"
+    artifact_id: "jsr305"
+    version: "3.0.2"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "com.google.dagger"
+    artifact_id: "dagger"
+    version: "2.59"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "com.google.dagger"
+    artifact_id: "hilt-core"
+    version: "2.59"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "jakarta.inject"
+    artifact_id: "jakarta.inject-api"
+    version: "2.0.1"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "javax.inject"
+    artifact_id: "javax.inject"
+    version: "1"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "org.jspecify"
+    artifact_id: "jspecify"
+    version: "1.0.0"
+    is_tip_of_tree: false
+  }
+}

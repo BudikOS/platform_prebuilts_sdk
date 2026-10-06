@@ -1,0 +1,135 @@
+version: "1.4.0-alpha02"
+dependency_list {
+  dependency {
+    group_id: "androidx.room"
+    artifact_id: "room-compiler-processing"
+    version: "2.8.4"
+    is_tip_of_tree: false
+  }
+}
+release_checklist {
+}
+build_id: "15103823"
+group_id: "androidx.hilt"
+artifact_id: "hilt-compiler"
+path: "/hilt/hilt-compiler"
+sha: "ad261a1d1a12056ced5899983c3b3b2e8da30d41"
+require_same_version_group_build: false
+project_zip_path: "per-project-zips/androidx.hilt-hilt-compiler-all-1.4.0-alpha02.zip"
+kotlin_version: "2.3.20"
+dependency_constraint_list {
+}
+should_publish_docs: false
+is_kmp: false
+target: "androidx"
+test_module_names: ":hilt:hilt-compiler:test"
+all_dependencies_list {
+  dependency {
+    group_id: "androidx.room"
+    artifact_id: "room-compiler-processing"
+    version: "2.8.4"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "com.google.auto"
+    artifact_id: "auto-common"
+    version: "1.2.1"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "com.google.auto.value"
+    artifact_id: "auto-value-annotations"
+    version: "1.6.3"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "com.google.code.findbugs"
+    artifact_id: "jsr305"
+    version: "3.0.2"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "com.google.devtools.ksp"
+    artifact_id: "symbol-processing-api"
+    version: "2.0.10-1.0.24"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "com.google.errorprone"
+    artifact_id: "error_prone_annotations"
+    version: "2.26.1"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "com.google.guava"
+    artifact_id: "failureaccess"
+    version: "1.0.2"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "com.google.guava"
+    artifact_id: "guava"
+    version: "33.2.1-jre"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "com.squareup"
+    artifact_id: "javapoet"
+    version: "1.13.0"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "com.squareup"
+    artifact_id: "kotlinpoet"
+    version: "2.0.0"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "com.squareup"
+    artifact_id: "kotlinpoet-javapoet"
+    version: "2.0.0"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "com.squareup"
+    artifact_id: "kotlinpoet-jvm"
+    version: "2.0.0"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "org.checkerframework"
+    artifact_id: "checker-qual"
+    version: "3.42.0"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "org.jetbrains"
+    artifact_id: "annotations"
+    version: "13.0"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "org.jetbrains.kotlin"
+    artifact_id: "kotlin-metadata-jvm"
+    version: "2.2.0"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "org.jetbrains.kotlin"
+    artifact_id: "kotlin-reflect"
+    version: "2.0.10"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "org.jetbrains.kotlin"
+    artifact_id: "kotlin-stdlib"
+    version: "2.2.20"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "org.jspecify"
+    artifact_id: "jspecify"
+    version: "1.0.0"
+    is_tip_of_tree: false
+  }
+}

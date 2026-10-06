@@ -1,0 +1,137 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.exifinterface",
+    "module": "exifinterface",
+    "version": "1.4.0-rc01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0-milestone-7",
+      "buildId:": "15103823"
+    }
+  },
+  "variants": [
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "exifinterface-1.4.0-rc01-sources.jar",
+          "url": "exifinterface-1.4.0-rc01-sources.jar",
+          "size": 73351,
+          "sha512": "c7fe282d20c4807aedc4e544745f384f8ea738d4a0dfad0da11f8936899cd01109f59c8665bc9538f5c6e88f0c22bbcfcf072c551b215858e9d0f1825177752c",
+          "sha256": "dc69c04f03e72ad38ed43774554e6612dd9ffe7299eacaab62a38df8ac2c7767",
+          "sha1": "f3d68188af5162e9b308eddfa83a0ab68ac9cc9f",
+          "md5": "2f266e7d230bd2b5b1bc17e5b4748409"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        },
+        {
+          "group": "org.jspecify",
+          "module": "jspecify",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "exifinterface-1.4.0-rc01.aar",
+          "url": "exifinterface-1.4.0-rc01.aar",
+          "size": 75391,
+          "sha512": "5711269568899c0d282024b9368230b3a2a81eb89a9f6155507f6fcc59764d1b32914e19e200d200fd6a1d383c63a97b3f1bbaf5f90d6de685d18582f587040c",
+          "sha256": "631b29d4e569dc8946ebf38ce4bb5be36b947c9c8d3cac2b19a40259ac366177",
+          "sha1": "ab9f1c9942e7e6b73901d4ae3c91632e4b3d4e41",
+          "md5": "9634f9022fe798c28f304abc162d9f36"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        },
+        {
+          "group": "org.jspecify",
+          "module": "jspecify",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "exifinterface-1.4.0-rc01.aar",
+          "url": "exifinterface-1.4.0-rc01.aar",
+          "size": 75391,
+          "sha512": "5711269568899c0d282024b9368230b3a2a81eb89a9f6155507f6fcc59764d1b32914e19e200d200fd6a1d383c63a97b3f1bbaf5f90d6de685d18582f587040c",
+          "sha256": "631b29d4e569dc8946ebf38ce4bb5be36b947c9c8d3cac2b19a40259ac366177",
+          "sha1": "ab9f1c9942e7e6b73901d4ae3c91632e4b3d4e41",
+          "md5": "9634f9022fe798c28f304abc162d9f36"
+        }
+      ]
+    },
+    {
+      "name": "libraryVersionMetadata",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.usage": "library-version-metadata"
+      },
+      "files": [
+        {
+          "name": "exifinterface-1.4.0-rc01-versionMetadata.json",
+          "url": "exifinterface-1.4.0-rc01-versionMetadata.json",
+          "size": 18300,
+          "sha512": "e312fe67a58cf65cbcb739a46a55a7846381aeb6c13dd54db364c8c413c4798de9caf9e3002c96ff95534eb336a2b1198544259a23d7849f509da45819d9175e",
+          "sha256": "4ec1400da31b28c68f35eb0f3a4b2f5722526a5a8363ff6d73388b1349684cfe",
+          "sha1": "dfd1e5049eadc8a0acd355faaa9b0c94b0326b01",
+          "md5": "20cf6ce215ed029e17f585388c2c2a58"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,297 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.privacysandbox.tools",
+    "module": "tools",
+    "version": "1.0.0-alpha14",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.2.1",
+      "buildId:": "14606683"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "androidx.privacysandbox.tools",
+          "module": "tools-apicompiler",
+          "version": {
+            "requires": "1.0.0-alpha14"
+          },
+          "reason": "tools is in atomic group androidx.privacysandbox.tools"
+        },
+        {
+          "group": "androidx.privacysandbox.tools",
+          "module": "tools-apigenerator",
+          "version": {
+            "requires": "1.0.0-alpha14"
+          },
+          "reason": "tools is in atomic group androidx.privacysandbox.tools"
+        },
+        {
+          "group": "androidx.privacysandbox.tools",
+          "module": "tools-apipackager",
+          "version": {
+            "requires": "1.0.0-alpha14"
+          },
+          "reason": "tools is in atomic group androidx.privacysandbox.tools"
+        },
+        {
+          "group": "androidx.privacysandbox.tools",
+          "module": "tools-core",
+          "version": {
+            "requires": "1.0.0-alpha14"
+          },
+          "reason": "tools is in atomic group androidx.privacysandbox.tools"
+        },
+        {
+          "group": "androidx.privacysandbox.tools",
+          "module": "tools-core-external-protobuf",
+          "version": {
+            "requires": "1.0.0-alpha14"
+          },
+          "reason": "tools is in atomic group androidx.privacysandbox.tools"
+        }
+      ],
+      "files": [
+        {
+          "name": "tools-1.0.0-alpha14.jar",
+          "url": "tools-1.0.0-alpha14.jar",
+          "size": 9158,
+          "sha512": "6c5258f3cb20ec9d11db174d8f8083acf20a99e6c8784eb3d5bb6c92e905676a91be0f4546f114bd3168a63bc96950d3e011640f45d24cc34ddcd18ebebbb00f",
+          "sha256": "33b55d75ac1d1b573616122b2d0d61ff2e1c00b0fa8de414d0203250d0e12fa1",
+          "sha1": "2d7d2bd6eb12f80a8380239d8db1c85e05f8f7b1",
+          "md5": "406d827351fd7dcdd40bac07a0b9a056"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.3.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "androidx.privacysandbox.tools",
+          "module": "tools-apicompiler",
+          "version": {
+            "requires": "1.0.0-alpha14"
+          },
+          "reason": "tools is in atomic group androidx.privacysandbox.tools"
+        },
+        {
+          "group": "androidx.privacysandbox.tools",
+          "module": "tools-apigenerator",
+          "version": {
+            "requires": "1.0.0-alpha14"
+          },
+          "reason": "tools is in atomic group androidx.privacysandbox.tools"
+        },
+        {
+          "group": "androidx.privacysandbox.tools",
+          "module": "tools-apipackager",
+          "version": {
+            "requires": "1.0.0-alpha14"
+          },
+          "reason": "tools is in atomic group androidx.privacysandbox.tools"
+        },
+        {
+          "group": "androidx.privacysandbox.tools",
+          "module": "tools-core",
+          "version": {
+            "requires": "1.0.0-alpha14"
+          },
+          "reason": "tools is in atomic group androidx.privacysandbox.tools"
+        },
+        {
+          "group": "androidx.privacysandbox.tools",
+          "module": "tools-core-external-protobuf",
+          "version": {
+            "requires": "1.0.0-alpha14"
+          },
+          "reason": "tools is in atomic group androidx.privacysandbox.tools"
+        }
+      ],
+      "files": [
+        {
+          "name": "tools-1.0.0-alpha14.jar",
+          "url": "tools-1.0.0-alpha14.jar",
+          "size": 9158,
+          "sha512": "6c5258f3cb20ec9d11db174d8f8083acf20a99e6c8784eb3d5bb6c92e905676a91be0f4546f114bd3168a63bc96950d3e011640f45d24cc34ddcd18ebebbb00f",
+          "sha256": "33b55d75ac1d1b573616122b2d0d61ff2e1c00b0fa8de414d0203250d0e12fa1",
+          "sha1": "2d7d2bd6eb12f80a8380239d8db1c85e05f8f7b1",
+          "md5": "406d827351fd7dcdd40bac07a0b9a056"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "androidx.privacysandbox.tools",
+          "module": "tools-apicompiler",
+          "version": {
+            "requires": "1.0.0-alpha14"
+          },
+          "reason": "tools is in atomic group androidx.privacysandbox.tools"
+        },
+        {
+          "group": "androidx.privacysandbox.tools",
+          "module": "tools-apigenerator",
+          "version": {
+            "requires": "1.0.0-alpha14"
+          },
+          "reason": "tools is in atomic group androidx.privacysandbox.tools"
+        },
+        {
+          "group": "androidx.privacysandbox.tools",
+          "module": "tools-apipackager",
+          "version": {
+            "requires": "1.0.0-alpha14"
+          },
+          "reason": "tools is in atomic group androidx.privacysandbox.tools"
+        },
+        {
+          "group": "androidx.privacysandbox.tools",
+          "module": "tools-core",
+          "version": {
+            "requires": "1.0.0-alpha14"
+          },
+          "reason": "tools is in atomic group androidx.privacysandbox.tools"
+        },
+        {
+          "group": "androidx.privacysandbox.tools",
+          "module": "tools-core-external-protobuf",
+          "version": {
+            "requires": "1.0.0-alpha14"
+          },
+          "reason": "tools is in atomic group androidx.privacysandbox.tools"
+        }
+      ],
+      "files": [
+        {
+          "name": "tools-1.0.0-alpha14-sources.jar",
+          "url": "tools-1.0.0-alpha14-sources.jar",
+          "size": 10870,
+          "sha512": "b8f492d84f2f85b01f9976432189d4b7a550bfcb349bc0c2637ee1344c7eb8498157e6effc4ff26cb6f75ecde406b41cf5596210ac94d26bfa37591ba9a7d226",
+          "sha256": "11e95bc094f2c42d9efbafe1787473ff9699640003eb4b3d02a5fb559f9027ca",
+          "sha1": "a0b89cf1f4226961ded5c3fd96b1ad2de90014e4",
+          "md5": "33f74c1b9be117bd8e2cb10bdd8e1c7b"
+        }
+      ]
+    },
+    {
+      "name": "libraryVersionMetadata",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.usage": "library-version-metadata"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "androidx.privacysandbox.tools",
+          "module": "tools-apicompiler",
+          "version": {
+            "requires": "1.0.0-alpha14"
+          },
+          "reason": "tools is in atomic group androidx.privacysandbox.tools"
+        },
+        {
+          "group": "androidx.privacysandbox.tools",
+          "module": "tools-apigenerator",
+          "version": {
+            "requires": "1.0.0-alpha14"
+          },
+          "reason": "tools is in atomic group androidx.privacysandbox.tools"
+        },
+        {
+          "group": "androidx.privacysandbox.tools",
+          "module": "tools-apipackager",
+          "version": {
+            "requires": "1.0.0-alpha14"
+          },
+          "reason": "tools is in atomic group androidx.privacysandbox.tools"
+        },
+        {
+          "group": "androidx.privacysandbox.tools",
+          "module": "tools-core",
+          "version": {
+            "requires": "1.0.0-alpha14"
+          },
+          "reason": "tools is in atomic group androidx.privacysandbox.tools"
+        },
+        {
+          "group": "androidx.privacysandbox.tools",
+          "module": "tools-core-external-protobuf",
+          "version": {
+            "requires": "1.0.0-alpha14"
+          },
+          "reason": "tools is in atomic group androidx.privacysandbox.tools"
+        }
+      ],
+      "files": [
+        {
+          "name": "tools-1.0.0-alpha14-versionMetadata.json",
+          "url": "tools-1.0.0-alpha14-versionMetadata.json",
+          "size": 586,
+          "sha512": "e50efc676e32827cf1614dffff1e157035761a7337d73b1dddd8f7425c492fcf4655ca42a00328642cea12f9450d281636e70ce3b9237bb9eb6499c06aadaa78",
+          "sha256": "783d2688aff37b272cf282f409f57b8d4f0e3b4bff835a60c7d1f21a18f3680c",
+          "sha1": "f042faaf4c891c68ace6d8e797031d7ff58e2157",
+          "md5": "a56f825d00367f0aa90e3afbbacc7511"
+        }
+      ]
+    }
+  ]
+}
